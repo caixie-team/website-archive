@@ -1,0 +1,25 @@
+.test {
+    opacity: 1
+}
+
+@custom-media --lte-large-viewport (max-width: 1440px);
+@custom-media --lte-medium-viewport (max-width: 1024px);
+@custom-media --lte-small-viewport (max-width: 900px);
+@custom-media --lte-xsmall-viewport (max-width: 568px);
+
+@custom-properties --large-viewport 1440px;
+@custom-properties --medium-viewport 1024px;
+@custom-properties --small-viewport 900px;
+@custom-properties --xsmall-viewport 568px;
+@custom-properties --max-width 1440px;
+@custom-properties --c--page-background #2a2f36;
+@custom-properties --c--white #fff;
+@custom-properties --c--gray-border #485059;
+@custom-properties --c--planetary-red #dc4133;
+@custom-properties --c--text #fff;
+@custom-properties --c--text-secondary #9da7b3;
+@custom-properties --scroll-bar 15px;
+@custom-properties --small-viewport 900px;
+/*.customSelectors {*/
+/*}*/
+@custom-media --photo-breakpoint (min-width: 30em);

@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b15bca2b-9379-4d2a-a822-755780920490" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatsby-ssr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/origin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AnimatedArrow/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Arrow/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Arrow/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Brush/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Brush/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Insight/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Layout/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Layout/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Link/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Nav/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Nav/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Section/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Section/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Transition/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/about.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/about.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/amazon.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/approach.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/diamond.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/google.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/amazon-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/hero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/insight-1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/insight-2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/photoland.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/prudential.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/spacetime.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/univision.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/transitionElement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/transitionWrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/wrapPageElement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/brush1.svg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/categries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/cursor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/dragcursor.svg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/feature-check.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/media-query.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/about/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/about/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/404.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/index.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/variables.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/insight/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/insight/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/insights/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/insights/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/project/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/project/modules/Carousel/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/project/modules/Image/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/project/modules/Image/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/project/modules/ImageGrid/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/project/modules/ImageGrid/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/project/modules/Quote/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/project/modules/Quote/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/project/modules/Stats/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/project/modules/Stats/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/project/modules/StyleGuide/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/project/modules/StyleGuide/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/project/modules/Text/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/project/modules/Text/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/project/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/world_map.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/static/hero.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="554" column="70" selection-start-line="554" selection-start-column="70" selection-end-line="554" selection-end-column="70" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#44#84#0" expanded="true" />
+                <element signature="e#623#659#0" expanded="true" />
+                <element signature="e#8738#26720#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>hideFooter</find>
+      <find>Carco</find>
+      <find>arrow</find>
+      <find>ImageGrid</find>
+      <find>imagegrid</find>
+      <find>updateContext</find>
+      <find>subtitle</find>
+      <find>project</find>
+      <find>popmotion</find>
+      <find>projects</find>
+      <find>frontmatter</find>
+      <find>map</find>
+      <find>styles-module--heroText--haGHp</find>
+      <find>styles-module--largeNextText--2YxPr</find>
+      <find>xlink</find>
+      <find>Brush</find>
+      <find>ledeHtml</find>
+      <find>styles-module--hero--XdAol</find>
+      <find>styles-module--header--8jFxd</find>
+      <find>styles-module--more--_6g_a</find>
+      <find>styles-module--arrow--vKTnV</find>
+      <find>styles-module--colorFrame--1qzlI</find>
+      <find>frontmatter___date</find>
+      <find>date</find>
+      <find>(formatString: &quot;DD MMMM, YYYY&quot;)</find>
+      <find>sharp</find>
+      <find>SEO</find>
+      <find>console.log</find>
+      <find>BackgroundImage</find>
+      <find>entering</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>navLinkBg</replace>
+      <replace>projectLink</replace>
+      <replace>_404</replace>
+      <replace>_404--fof</replace>
+      <replace>end</replace>
+      <replace>wrap</replace>
+      <replace>noHeader</replace>
+      <replace>remainder</replace>
+      <replace>exiting</replace>
+      <replace>singleCol</replace>
+      <replace>leftFirst</replace>
+      <replace>imgWrapStaggered</replace>
+      <replace>imageTag</replace>
+      <replace>author</replace>
+      <replace>img</replace>
+      <replace>stats</replace>
+      <replace>font</replace>
+      <replace>fontImage</replace>
+      <replace>swatch</replace>
+      <replace>index</replace>
+      <replace>next</replace>
+      <replace>container</replace>
+      <replace>disabled</replace>
+      <replace>image</replace>
+      <replace>largeNextText</replace>
+      <replace>XdAol</replace>
+      <replace>header</replace>
+      <replace>more</replace>
+      <replace>arrow</replace>
+      <replace>colorFrame</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/components/Section/index.js" />
+        <option value="$PROJECT_DIR$/src/templates/project/modules/StyleGuide/index.js" />
+        <option value="$PROJECT_DIR$/src/templates/project/styles.module.css" />
+        <option value="$PROJECT_DIR$/src/templates/project/modules/Carousel/styles.module.css" />
+        <option value="$PROJECT_DIR$/src/data/projects/diamond.md" />
+        <option value="$PROJECT_DIR$/src/data/projects/google.md" />
+        <option value="$PROJECT_DIR$/src/data/projects/photoland.md" />
+        <option value="$PROJECT_DIR$/src/data/projects/prudential.md" />
+        <option value="$PROJECT_DIR$/src/data/projects/spacetime.md" />
+        <option value="$PROJECT_DIR$/src/data/projects/univision.md" />
+        <option value="$PROJECT_DIR$/src/data/projects/amazon.md" />
+        <option value="$PROJECT_DIR$/src/components/Layout/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/projects/amazon.md" />
+        <option value="$PROJECT_DIR$/src/pages/projects/diamond.md" />
+        <option value="$PROJECT_DIR$/src/pages/projects/google.md" />
+        <option value="$PROJECT_DIR$/src/pages/projects/univision.md" />
+        <option value="$PROJECT_DIR$/src/pages/projects/prudential.md" />
+        <option value="$PROJECT_DIR$/src/pages/projects/photoland.md" />
+        <option value="$PROJECT_DIR$/src/pages/projects/spacetime.md" />
+        <option value="$PROJECT_DIR$/src/templates/project/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/about/styles.module.css" />
+        <option value="$PROJECT_DIR$/src/data/about.json" />
+        <option value="$PROJECT_DIR$/src/data/about/about.md" />
+        <option value="$PROJECT_DIR$/src/data/project/amazon.md" />
+        <option value="$PROJECT_DIR$/src/data/project/diamond.md" />
+        <option value="$PROJECT_DIR$/src/data/project/google.md" />
+        <option value="$PROJECT_DIR$/src/data/project/photoland.md" />
+        <option value="$PROJECT_DIR$/src/data/project/prudential.md" />
+        <option value="$PROJECT_DIR$/src/data/project/spacetime.md" />
+        <option value="$PROJECT_DIR$/src/data/project/univision.md" />
+        <option value="$PROJECT_DIR$/static/assets/world_map.svg" />
+        <option value="$PROJECT_DIR$/src/pages/about/index.js" />
+        <option value="$PROJECT_DIR$/src/data/project/about.md" />
+        <option value="$PROJECT_DIR$/src/templates/insights/styles.module.css" />
+        <option value="$PROJECT_DIR$/src/templates/insight/styles.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Insight/styles.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Insight/index.js" />
+        <option value="$PROJECT_DIR$/src/data/insight/test.json" />
+        <option value="$PROJECT_DIR$/src/data/insight/2019-07-03/test.md" />
+        <option value="$PROJECT_DIR$/src/data/project/test.md" />
+        <option value="$PROJECT_DIR$/src/data/project/insight.md" />
+        <option value="$PROJECT_DIR$/src/data/project/insight-2.md" />
+        <option value="$PROJECT_DIR$/src/templates/insights/index.js" />
+        <option value="$PROJECT_DIR$/src/templates/insight/index.js" />
+        <option value="$PROJECT_DIR$/gatsby-node.js" />
+        <option value="$PROJECT_DIR$/src/helper/transitionWrapper.js" />
+        <option value="$PROJECT_DIR$/src/helper/wrapPageElement.js" />
+        <option value="$PROJECT_DIR$/gatsby-browser.js" />
+        <option value="$PROJECT_DIR$/src/helper/transitionElement.js" />
+        <option value="$PROJECT_DIR$/gatsby-config.js" />
+        <option value="$PROJECT_DIR$/src/pages/index.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="840" />
+    <option name="y" value="23" />
+    <option name="width" value="840" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="helper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="debugger.dataViews" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/data/project/images" />
+      <recent name="$PROJECT_DIR$/src/data/project" />
+      <recent name="$PROJECT_DIR$/static/static" />
+      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/data" />
+      <recent name="$PROJECT_DIR$/static/static" />
+      <recent name="$PROJECT_DIR$/src/styles" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b15bca2b-9379-4d2a-a822-755780920490" name="Default Changelist" comment="" />
+      <created>1561539140898</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561539140898</updated>
+      <workItem from="1561539142363" duration="94217000" />
+      <workItem from="1562118474292" duration="19882000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="114099000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="840" y="23" width="840" height="1027" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info id="npm" order="1" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="2" weight="0.25518927" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="GraphQL" order="1" weight="0.32981133" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.29839572" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info id="npm" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.25518927" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="GraphQL" order="1" weight="0.32981133" />
+      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.29839572" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/data/projects/photoland.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="516">
+            <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/prudential.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="792">
+            <caret line="42" selection-start-line="42" selection-end-line="42" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/spacetime.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="792">
+            <caret line="42" selection-start-line="42" selection-end-line="42" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/univision.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="792">
+            <caret line="42" selection-start-line="42" selection-end-line="42" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/google.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="792">
+            <caret line="42" selection-start-line="42" selection-end-line="42" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/diamond.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="792">
+            <caret line="42" selection-start-line="42" selection-end-line="42" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/amazon.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="299">
+            <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/feature-check.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-814">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Layout/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#51#100#0" expanded="true" />
+            <element signature="e#420#447#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="290">
+            <caret line="80" column="52" selection-start-line="80" selection-start-column="52" selection-end-line="80" selection-end-column="52" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gatsby-transformer-remark/on-node-create.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/about.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+          <folding>
+            <element signature="e#1158#2451#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/project/univision.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="69">
+            <caret line="3" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/project/photoland.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="46">
+            <caret line="2" selection-start-line="2" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/project/diamond.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="46">
+            <caret line="2" selection-start-line="2" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/about/about.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="23">
+            <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/world_map.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/project/amazon.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="46">
+            <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/insight/styles.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2990">
+          <caret line="130" column="4" selection-start-line="130" selection-start-column="4" selection-end-line="130" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/project/approach.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Insight/styles.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/about/styles.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="243" lean-forward="true" selection-start-line="243" selection-end-line="243" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="608" selection-start-line="608" selection-end-line="608" />
+          <folding>
+            <element signature="e#899#1222#0" />
+            <element signature="e#1252#1351#0" />
+            <element signature="e#33402#33586#0" />
+            <element signature="e#33588#33764#0" />
+            <element signature="e#33794#33817#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/about/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="85" column="24" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#292#329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Insight/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/insights/styles.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AnimatedArrow/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/insights/2019-07-03/test.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="207">
+            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/insights/test.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/project/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="279" column="28" selection-start-line="279" selection-start-column="28" selection-end-line="279" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#41#90#0" expanded="true" />
+            <element signature="e#525#562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/project/images/amazon-image.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/project/insight-2.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="391">
+            <caret line="17" selection-start-line="17" selection-end-line="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/project/insight-1.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="529">
+            <caret line="23" selection-start-line="23" selection-end-line="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/project/spacetime.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="23">
+            <caret line="1" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/project/prudential.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="46">
+            <caret line="2" selection-start-line="2" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/project/about.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="92">
+            <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/insights/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="66" column="49" lean-forward="true" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#264#305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/project/google.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="368">
+            <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-node.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/insight/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#274#314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helper/transitionWrapper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helper/wrapPageElement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-ssr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-browser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Link/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Nav/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helper/transitionElement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="554" column="70" selection-start-line="554" selection-start-column="70" selection-end-line="554" selection-end-column="70" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#44#84#0" expanded="true" />
+            <element signature="e#623#659#0" expanded="true" />
+            <element signature="e#8738#26720#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,15 @@
+.container {
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    overflow: hidden
+}
+
+@media (max-width: 900px) {
+    .img {
+        left: 50%;
+        width: 200%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%)
+    }
+}

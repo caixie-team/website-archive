@@ -1,0 +1,75 @@
+:root {
+    --large-viewport: 1440px;
+    --medium-viewport: 1024px;
+    --small-viewport: 900px;
+    --xsmall-viewport: 568px;
+    --max-width: 1440px;
+    --c--page-background: #2a2f36;
+    --c--white: #fff;
+    --c--gray-border: #485059;
+    --c--planetary-red: #dc4133;
+    --c--text: #fff;
+    --c--text-secondary: #9da7b3;
+    --scroll-bar: 15px;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    font: 16px/1.4 NeutrifPro, sans-serif;
+    color: #fff;
+    color: var(--c--text);
+    counter-reset: section;
+    -webkit-font-smoothing: antialiased;
+    background: #2a2f36;
+    background: var(--c--page-background)
+}
+
+body.no-scroll, html.no-scroll {
+    overflow: hidden
+}
+
+button, input, textarea {
+    font: 16px/1.4 NeutrifPro, sans-serif
+}
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500
+}
+
+address {
+    font-style: normal
+}
+
+a {
+    color: #fff;
+    color: var(--c--text)
+}
+
+@media (max-width: 900px) {
+    p {
+        font-size: 1.07rem
+    }
+}
+
+.fullWidth {
+    width: calc(100vw - 15px);
+    width: calc(100vw - var(--scroll-bar))
+}
+
+.tl-edges {
+    overflow-x: visible;
+    max-width: calc(100vw - 15px);
+    max-width: calc(100vw - var(--scroll-bar))
+}
+
+.tl-wrapper {
+    background: #2a2f36;
+    background: var(--c--page-background)
+}

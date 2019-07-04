@@ -1,0 +1,132 @@
+.header {
+    width: 65%;
+    margin: 5rem auto 0
+}
+
+@media (max-width: 900px) {
+    .header {
+        width: 100%;
+        margin-top: 3rem
+    }
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 3.5rem;
+    line-height: 1.17;
+    font-weight: 500
+}
+
+@media (max-width: 900px) {
+    .header h1 {
+        font-size: 3.25rem
+    }
+}
+
+.attribution {
+    margin: 2.5rem 0 7.5rem
+}
+
+.date {
+    color: #9da7b3;
+    color: var(--c--text-secondary)
+}
+
+.hero {
+    height: 32rem;
+    margin: 3rem 0 0 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
+@media (max-width: 900px) {
+    .hero {
+        height: 18.75rem
+    }
+}
+
+.content {
+    margin: 8.75rem auto 0;
+    max-width: 44rem;
+    font-size: 1.13rem;
+    line-height: 2.25rem
+}
+
+@media (max-width: 900px) {
+    .content {
+        margin-top: 5rem
+    }
+}
+
+.content h1 {
+    margin: 2rem 0;
+    line-height: 1.3
+}
+
+.content p {
+    margin: 2rem 0
+}
+
+.content p:first-child {
+    margin-bottom: 8.75rem;
+    font-size: 1.75rem;
+    line-height: 1.7;
+    font-weight: 500
+}
+
+@media (max-width: 900px) {
+    .content p:first-child {
+        margin-bottom: 2rem
+    }
+}
+
+.content hr {
+    height: 1px;
+    margin: 8.75rem 0;
+    border: none;
+    color: #9da7b3;
+    color: var(--c--text-secondary);
+    background-color: #9da7b3;
+    background-color: var(--c--text-secondary)
+}
+
+@media (max-width: 900px) {
+    .content hr {
+        margin: 5rem 0
+    }
+}
+
+.content .gatsby-resp-image-link {
+    position: relative;
+    left: -20%;
+    width: 140%;
+    margin: 8.75rem 0;
+    max-width: calc(100vw - 3rem)
+}
+
+@media (max-width: 900px) {
+    .content .gatsby-resp-image-link {
+        left: 0;
+        width: 100%;
+        margin: 5rem 0
+    }
+}
+
+.more {
+    display: grid;
+    margin: 15rem 0;
+    list-style-type: none;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2.5rem
+}
+
+@media (max-width: 900px) {
+    .more {
+        margin: 8.5rem auto;
+        grid-template-columns: 1fr
+    }
+
+    .more li:not(:last-child) {
+        margin: 0 0 3.75rem
+    }
+}

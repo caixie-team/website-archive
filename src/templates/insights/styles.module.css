@@ -1,0 +1,192 @@
+.hero {
+    display: flex;
+    position: relative;
+    padding: 10rem 0 12rem;
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(#363d47, rgba(54, 61, 71, 0) 65%)
+}
+
+@media (max-width: 900px) {
+    .hero {
+        margin: 2.5rem auto -11.5rem;
+        padding: 0
+    }
+}
+
+.hero h1 {
+    font-size: 5.5rem;
+    line-height: 1.2;
+    font-weight: 500
+}
+
+@media (max-width: 1440px) {
+    .hero h1 {
+        font-size: 11vh
+    }
+}
+
+@media (max-width: 900px) {
+    .hero h1 {
+        font-size: 3rem
+    }
+}
+
+.pagination {
+    display: flex;
+    margin: 10rem 0 0;
+    justify-content: space-between
+}
+
+@media (max-width: 900px) {
+    .pagination {
+        margin: 2.5rem 0 0
+    }
+}
+
+.pagination a {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-decoration: none
+}
+
+@media (max-width: 900px) {
+    .pagination a {
+        font-size: 1.13rem
+    }
+}
+
+.pagination a:hover {
+    color: #dc4133;
+    color: var(--c--planetary-red)
+}
+
+@media (max-width: 900px) {
+    .pagination svg {
+        width: 1rem !important
+    }
+}
+
+.pagination span {
+    position: relative;
+    top: -.2rem
+}
+
+@media (max-width: 900px) {
+    .pagination span {
+        top: 0;
+        line-height: 1rem !important
+    }
+}
+
+.pagination .next span {
+    margin-left: 1.5rem
+}
+
+.pagination .prev span {
+    margin-right: 1.5rem
+}
+
+.internet, .page {
+    margin-bottom: 15rem
+}
+
+.internet ul, .page ul {
+    list-style-type: none
+}
+
+@media (max-width: 900px) {
+    .internet {
+        margin-bottom: 6rem
+    }
+}
+
+.page {
+    position: relative;
+    z-index: 1
+}
+
+@media (max-width: 900px) {
+    .page {
+        margin-top: 12rem;
+        margin-bottom: 0
+    }
+}
+
+.page ul {
+    display: grid;
+    margin: 4.25rem 0 0;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2.7rem;
+    grid-row-gap: 3.7rem
+}
+
+@media (max-width: 900px) {
+    .page ul {
+        margin: 1.5rem 0 0;
+        grid-template-columns: 1fr
+    }
+}
+
+.internetLink {
+    display: block;
+    position: relative;
+    height: 11rem;
+    z-index: 1;
+    border-bottom: 1px solid #485059;
+    border-bottom: 1px solid var(--c--gray-border)
+}
+
+@media (max-width: 900px) {
+    .internetLink {
+        height: 6rem
+    }
+}
+
+.internetLink a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1
+}
+
+.internetLink:last-child {
+    border-bottom: 0
+}
+
+.internetLink h2 {
+    font-size: 5.5rem;
+    line-height: 1.13;
+    font-weight: 500
+}
+
+@media (max-width: 900px) {
+    .internetLink h2 {
+        font-size: 3.25rem
+    }
+}
+
+.internetLink.active {
+    opacity: 1
+}
+
+.internetLink.active:not(:last-child) {
+    border-bottom: 1px solid hsla(0, 0%, 100%, .2)
+}
+
+.internetLink.inactive {
+    opacity: .2
+}
+
+.internetLink.inactive:not(:last-child) {
+    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid var(--c--white)
+}
+
+.arrow {
+    margin-left: auto
+}

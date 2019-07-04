@@ -1,0 +1,67 @@
+@media (max-width: 900px) {
+    .section {
+        width: 100%;
+        margin: 0 auto
+    }
+}
+
+.section:target:before {
+    content: "";
+    display: block;
+    height: 80px;
+    margin: -80px 0 0
+}
+
+.section header {
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding-top: 1rem;
+    z-index: 10;
+    justify-content: space-between;
+    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid var(--c--white);
+    background: #2a2f36;
+    background: var(--c--page-background)
+}
+
+.section header.hide {
+    display: none
+}
+
+@media (max-width: 900px) {
+    .section header {
+        padding-top: 6rem
+    }
+}
+
+.section header + .content {
+    margin-top: 4rem
+}
+
+.section .title {
+    padding-bottom: 1rem;
+    font-size: .94rem;
+    font-weight: 400;
+    min-height: 1.3rem
+}
+
+@media (max-width: 900px) {
+    .section .title {
+        font-size: 1.07rem
+    }
+}
+
+.index:before {
+    content: "0" counter(section);
+    counter-increment: section;
+    letter-spacing: .5px;
+    font-size: .94rem
+}
+
+@media (max-width: 900px) {
+    .index:before {
+        font-size: 1.07rem
+    }
+}

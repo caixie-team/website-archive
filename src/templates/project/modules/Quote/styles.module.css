@@ -1,0 +1,92 @@
+/** 网格展示 */
+/**
+https://www.zhangxinxu.com/wordpress/2018/11/display-grid-css-css3/#grid-template-columns-rows
+ */
+.container {
+    display: grid;
+    margin: 14rem auto 2rem;
+    max-width: 47rem;
+    grid-template-columns: 6.25rem 1fr;
+    grid-template-areas: "quotemark quote" "quotemark cite"
+}
+
+@media (max-width: 900px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-areas: "quotemark" "quote" "cite"
+    }
+}
+
+.container:before {
+    content: "\201C";
+    display: inline-block;
+    position: relative;
+    top: -.5rem;
+    height: 100%;
+    margin-right: 4.75rem;
+    font-family: Georgia, serif;
+    color: inherit;
+    font-size: 4.5rem;
+    grid-area: quotemark
+}
+
+@media (max-width: 900px) {
+    .container:before {
+        height: 3rem
+    }
+}
+
+.container blockquote {
+    font-size: 1.75rem;
+    font-weight: 500;
+    grid-area: quote;
+    color: #fff;
+    color: var(--c--text)
+}
+
+.container blockquote, .container blockquote p {
+    line-height: 1.7
+}
+
+.container cite {
+    display: block;
+    margin-top: 2.75rem;
+    grid-area: cite
+}
+
+@media (max-width: 900px) {
+    .container cite {
+        display: flex
+    }
+}
+
+.author, .img {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.author {
+    color: #fff;
+    color: var(--c--text)
+}
+
+.author em, .author span {
+    display: block;
+    font-style: normal
+}
+
+.author em {
+    color: #9da7b3;
+    color: var(--c--text-secondary)
+}
+
+.img {
+    width: 4.38rem;
+    margin-right: 1.5rem
+}
+
+@media (max-width: 900px) {
+    .img {
+        flex: 0 0 4.38rem
+    }
+}

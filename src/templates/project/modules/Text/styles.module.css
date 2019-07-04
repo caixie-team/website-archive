@@ -1,0 +1,95 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr
+}
+
+.container.noHeader{
+    grid-template-columns: 1fr 1fr
+}
+
+@media (max-width: 900px) {
+    .container, .container.noHeader{
+        grid-template-columns: 1fr;
+        grid-row-gap: 1rem
+    }
+}
+
+.body .remainder {
+    -webkit-columns: 2;
+    column-count: 2;
+    grid-column-gap: 2rem;
+    -webkit-column-gap: 2rem;
+    column-gap: 2rem
+}
+
+@media (max-width: 900px) {
+    .body .remainder {
+        -webkit-columns: 1;
+        column-count: 1
+    }
+}
+
+.body.hasSecondary {
+    display: grid;
+    -webkit-columns: none;
+    column-count: none;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2rem
+}
+
+.body.hasSecondary .remainder {
+    -webkit-columns: 1;
+    column-count: 1
+}
+
+@media (max-width: 900px) {
+    .body.hasSecondary {
+        grid-template-columns: 1fr
+    }
+}
+
+.body p {
+    margin: 1rem 0;
+    line-height: 2
+}
+
+.body > p:first-of-type {
+    margin: 0 0 4rem;
+    font-size: 2.88rem;
+    font-weight: 500;
+    line-height: 1.2;
+    -webkit-column-span: all;
+    column-span: all;
+    grid-column: 1/3
+}
+
+@media (max-width: 900px) {
+    .body > p:first-of-type {
+        grid-column: 1;
+        font-size: 1.8rem
+    }
+}
+
+.body > p:nth-of-type(2), .body div > p:first-of-type {
+    margin-top: 0
+}
+
+.body ul {
+    list-style-type: none
+}
+
+.body li {
+    position: relative;
+    margin-bottom: 1rem
+}
+
+.body li span {
+    display: inline-block;
+    margin-left: calc(10px + 1rem)
+}
+
+.body li svg {
+    position: absolute;
+    top: 0;
+    left: 0
+}

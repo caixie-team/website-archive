@@ -1,0 +1,44 @@
+.arrow {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle
+}
+
+@media (max-width: 900px) {
+    .arrow {
+        vertical-align: baseline
+    }
+}
+
+.arrow svg {
+    vertical-align: top
+}
+
+.arrow.red path, .arrow.red polyline {
+    stroke: #dc4133;
+    stroke: var(--c--planetary-red)
+}
+
+.arrow.lightgray path, .arrow.lightgray polyline {
+    stroke: #9ba7b4
+}
+
+.arrow.up {
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg)
+}
+
+.arrow.left {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg)
+}
+
+.arrow.down {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg)
+}
+
+.arrow path, .arrow polyline {
+    stroke: #fff;
+    stroke: var(--c--white)
+}

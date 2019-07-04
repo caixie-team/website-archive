@@ -1,0 +1,244 @@
+.outer {
+    position: relative;
+    z-index: 1;
+    overflow-x: hidden;
+    background: linear-gradient(transparent, transparent 100vh, #2a2f36 100.001vh, #2a2f36);
+    background: linear-gradient(transparent, transparent 100vh, var(--c--page-background) 100.001vh, var(--c--page-background))
+}
+
+.heroFill {
+    position: relative;
+    top: -6.5rem;
+    left: 50%;
+    width: calc(100vw - 15px);
+    width: calc(100vw - var(--scroll-bar));
+    height: 100vh;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
+@media (max-width: 900px) {
+    .heroFill {
+        max-height: -webkit-fill-available;
+        max-height: -moz-available;
+        max-height: stretch
+    }
+}
+
+.hero {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+    margin-left: 50%;
+    z-index: 1;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    transition: opacity .5s ease;
+    opacity: 0
+}
+
+.hero.entered {
+    opacity: 1;
+    transition: opacity .5s ease .5s
+}
+
+@media (max-width: 900px) {
+    .hero {
+        max-height: -webkit-fill-available;
+        max-height: -moz-available;
+        max-height: stretch
+    }
+}
+
+.heroVisual {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: -webkit-filter .5s cubic-bezier(1, 0, 0, 1) .5s, -webkit-transform .5s cubic-bezier(1, 0, 0, 1) .5s;
+    transition: filter .5s cubic-bezier(1, 0, 0, 1) .5s, transform .5s cubic-bezier(1, 0, 0, 1) .5s;
+    transition: filter .5s cubic-bezier(1, 0, 0, 1) .5s, transform .5s cubic-bezier(1, 0, 0, 1) .5s, -webkit-filter .5s cubic-bezier(1, 0, 0, 1) .5s, -webkit-transform .5s cubic-bezier(1, 0, 0, 1) .5s;
+    -webkit-filter: blur(50px);
+    filter: blur(50px);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+@media (max-width: 900px) {
+    .heroVisual {
+        max-height: -webkit-fill-available;
+        max-height: -moz-available;
+        max-height: stretch
+    }
+}
+
+.heroVisual.entered {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    -webkit-transform: scale(1);
+    transform: scale(1)
+}
+
+.heroWrap {
+    display: flex;
+    position: relative;
+    width: calc(100% - 3rem);
+    height: 100%;
+    margin: 0 auto;
+    z-index: 1;
+    max-width: 1440px;
+    max-width: var(--max-width);
+    align-items: center;
+    justify-content: center
+}
+
+@media (max-width: 900px) {
+    .heroWrap {
+        max-height: -webkit-fill-available;
+        max-height: -moz-available;
+        max-height: stretch
+    }
+}
+
+.heroWrap h1 {
+    font-size: 10rem;
+    font-weight: 500;
+    overflow: hidden
+}
+
+@media (max-height: 760px) {
+    .heroWrap h1 {
+        font-size: 11vh
+    }
+}
+
+@media (max-width: 900px) {
+    .heroWrap h1 {
+        font-size: 5.5rem
+    }
+}
+
+@media (max-width: 568px) {
+    .heroWrap h1 {
+        font-size: 4rem
+    }
+}
+
+.heroWrap h1 > span, .heroWrap li > span {
+    display: block;
+    transition: -webkit-transform .5s cubic-bezier(1, 0, 0, 1);
+    transition: transform .5s cubic-bezier(1, 0, 0, 1);
+    transition: transform .5s cubic-bezier(1, 0, 0, 1), -webkit-transform .5s cubic-bezier(1, 0, 0, 1);
+    -webkit-transform: translateY(200%);
+    transform: translateY(200%)
+}
+
+.heroWrap.entered h1 > span, .heroWrap.entered li > span {
+    transition: -webkit-transform .5s cubic-bezier(1, 0, 0, 1) .5s;
+    transition: transform .5s cubic-bezier(1, 0, 0, 1) .5s;
+    transition: transform .5s cubic-bezier(1, 0, 0, 1) .5s, -webkit-transform .5s cubic-bezier(1, 0, 0, 1) .5s;
+    -webkit-transform: translateY(0);
+    transform: translateY(0)
+}
+
+.workType {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 5rem;
+    padding-bottom: 4rem;
+    text-align: right;
+    list-style-type: none;
+    line-height: 2;
+    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid var(--c--white);
+    font-size: .88rem
+}
+
+.workType li {
+    overflow: hidden
+}
+
+.container {
+    display: block;
+    width: calc(100% - 3rem);
+    margin: 0 auto;
+    max-width: 1440px;
+    max-width: var(--max-width)
+}
+
+@media (max-width: 900px) {
+    .container {
+        width: 100%;
+        padding-top: 3rem
+    }
+}
+
+@media (max-width: 900px) {
+    .content {
+        padding-bottom: 10rem
+    }
+}
+
+.content h2 {
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1.3;
+    max-width: 27.5rem
+}
+
+.section {
+    margin-top: 10.5rem
+}
+
+@media (max-width: 900px) {
+    .section {
+        margin-top: 10rem
+    }
+}
+
+.section:first-child {
+    margin-top: 0
+}
+
+.next {
+    margin: 5rem 0 -10rem;
+    text-align: center
+}
+
+@media (max-width: 900px) {
+    .next {
+        margin: -7rem 0 0
+    }
+}
+
+.next a {
+    display: block;
+    padding: 5rem 0;
+    text-decoration: none
+}
+
+.next h2 {
+    font-size: 6.25rem;
+    line-height: 1;
+    font-weight: 500
+}
+
+@media (max-width: 900px) {
+    .next h2 {
+        font-size: 3.68rem
+    }
+}
+
+.next h3 {
+    margin: 4rem 0;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1
+}
+
+.next h3 span {
+    margin-left: 1rem;
+    vertical-align: baseline
+}
