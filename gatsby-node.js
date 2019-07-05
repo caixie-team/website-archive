@@ -6,27 +6,33 @@ const matter = require("gray-matter")
 const yaml = require("js-yaml")
 const { createFilePath } = require(`gatsby-source-filesystem`)
 // const str = require('./src/data/projects/amazon.md')
-// const fs = require('fs');
+const fs = require('fs');
 
 // const fs = require("fs")
-// const str = fs.readFileSync(path.join(__dirname, "src/data/project", "amazon.md"))
-// const res = matter(str, {
-//   sections: (section, res) => {
-//     if (typeof section.data === "string" && section.data.trim() !== "") {
-//       section.data = yaml.safeLoad(section.data)
-//     }
-//     section.content = section.content.trim() + "\n"
-//   },
-// })
+const str = fs.readFileSync(path.join(__dirname, "src/data/project", "amazon.md"))
+const res = matter(str, { excerpt: true, sections: true });
+// console.log(JSON.stringify(res, null, 2));
+// console.log(res.sections)
+for (let section of res.sections) {
+  if (typeof section.data === 'string' && section.data.trim() !== '') {
+    section.data = yaml.safeLoad(section.data)
+  }
+  section.content = section.content.trim() + "\n"
+}
+// console.log(res.sections)
+// console.log('show sections ...')
+// console.log(res.sections)
 // console.log(JSON.stringify(res, null, 2))
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark` || node.internal.type === `Mdx`) {
     const slug = createFilePath({ node, getNode })
+    const templateKey = node.frontmatter.templateKey
+
     createNodeField({
       node,
       name: `slug`,
-      value: slug,
+      value: templateKey === 'project' ? templateKey + slug : slug,
     })
 
     createNodeField({
@@ -34,7 +40,6 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       name: "isPublic",
       value: "isPublic" in node.frontmatter ? node.frontmatter.isPublic : true,
     })
-    // console.log(node)
 
   }
 }
@@ -91,7 +96,7 @@ exports.createPages = ({ graphql, actions }) => {
     edges.forEach(({ node, index, array }) => {
       if (node.frontmatter.templateKey === "project") {
         createPage({
-          path: "project" + node.fields.slug,
+          path: node.fields.slug,
           component: path.resolve(`src/templates/project/index.js`),
           context: {
             id: node.id,

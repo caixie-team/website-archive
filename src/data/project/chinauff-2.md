@@ -1,14 +1,13 @@
 ---
-id: 'p-amazon'
+id: 'p-chinauff-2'
 templateKey: 'project'
-sort: 2
-slug: "/project/amazon"
-title: "Amazon"
-subtitle: "Platform Design"
-summary: "We prototyped a new experience for purchasing smart home products."
+sort: 7
+title: '老娘舅春节集福'
+subtitle: 'H5 APP, 运营系统'
+summary: '为客户定制春节集福活动系统, 支持高并发、分布部署'
 primaryColor: "#1c2733"
 hero: {
-    "publicURL": "/static/amazon-hero-661547d3e0d1b743c8f60cce49ed251d.jpg"
+    publicURL: '/static/univision-hero-e802b1ca8e3206518bd68c40f0ecef67.jpg'
 }
 workType: [
     "Product Design",
@@ -18,15 +17,12 @@ workType: [
 ]
 ---
 
-```grid|2|My super images!
-![](./images/amazon-image.png)
-![](./images/hero.jpg)
-```
-
-![my image](images/amazon-image.png)
-
 This page has front matter that should be parsed before the sections.
 
+```grid|2
+![](../amazon-image.png)
+![](../hero.jpg)
+```
 
 This is an excerpt.
 ---

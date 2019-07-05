@@ -2,87 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b15bca2b-9379-4d2a-a822-755780920490" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatsby-ssr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/origin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AnimatedArrow/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Arrow/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Arrow/styles.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Brush/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Brush/styles.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Insight/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/styles.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Link/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Nav/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Nav/styles.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Section/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Section/styles.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Transition/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/about.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/about.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/amazon.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/approach.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/diamond.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/google.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/images/amazon-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/images/hero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/insight-1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/insight-2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/photoland.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/prudential.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/spacetime.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/univision.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helper/transitionElement.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helper/transitionWrapper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helper/wrapPageElement.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/brush1.svg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/categries.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/cursor.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/dragcursor.svg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/feature-check.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/media-query.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/about/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/about/styles.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/404.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/index.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/variables.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/insight/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/insight/styles.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/insights/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/insights/styles.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/project/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/project/modules/Carousel/styles.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/project/modules/Image/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/project/modules/Image/styles.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/project/modules/ImageGrid/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/project/modules/ImageGrid/styles.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/project/modules/Quote/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/project/modules/Quote/styles.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/project/modules/Stats/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/project/modules/Stats/styles.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/project/modules/StyleGuide/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/project/modules/StyleGuide/styles.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/project/modules/Text/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/project/modules/Text/styles.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/project/styles.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/world_map.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/static/hero.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -98,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="554" column="70" selection-start-line="554" selection-start-column="70" selection-end-line="554" selection-end-column="70" />
+            <state relative-caret-position="483">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#44#84#0" expanded="true" />
@@ -108,6 +28,11 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -184,7 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/Section/index.js" />
         <option value="$PROJECT_DIR$/src/templates/project/modules/StyleGuide/index.js" />
         <option value="$PROJECT_DIR$/src/templates/project/styles.module.css" />
         <option value="$PROJECT_DIR$/src/templates/project/modules/Carousel/styles.module.css" />
@@ -234,6 +158,7 @@
         <option value="$PROJECT_DIR$/gatsby-browser.js" />
         <option value="$PROJECT_DIR$/src/helper/transitionElement.js" />
         <option value="$PROJECT_DIR$/gatsby-config.js" />
+        <option value="$APPLICATION_CONFIG_DIR$/webstorm.vmoptions" />
         <option value="$PROJECT_DIR$/src/pages/index.js" />
       </list>
     </option>
@@ -249,55 +174,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="helper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -344,22 +226,31 @@
       <option name="presentableId" value="Default" />
       <updated>1561539140898</updated>
       <workItem from="1561539142363" duration="94217000" />
-      <workItem from="1562118474292" duration="19882000" />
+      <workItem from="1562118474292" duration="20875000" />
+      <workItem from="1562300751480" duration="135000" />
+      <workItem from="1562301313042" duration="338000" />
+      <workItem from="1562302050735" duration="2567000" />
+      <workItem from="1562309612927" duration="978000" />
+      <workItem from="1562316895916" duration="155000" />
+      <workItem from="1562317065649" duration="84000" />
+      <workItem from="1562317171029" duration="258000" />
+      <workItem from="1562317699115" duration="5000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114099000" />
+    <option name="totallyTimeSpent" value="119612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" weight="0.25518927" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.25518927" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="GraphQL" order="1" weight="0.32981133" />
+      <window_info anchor="bottom" id="GraphQL" order="1" weight="0.32941177" />
       <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.29839572" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
@@ -378,11 +269,11 @@
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.25518927" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.25518927" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="GraphQL" order="1" weight="0.32981133" />
-      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.29839572" />
+      <window_info anchor="bottom" id="GraphQL" order="1" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.29839572" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
@@ -402,79 +293,14 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/data/projects/photoland.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="516">
-            <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/projects/prudential.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="792">
-            <caret line="42" selection-start-line="42" selection-end-line="42" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/projects/spacetime.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="792">
-            <caret line="42" selection-start-line="42" selection-end-line="42" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/projects/univision.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="792">
-            <caret line="42" selection-start-line="42" selection-end-line="42" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/projects/google.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="792">
-            <caret line="42" selection-start-line="42" selection-end-line="42" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/projects/diamond.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="792">
-            <caret line="42" selection-start-line="42" selection-end-line="42" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/spacetime.md" />
+    <entry file="file://$PROJECT_DIR$/src/data/projects/univision.md" />
+    <entry file="file://$PROJECT_DIR$/src/data/projects/google.md" />
+    <entry file="file://$PROJECT_DIR$/src/data/projects/diamond.md" />
     <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/projects/amazon.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="299">
-            <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/amazon.md" />
     <entry file="file://$PROJECT_DIR$/src/lib/feature-check.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-814">
@@ -554,16 +380,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/about/about.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="23">
-            <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/about/about.md" />
     <entry file="file://$PROJECT_DIR$/static/assets/world_map.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -658,23 +475,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/insights/2019-07-03/test.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="207">
-            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/insights/test.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/insights/2019-07-03/test.md" />
+    <entry file="file://$PROJECT_DIR$/src/data/insights/test.json" />
     <entry file="file://$PROJECT_DIR$/src/templates/project/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="683">
@@ -857,10 +659,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/webstorm.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="554" column="70" selection-start-line="554" selection-start-column="70" selection-end-line="554" selection-end-column="70" />
+        <state relative-caret-position="483">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#44#84#0" expanded="true" />
@@ -869,6 +678,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

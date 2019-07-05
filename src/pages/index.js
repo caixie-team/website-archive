@@ -453,6 +453,7 @@ class Index extends Component {
                 </div>
               </div>
             </div>
+            
             {projects.map((project, idx) => (
               <div
                 key={`project${idx}`}
@@ -488,7 +489,7 @@ class Index extends Component {
                   <h3><span>{project.node.frontmatter.subtitle}</span></h3>
                   <h2><span>{project.node.frontmatter.title}</span></h2>
                   <p><span>{project.node.frontmatter.summary}</span></p>
-                  <h4><span>View Case Study <Arrow color="red"/></span></h4>
+                  <h4><span>案例详情 <Arrow color="red"/></span></h4>
                 </Link>
               </div>
             ))}
@@ -510,14 +511,14 @@ class Index extends Component {
                   onMouseEnter={this.onElementEnter}
                   onMouseLeave={this.onElementLeave}
                 >
-                  <span>Insights</span>
+                  <span>行业观点</span>
                 </Link>
                 <Link
                   to="/contact"
                   onMouseEnter={this.onElementEnter}
                   onMouseLeave={this.onElementLeave}
                 >
-                  <span>Contact Us</span>
+                  <span>联系我们</span>
                 </Link>
               </div>
             </div>

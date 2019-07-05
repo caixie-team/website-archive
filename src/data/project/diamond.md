@@ -7,7 +7,7 @@ title: "Blue Diamond"
 subtitle: "Platform Design"
 summary: "We redesigned and rebuilt the Blue Diamond website from the ground-up."
 primaryColor: "#9db2df"
-"hero": {
+hero: {
     "publicURL":  "/static/blue-diamond-hero-b5a087b681a853a56eef732eae348d40.jpg"
 }
 workType: [

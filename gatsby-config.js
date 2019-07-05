@@ -54,6 +54,7 @@ module.exports = {
         pedantic: true,
         // GitHub Flavored Markdown mode (default: true)
         gfm: true,
+        sections: true,
         // Plugins configs
         plugins: [
           {
@@ -76,5 +77,6 @@ module.exports = {
         ],
       },
     },
+    `gatsby-transformer-yaml`,
   ],
 }

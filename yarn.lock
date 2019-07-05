@@ -5488,6 +5488,13 @@ gatsby-remark-relative-images@^0.2.2:
     slash "2.0.0"
     unist-util-select "1.5.0"
 
+gatsby-remark-sectionize@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/gatsby-remark-sectionize/-/gatsby-remark-sectionize-1.0.0.tgz#3b2c7e407738160fe3dd1d62db955cc64e8ceea4"
+  integrity sha512-S6FefaA1KlBDRNw/RaH8iRUzdcFgB8nBYox3hraXqLsfRETRkY668ay6xo8iSNyl/XG+L6fjaNBss0KcmAqBSg==
+  dependencies:
+    remark-sectionize "^1.0.1"
+
 gatsby-source-filesystem@^2.1.1:
   version "2.1.1"
   resolved "https://registry.npmjs.org/gatsby-source-filesystem/-/gatsby-source-filesystem-2.1.1.tgz#5f19c527b4b6c43a9f46da8be5b9cc15cb142787"
@@ -5568,6 +5575,16 @@ gatsby-transformer-sharp@^2.2.0:
     probe-image-size "^4.0.0"
     semver "^5.6.0"
     sharp "^0.22.1"
+
+gatsby-transformer-yaml@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.npmjs.org/gatsby-transformer-yaml/-/gatsby-transformer-yaml-2.2.0.tgz#a1dabe8c31fca3786917629f182d17cb4f454991"
+  integrity sha512-w20BU4CBBFUnNqi9JCqglaB6Uv8SQppGbwlzDpKia8h+A+WuIZUboOmP23Tu9k+zx2oS1i02KWXmpF3NFMnD3Q==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    js-yaml "^3.13.0"
+    lodash "^4.17.10"
+    unist-util-select "^1.5.0"
 
 gatsby@^2.10.4:
   version "2.10.4"
@@ -10747,6 +10764,14 @@ remark-retext@^3.1.0:
   dependencies:
     mdast-util-to-nlcst "^3.2.0"
 
+remark-sectionize@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/remark-sectionize/-/remark-sectionize-1.0.1.tgz#9116d892eefd4a625e7ab9858e2dd217cdb685ac"
+  integrity sha512-C8lBqGI2p70tRCW0ZKSrTDDDjANVL/m0LzXG9b88VQo9x6828eK5m/YpHGxtojeHnIfPc5J/EABusMYOxQMxJQ==
+  dependencies:
+    unist-util-find-after "^2.0.2"
+    unist-util-visit-parents "^2.0.1"
+
 remark-stringify@^5.0.0:
   version "5.0.0"
   resolved "https://registry.npmjs.org/remark-stringify/-/remark-stringify-5.0.0.tgz#336d3a4d4a6a3390d933eeba62e8de4bd280afba"
@@ -12455,6 +12480,13 @@ unist-builder@^1.0.1:
   integrity sha512-v6xbUPP7ILrT15fHGrNyHc1Xda8H3xVhP7/HAIotHOhVPjH5dCXA097C3Rry1Q2O+HbOLCao4hfPB+EYEjHgVg==
   dependencies:
     object-assign "^4.1.0"
+
+unist-util-find-after@^2.0.2:
+  version "2.0.4"
+  resolved "https://registry.npmjs.org/unist-util-find-after/-/unist-util-find-after-2.0.4.tgz#3fcccf0df3a2e7291fa119224c0f22158357cc10"
+  integrity sha512-zo0ShIr+E/aU9xSK7JC9Kb+WP9seTFCuqVYdo5+HJSjN009XMfhiA1FIExEKzdDP1UsgvKGleGlB/pSdTSqZww==
+  dependencies:
+    unist-util-is "^3.0.0"
 
 unist-util-generated@^1.1.0:
   version "1.1.4"
