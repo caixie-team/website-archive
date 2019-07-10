@@ -20,7 +20,7 @@ import Stats from './modules/Stats';
 // import Quote from './modules/Quote';
 // import Carousel from './modules/Carousel';
 import Image from './modules/Image';
-// import ImageGrid from './modules/ImageGrid';
+import ImageGrid from './modules/ImageGrid';
 import StyleGuide from './modules/StyleGuide';
 
 // import * as Heroes from './heroes';

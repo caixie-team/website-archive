@@ -199,7 +199,7 @@ class Transition extends Component {
 
     const geometry = new THREE.PlaneBufferGeometry(width, height, 1)
     this.object = new THREE.Mesh(geometry, this.mat)
-    console.log(this.object)
+    // console.log(this.object)
     this.scene.add(this.object)
     this.renderScene()
   }

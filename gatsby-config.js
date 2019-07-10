@@ -44,7 +44,8 @@ module.exports = {
     //   },
     // },
     {
-      resolve: `gatsby-transformer-remark`,
+      // resolve: `gatsby-transformer-remark`,
+      resolve: require.resolve(`./plugins/gatsby-transformer-remark`),
       options: {
         // CommonMark mode (default: true)
         commonmark: true,
@@ -57,6 +58,9 @@ module.exports = {
         sections: true,
         // Plugins configs
         plugins: [
+          {
+            resolve: require.resolve(`./plugins/gatsby-remark-sections`)
+          },
           {
             resolve: `gatsby-remark-images`,
             options: {

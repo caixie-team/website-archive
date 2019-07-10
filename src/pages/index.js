@@ -453,7 +453,7 @@ class Index extends Component {
                 </div>
               </div>
             </div>
-            
+
             {projects.map((project, idx) => (
               <div
                 key={`project${idx}`}

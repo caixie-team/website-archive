@@ -10,6 +10,8 @@ primaryColor: "#1c2733"
 hero: {
     "publicURL": "/static/amazon-hero-661547d3e0d1b743c8f60cce49ed251d.jpg"
 }
+
+
 workType: [
     "Product Design",
     "Experiential",
@@ -23,7 +25,7 @@ workType: [
 ![](./images/hero.jpg)
 ```
 
-![my image](images/amazon-image.png)
+![my image](./images/amazon-image.png)
 
 This page has front matter that should be parsed before the sections.
 
@@ -31,13 +33,18 @@ This page has front matter that should be parsed before the sections.
 This is an excerpt.
 ---
 
----aaa
-title: First section
+---Introduction
+title: First
+type: text
 ---
 
 Section one.
+---
 
----bbb
+News and media has truly become a mobile platform, with **58%** of adults getting news on a mobile device1.
+Mobile as the medium for news is more important 
+
+---Execution
 title: Second section
 ---
 
@@ -46,13 +53,11 @@ Part 1.
 ---
 
 Part 2.
-
 ---
 
 Part 3.
 
----ccc
+---stats
 title: Third section
 ---
-
 Section three.

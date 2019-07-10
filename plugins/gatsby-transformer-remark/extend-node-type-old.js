@@ -31,7 +31,7 @@ const {
     findLastTextNode,
   } = require(`./hast-processing`)
   const codeHandler = require(`./code-handler`)
-  
+
   let fileNodes
   let pluginsCacheStr = ``
   let pathPrefixCacheStr = ``
@@ -57,11 +57,11 @@ const {
     }-${pluginsCacheStr}-${JSON.stringify(
       appliedTocOptions
     )}-${pathPrefixCacheStr}`
-  
+
   // ensure only one `/` in new url
   const withPathPrefix = (url, pathPrefix) =>
     (pathPrefix + url).replace(/\/\//, `/`)
-  
+
   // TODO: remove this check with next major release
   const safeGetCache = ({ getCache, cache }) => id => {
     if (!getCache) {
@@ -69,7 +69,7 @@ const {
     }
     return getCache(id)
   }
-  
+
   /**
    * Map that keeps track of generation of AST to not generate it multiple
    * times in parallel.
@@ -77,7 +77,7 @@ const {
    * @type {Map<string,Promise>}
    */
   const ASTPromiseMap = new Map()
-  
+
   module.exports = (
     {
       type,
@@ -96,9 +96,9 @@ const {
     }
     pluginsCacheStr = pluginOptions.plugins.map(p => p.name).join(``)
     pathPrefixCacheStr = pathPrefix || ``
-  
+
     const getCache = safeGetCache({ cache, getCache: possibleGetCache })
-  
+
     return new Promise((resolve, reject) => {
       // Setup Remark.
       const {
@@ -123,7 +123,7 @@ const {
         remarkOptions.blocks = blocks
       }
       let remark = new Remark().data(`settings`, remarkOptions)
-  
+
       for (let plugin of pluginOptions.plugins) {
         const requiredPlugin = require(plugin.resolve)
         if (_.isFunction(requiredPlugin.setParserPlugins)) {
@@ -139,7 +139,7 @@ const {
           }
         }
       }
-  
+
       async function getAST(markdownNode) {
         const cacheKey = astCacheKey(markdownNode)
         const cachedAST = await cache.get(cacheKey)
@@ -163,7 +163,7 @@ const {
           return ASTGenerationPromise
         }
       }
-  
+
       async function getMarkdownAST(markdownNode) {
         if (process.env.NODE_ENV !== `production` || !fileNodes) {
           fileNodes = getNodesByType(`File`)
@@ -189,7 +189,7 @@ const {
           }
         })
         const markdownAST = remark.parse(markdownNode.internal.content)
-  
+
         if (pathPrefix) {
           // Ensure relative links include `pathPrefix`
           visit(markdownAST, [`link`, `definition`], node => {
@@ -202,7 +202,7 @@ const {
             }
           })
         }
-  
+
         // source => parse (can order parsing for dependencies) => typegen
         //
         // source plugins identify nodes, provide id, initial parse, know
@@ -258,10 +258,10 @@ const {
             return Promise.resolve()
           }
         })
-  
+
         return markdownAST
       }
-  
+
       async function getHeadings(markdownNode) {
         const cachedHeadings = await cache.get(headingsCacheKey(markdownNode))
         if (cachedHeadings) {
@@ -274,12 +274,12 @@ const {
               depth: heading.depth,
             }
           })
-  
+
           cache.set(headingsCacheKey(markdownNode), headings)
           return headings
         }
       }
-  
+
       async function getTableOfContents(markdownNode, gqlTocOptions) {
         // fetch defaults
         let appliedTocOptions = { ...tocOptions, ...gqlTocOptions }
@@ -292,7 +292,7 @@ const {
         } else {
           const ast = await getAST(markdownNode)
           const tocAst = mdastToToc(ast, appliedTocOptions)
-  
+
           let toc
           if (tocAst.map) {
             const addSlugToUrl = function(node) {
@@ -319,11 +319,11 @@ const {
               if (node.children) {
                 node.children = node.children.map(node => addSlugToUrl(node))
               }
-  
+
               return node
             }
             tocAst.map = addSlugToUrl(tocAst.map)
-  
+
             toc = hastToHTML(toHAST(tocAst.map))
           } else {
             toc = ``
@@ -332,7 +332,7 @@ const {
           return toc
         }
       }
-  
+
       async function getHTMLAst(markdownNode) {
         const cachedAst = await cache.get(htmlAstCacheKey(markdownNode))
         if (cachedAst) {
@@ -343,13 +343,13 @@ const {
             allowDangerousHTML: true,
             handlers: { code: codeHandler },
           })
-  
+
           // Save new HTML AST to cache and return
           cache.set(htmlAstCacheKey(markdownNode), htmlAst)
           return htmlAst
         }
       }
-  
+
       async function getHTML(markdownNode) {
         const cachedHTML = await cache.get(htmlCacheKey(markdownNode))
         if (cachedHTML) {
@@ -360,13 +360,13 @@ const {
           const html = hastToHTML(ast, {
             allowDangerousHTML: true,
           })
-  
+
           // Save new HTML to cache and return
           cache.set(htmlCacheKey(markdownNode), html)
           return html
         }
       }
-  
+
       async function getExcerptAst(
         markdownNode,
         { pruneLength, truncate, excerptSeparator }
@@ -382,7 +382,7 @@ const {
         if (!fullAST.children.length) {
           return fullAST
         }
-  
+
         const excerptAST = cloneTreeUntil(fullAST, ({ root }) => {
           const totalExcerptSoFar = getConcatenatedValue(root)
           return totalExcerptSoFar && totalExcerptSoFar.length > pruneLength
@@ -394,7 +394,7 @@ const {
         ) {
           return excerptAST
         }
-  
+
         const lastTextNode = findLastTextNode(excerptAST)
         const amountToPruneLastNode =
           pruneLength - (unprunedExcerpt.length - lastTextNode.value.length)
@@ -412,7 +412,7 @@ const {
         }
         return excerptAST
       }
-  
+
       async function getExcerptHtml(
         markdownNode,
         pruneLength,
@@ -429,7 +429,7 @@ const {
         })
         return html
       }
-  
+
       async function getExcerptMarkdown(
         markdownNode,
         pruneLength,
@@ -449,7 +449,7 @@ const {
           omission: `…`,
         })
       }
-  
+
       async function getExcerptPlain(
         markdownNode,
         pruneLength,
@@ -475,9 +475,9 @@ const {
               }
             }
           )
-  
+
           const excerptText = excerptNodes.join(``)
-  
+
           if (excerptSeparator) {
             return excerptText
           }
@@ -491,7 +491,7 @@ const {
         })
         return text
       }
-  
+
       async function getExcerpt(
         markdownNode,
         { format, pruneLength, truncate, excerptSeparator }
@@ -518,7 +518,7 @@ const {
           excerptSeparator
         )
       }
-  
+
       const HeadingType = new GraphQLObjectType({
         name: `MarkdownHeading`,
         fields: {
@@ -536,7 +536,7 @@ const {
           },
         },
       })
-  
+
       const HeadingLevels = new GraphQLEnumType({
         name: `HeadingLevels`,
         values: {
@@ -548,7 +548,7 @@ const {
           h6: { value: 6 },
         },
       })
-  
+
       const ExcerptFormats = new GraphQLEnumType({
         name: `ExcerptFormats`,
         values: {
@@ -557,7 +557,10 @@ const {
           MARKDOWN: { value: `markdown` },
         },
       })
-  
+      // const SectionType = new GraphQLObjectType({
+      //   name: `sectionType`,
+      //   fields: {}
+      // })
       const WordCountType = new GraphQLObjectType({
         name: `wordCount`,
         fields: {
@@ -572,7 +575,7 @@ const {
           },
         },
       })
-  
+
       return resolve({
         html: {
           type: GraphQLString,
@@ -589,6 +592,12 @@ const {
             })
           },
         },
+        // sections: {
+        //   type: new GraphQLList(GraphQLJSON),
+        //   resolve(markdownNode) {
+        //
+        //   }
+        // },
         excerpt: {
           type: GraphQLString,
           args: {
@@ -637,6 +646,7 @@ const {
             })
           },
         },
+
         headings: {
           type: new GraphQLList(HeadingType),
           args: {
@@ -692,7 +702,7 @@ const {
           type: WordCountType,
           resolve(markdownNode) {
             let counts = {}
-  
+
             unified()
               .use(parse)
               .use(
@@ -703,13 +713,13 @@ const {
               )
               .use(stringify)
               .processSync(markdownNode.internal.content)
-  
+
             return {
               paragraphs: counts.ParagraphNode,
               sentences: counts.SentenceNode,
               words: counts.WordNode,
             }
-  
+
             function count() {
               return counter
               function counter(tree) {
