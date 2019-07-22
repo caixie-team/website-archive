@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="430px" height="411px" viewBox="0 0 430 411" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>content/illustration/dev</title>
+    <desc>Created with Sketch.</desc>
+    <g id="content/illustration/dev" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(33.000000, 10.000000)">
+            <path d="M365,221.551691 L365,288.305455 L171.354962,401 L0,303.79746 L0,235.545532 L171.354962,136.022512 L365,221.551691 Z M0,233.979396 L171.354962,334.335663 L0,233.979396 Z M171.354962,334.335663 C171.354962,378.778554 171.354962,401 171.354962,401 L171.354962,334.335663 Z M171.221795,334.335663 L342.709924,233.979396" id="Path-5-Copy-5" stroke="#FFFFFF" fill="#2A2F36"></path>
+            <polygon id="Path-2" stroke="#FFFFFF" fill="#2A2F36" points="280.019084 78.0373357 280.019084 172.282626 194.341603 221.38494 108.664122 172.282626 108.664122 78.0373357 194.341603 27.7628205"></polygon>
+            <polygon id="Path-3" stroke="#FFFFFF" fill="#2A2F36" points="108.664122 79.2697676 194.341603 128.483261 85.6774809 284.15753 0 233.90486"></polygon>
+            <polyline id="Line-2" stroke="#FFFFFF" points="193.645038 170.705486 194.341603 128.483261 280.019084 78.1406467"></polyline>
+            <path d="M365,170.705486 L365,221.261068 L279.322519,270.363382 L193.645038,221.261068 L193.645038,170.602175 L279.322519,120.32766 L365,170.705486 Z M193.645038,170.705486 L279.322519,220.028755 L193.645038,170.705486 Z M279.322519,220.028755 L279.322519,270.363382 L279.322519,220.028755 Z M278.559371,220.028755 L365,170.705486" id="Path-5-Copy-6" stroke="#FFFFFF" fill="#2A2F36"></path>
+            <path d="M279,247.839827 L279,271.763772 L238.5,295 L198,271.763772 L198,247.790938 L238.5,224 L279,247.839827 Z M198,248 L238.5,271.261515 L198,248 Z M238.5,271.261515 L238.5,295 L238.5,271.261515 Z M238.139258,271.261515 L279,248" id="Path-5-Copy-7" stroke="#FFFFFF" fill="#2A2F36"></path>
+            <ellipse id="Oval" fill="#DC4133" cx="192.573529" cy="37.5981571" rx="37.5735294" ry="37.5981571"></ellipse>
+        </g>
+    </g>
+</svg>

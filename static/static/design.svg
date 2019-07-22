@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="430px" height="411px" viewBox="0 0 430 411" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>content/illustration/brand</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 51.5044735 0 154.513421 90.1294245 103.008947 90.1294245 0"></polygon>
+    </defs>
+    <g id="content/illustration/brand" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(33.000000, 0.000000)">
+            <g id="Group" fill="#2A2F36" stroke="#FFFFFF">
+                <path d="M1,109.148948 L1,323.750921 L1,109.148948 Z" id="Path-7" stroke-linecap="round" stroke-linejoin="round"></path>
+                <polygon id="Path-10" stroke-linecap="round" stroke-linejoin="round" points="48.2106509 134.901185 241.345132 27.6001982 194.134481 0 1 109.148948"></polygon>
+                <path d="M241.345132,27.6001982 L241.345132,105" id="Path"></path>
+            </g>
+            <g id="Group-3" transform="translate(0.782579, 64.496842)">
+                <g id="Group">
+                    <polyline id="Path-7" stroke="#FFFFFF" fill="#2A2F36" stroke-linecap="round" stroke-linejoin="round" points="47.4280719 70.4043427 47.4280719 231.503158 121 269.006316 121 109.148948 168.210651 134.901185 168.210651 349.503158"></polyline>
+                    <path d="M0.217421035,259.503158 L168.210651,347.503158" id="Path-16" stroke="#FFFFFF" fill="#2A2F36"></path>
+                    <polyline id="Path-11" stroke="#FFFFFF" fill="#2A2F36" stroke-linecap="round" stroke-linejoin="round" points="361.345132 27.6001982 361.345132 242.202171 168.210651 349.503158 168.210651 134.901185"></polyline>
+                    <polygon id="Path-10" stroke="#FFFFFF" fill="#2A2F36" stroke-linecap="round" stroke-linejoin="round" points="168.210651 134.901185 361.345132 27.6001982 314.134481 0 121 109.148948"></polygon>
+                    <polygon id="Path-13" stroke="#FFFFFF" fill="#2A2F36" stroke-linecap="round" stroke-linejoin="round" points="219.713179 164.945461 219.713179 267.954408 309.842604 216.449935 309.842604 113.440987"></polygon>
+                    <polyline id="Path-14" stroke="#FFFFFF" fill="#2A2F36" stroke-linecap="round" stroke-linejoin="round" points="264.777891 139.193224 264.777891 194.989737 309.842604 216.449935"></polyline>
+                    <path d="M264.777891,194.989737 L219.713179,220.741974" id="Path-15" stroke="#FFFFFF" fill="#2A2F36" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <g id="mask" transform="translate(219.713179, 113.440987)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <path stroke="#FFFFFF" d="M-0.5,51.2143177 L90.6294245,-0.861605985 L90.6294245,103.299103 L-0.5,155.375027 L-0.5,51.2143177 Z"></path>
+                        <ellipse id="Oval" fill="#DC4133" mask="url(#mask-2)" cx="42.0852541" cy="78.7739249" rx="28.4394151" ry="28.5142437"></ellipse>
+                    </g>
+                </g>
+            </g>
+            <path d="M121.668228,255.080877 L49,296.148948" id="Path-10" stroke="#FFFFFF" fill="#2A2F36" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

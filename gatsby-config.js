@@ -10,8 +10,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/data/project`,
-        name: "project",
+        path: `${__dirname}/src/data`,
+        name: "datas",
       },
     },
     `gatsby-transformer-sharp`,

@@ -1,0 +1,94 @@
+{
+  "data": {
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "html": "<p>Every great product starts with a clear strategy that is customer and market-driven, but to get there, you have to get clarity on what you’re building, who you’re building it for, and the goals you’d like to achieve. This is why we always begin with a Discovery phase, which helps executives, stakeholders, and our team get clear on the product direction, target audience, and business objectives.</p>",
+            "frontmatter": {
+              "title": "Discovery",
+              "image": {
+                "publicURL": "/static/strategy-dd2329ab3d9e08481c98fc35583eaf9a.svg"
+              }
+            }
+          }
+        },
+        {
+          "node": {
+            "html": "<p>With a clear strategy in place, we can begin planning the project from a visual perspective. Using industry standard tools, we start by mapping out the product, wireframing, then building an interactive prototype. As soon as we have a prototype, we start testing and incorporating user feedback; this type of early iteration is what makes the difference between a good and a great product.</p>",
+            "frontmatter": {
+              "title": "Design",
+              "image": {
+                "publicURL": "/static/design-f9730bbda982e96e31cbd191c631952c.svg"
+              }
+            }
+          }
+        },
+        {
+          "node": {
+            "html": "<p>We start development as early as possible, ensuring all aspects of the product – from design to usability – are working as expected. Before each sprint, we sit down with our clients to discuss priorities and develop a timeline focused on getting the product into the hands of the user early on. After that, we simply repeat this same process of planning, building, and iterating until the product is the best it can be.</p>",
+            "frontmatter": {
+              "title": "Development",
+              "image": {
+                "publicURL": "/static/dev-a72fe47229522cd40ecf4d8f147118b2.svg"
+              }
+            }
+          }
+        },
+        {
+          "node": {
+            "html": "<p>While various types of product and user testing are typically included in all of our projects, we also offer support and maintenance, as needed. And if you need another pair of hands, eyes, or brains, we can temporarily join your team or bring in the right people to get the job done.</p>",
+            "frontmatter": {
+              "title": "Support",
+              "image": {
+                "publicURL": "/static/testing-2722f34e051071e31734da11b7b0b04a.svg"
+              }
+            }
+          }
+        },
+        {
+          "node": {
+            "html": "<p>Want it all? Or just need a few things? No problem. You tell us what you’re looking for and we’ll come up with a plan that’s customized to your needs. </p>",
+            "frontmatter": {
+              "title": "End-to-End or À La Carte",
+              "image": {
+                "publicURL": "/static/alacarte-86c8789a1dceabda8ec879d56930d485.svg"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "process": {
+      "edges": [
+        {
+          "node": {
+            "html": "<p>The product discovery process is important because it helps teams build products that are vital to their customers, not simply nice to have. A necessary product is one that solves such a deep and genuine need for the customer that they feel unable to live without it. Examples range from Google search to smartphones to duct tape. Many of them evolve into verbs, as in “Google it.” The advantage here is obvious: Necessities enjoy higher demand and success.</p>\n<p>The difference between a necessity and a ‘nice to have’ product is effective product discovery. Without data to prove or disprove their assumptions, companies can waste tremendous amounts of money, time, and resources chasing unattainable or undesirable goals. To avoid product failure, companies must conduct product discovery that’s based upon data.</p>",
+            "frontmatter": {
+              "title": "Research & Discovery"
+            }
+          }
+        },
+        {
+          "node": {
+            "html": "<p>Creative concepts are based on the communication strategy and creative brief. This ensures that concepts are informed by a strong understanding of the situation, the audience, the channels that will be used, the objectives the campaign seeks to reach and the benefits the audience will respond to. The creative team develops multiple creative concepts based on this information and then concept tests them to determine which one resonates best with the audience.</p>\n<p>A creative concept is an overarching “Big Idea” that captures audience interest, influences their emotional response and inspires them to take action. It is a unifying theme that can be used across all campaign messages, calls to action, communication channels and audiences. Concepting is the bridge between strategy and tactics, taking you from gathering facts and getting organized to creating words and pictures.</p>",
+            "frontmatter": {
+              "title": "Concepting"
+            }
+          }
+        },
+        {
+          "node": {
+            "html": "<p>All great products start with a clear strategy that is customer and market-driven. Your strategy defines the direction of your product andwhat you want to achieve. Establishing this first aligns the organization and keeps everyone focused on the work that matters the most. It tells the team where the product is headed and what needs to be done to get there.</p>\n<p>The main purpose of a strategy is to align executives and other key stakeholders around how the product will achieve the high-level business objectives. It also provides the product manager with a clear direction to guide the team through implementation and to communicate the value of the product to cross-functional teams, such as sales, marketing, and support.</p>",
+            "frontmatter": {
+              "title": "Production"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "pageContext": {
+    "isCreatedByStatefulCreatePages": true
+  }
+}

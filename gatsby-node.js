@@ -59,7 +59,7 @@ exports.onCreateNode = async ({ node, getNode, actions, loadNodeContent }) => {
     createNodeField({
       node,
       name: `slug`,
-      value: templateKey === "project" ? templateKey + slug : slug,
+      value: templateKey === "project" || templateKey === "insight" ? templateKey + slug : slug
     })
 
     createNodeField({
@@ -135,7 +135,7 @@ exports.createPages = ({ graphql, actions }) => {
 
       if (node.frontmatter.templateKey === "insight") {
         createPage({
-          path: "insight" + node.fields.slug,
+          path: node.fields.slug,
           component: path.resolve(`src/templates/insight/index.js`),
           context: {
             // $id: String!, $prev: String!, $next: String!

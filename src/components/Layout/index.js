@@ -10,7 +10,7 @@ import Nav from 'components/Nav';
 import {lteSmallViewport} from 'lib/media-query';
 
 // import Nav from 'components/Nav';
-// import Footer from 'components/Footer';
+import Footer from 'components/Footer';
 
 import 'styles/global.css';
 
@@ -93,7 +93,7 @@ class Layout extends Component {
             <Nav light={light} />
             <div ref={this.content}>
               {children}
-              {/*{!hideFooter && <Footer />}*/}
+              {!hideFooter && <Footer />}
             </div>
           </div>
         </div>

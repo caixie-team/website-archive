@@ -1,0 +1,319 @@
+
+.heroText {
+    position: relative;
+    margin-top: 6rem;
+    padding-right: 15%;
+    z-index: 10;
+    font-size: 5.5rem;
+    line-height: 1.13;
+    text-align: left;
+    font-weight: 500;
+    background: radial-gradient(#363d47, rgba(54, 61, 71, 0) 50%);
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto
+}
+
+@media (max-width: 900px) {
+    .heroText {
+        margin: 2.5rem auto 0;
+        padding: 0;
+        font-size: 2.5rem
+    }
+}
+
+.lede {
+    position: relative;
+    margin: 7rem 0 0;
+    padding-right: 15%;
+    justify-content: flex-start;
+    -webkit-columns: 2;
+    column-count: 2;
+    grid-gap: 4rem;
+    gap: 4rem
+}
+
+@media (max-width: 900px) {
+    .lede {
+        display: block;
+        margin: 3rem auto 0;
+        padding: 0;
+        -webkit-columns: 1;
+        column-count: 1
+    }
+}
+
+.lede p {
+    line-height: 2
+}
+
+@media (max-width: 900px) {
+    .lede p {
+        margin: 0 0 1rem
+    }
+}
+
+.contact, .formula, .process, .services {
+    margin-top: 16rem
+}
+
+@media (max-width: 900px) {
+    .contact, .formula, .process, .services {
+        margin-top: 0
+    }
+}
+
+.contact ul, .formula ul, .process ul, .services ul {
+    list-style-type: none;
+    line-height: 2
+}
+
+.content {
+    margin-top: 2.13rem
+}
+
+.content h2 {
+    font-size: 4rem;
+    line-height: 1.13;
+    font-weight: 500
+}
+
+.contact {
+    margin-bottom: 17rem
+}
+
+@media (max-width: 900px) {
+    .contact {
+        margin-bottom: 10rem
+    }
+}
+
+.formula {
+    position: relative;
+    z-index: 1
+}
+
+.formulaBody {
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    grid-gap: 6rem;
+    gap: 6rem
+}
+
+@media (max-width: 900px) {
+    .formulaBody {
+        grid-template-columns: 1fr
+    }
+}
+
+.formulaBody h2 {
+    font-size: 4rem;
+    line-height: 1.2
+}
+
+@media (max-width: 900px) {
+    .formulaBody h2 {
+        font-size: 2.5rem;
+        line-height: 1.4;
+        -webkit-hyphens: manual;
+        -ms-hyphens: manual;
+        hyphens: manual
+    }
+}
+
+.formulaBody h3 {
+    font-size: 1.75rem;
+    font-weight: 500
+}
+
+.formulaBody h3 span {
+    color: #dc4133;
+    color: var(--c--planetary-red)
+}
+
+.formulaBody a {
+    display: block;
+    margin: 5rem 0 0;
+    text-decoration: none;
+    font-size: 1.75rem
+}
+
+@media (max-width: 900px) {
+    .formulaBody a {
+        margin: 1rem 0 0;
+        font-size: 1.5rem
+    }
+}
+
+.formulaBody a .arrow {
+    margin: 0 0 0 .75rem
+}
+
+.formulaItems {
+    list-style-type: none;
+    line-height: 2
+}
+
+.formulaItems li {
+    margin-bottom: 3.8rem;
+    padding-bottom: 3.8rem
+}
+
+@media (max-width: 900px) {
+    .formulaItems li {
+        margin-bottom: 0
+    }
+}
+
+.formulaItems li:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0
+}
+
+.services li {
+    display: grid;
+    position: relative;
+    margin-bottom: 2.6rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "head    head" "copy    image";
+    grid-column-gap: 6.4rem;
+    overflow: hidden
+}
+
+.services li:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-bottom: 1px solid #485059;
+    border-bottom: 1px solid var(--c--gray-border);
+    grid-column: 1/3
+}
+
+@media (max-width: 900px) {
+    .services li {
+        grid-template-columns: 1fr;
+        grid-template-areas: "head" "image" "copy"
+    }
+}
+
+.services li:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0
+}
+
+@media (max-width: 900px) {
+    .services .content h2 {
+        font-size: 1.75rem;
+        line-height: 1.4;
+        font-weight: 500
+    }
+}
+
+.services p {
+    margin: 2rem 0
+}
+
+.services p:last-child {
+    padding-bottom: 5.5rem
+}
+
+.services p:first-child {
+    margin-top: .5rem
+}
+
+.services .gatsby-image-wrapper {
+    margin: 2rem 0
+}
+
+.services .gatsby-image-wrapper:first-child {
+    margin-top: 1rem
+}
+
+.accordionItem {
+    cursor: pointer
+}
+
+.accordionItem h2 {
+    grid-area: head;
+    color: #9da7b3;
+    color: var(--c--text-secondary)
+}
+
+.accordionItem.allClosed h2, .accordionItem.open h2 {
+    color: var(--text)
+}
+
+.accordionItem.open .serviceImage, .accordionItem.open .serviceInfo {
+    opacity: 1
+}
+
+.serviceImage, .serviceInfo {
+    transition: opacity .2s ease-out .1s;
+    max-width: 100%;
+    opacity: 0
+}
+
+.serviceInfo {
+    grid-area: copy
+}
+
+.serviceImage {
+    padding-bottom: 4rem;
+    grid-area: image;
+    text-align: right
+}
+
+.serviceImage img {
+    max-width: 100%
+}
+
+@media (max-width: 900px) {
+    .serviceImage img {
+        margin-bottom: -1rem
+    }
+}
+
+.contactBody {
+    padding-top: 1.7rem;
+    font-size: 5.5rem;
+    line-height: 1.13;
+    font-weight: 500
+}
+
+@media (max-width: 900px) {
+    .contactBody {
+        padding-top: 0;
+        font-size: 2rem;
+        line-height: 1.4
+    }
+}
+
+.contactLink {
+    text-decoration: none;
+    font-style: normal;
+    color: #9da7b3;
+    color: var(--c--text-secondary);
+    border-bottom: 1px solid;
+    border-image-source: linear-gradient(90deg, #dc4133 12.5%, hsla(0, 0%, 100%, 0) 0);
+    border-image-source: linear-gradient(90deg, var(--c--planetary-red) 12.5%, hsla(0, 0%, 100%, 0) 0);
+    border-image-slice: 0 0 125;
+    border-image-repeat: repeat;
+    border-image-width: 0 0 1px
+}
+
+.contactLink:hover {
+    color: #dc4133;
+    color: var(--c--planetary-red)
+}
+
+@media (max-width: 900px) {
+    .contactLink {
+        border-image-source: linear-gradient(90deg, #dc4133 0, #dc4133 10%, transparent 0, transparent 50%, #dc4133 0, #dc4133 60%, transparent 0, transparent);
+        border-image-source: linear-gradient(90deg, var(--c--planetary-red) 0, var(--c--planetary-red) 10%, transparent 0, transparent 50%, var(--c--planetary-red) 0, var(--c--planetary-red) 60%, transparent 0, transparent);
+        border-image-slice: 0 0 40
+    }
+}

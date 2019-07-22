@@ -1,0 +1,154 @@
+.container {
+    display: grid;
+    margin-top: 16rem;
+    padding-bottom: 6rem;
+    grid-template-columns: 2.3fr 1.3fr 1.3fr 1fr 1fr;
+    grid-template-areas: "about     newbiz    join      work      internet" "logo      studio    address   gap       backToTop" "copyright copyright copyright copyright copyright";
+    grid-column-gap: 6rem;
+    grid-row-gap: 2.5rem;
+    line-height: 2
+}
+
+@media (max-width: 1024px) {
+    .container {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: "about     about     newbiz    join      join" "address   address   work      internet  studio" "logo      gap       gap       gap       backToTop" "copyright copyright copyright copyright copyright"
+    }
+}
+
+@media (max-width: 900px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 1.07rem;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "newbiz    join" "work      internet" "work      studio" "about     about" "logo      backToTop" "copyright copyright";
+        grid-column-gap: 1.5rem;
+        grid-row-gap: 1rem
+    }
+
+    .container [href^="mailto:"] span {
+        display: none
+    }
+}
+
+.container h3:not(:first-child) {
+    margin-top: 2rem
+}
+
+.container ul {
+    list-style-type: none
+}
+
+.container a, .container address, .container p, .container ul {
+    color: #9da7b3;
+    color: var(--c--text-secondary)
+}
+
+.container a {
+    text-decoration: none
+}
+
+.container a:hover {
+    color: #dc4133;
+    color: var(--c--planetary-red)
+}
+
+.about {
+    grid-area: about
+}
+
+.copyright {
+    grid-area: copyright
+}
+
+.newbiz {
+    grid-area: newbiz
+}
+
+.work {
+    grid-area: work
+}
+
+.address {
+    grid-area: address
+}
+
+@media (max-width: 900px) {
+    .address {
+        display: none
+    }
+}
+
+.join {
+    grid-area: join
+}
+
+.internet {
+    grid-area: internet
+}
+
+.studio {
+    grid-area: studio
+}
+
+.logo {
+    grid-area: logo
+}
+
+.logo svg {
+    height: 2rem
+}
+
+@media (max-width: 900px) {
+    .logo svg {
+        height: 2.25rem
+    }
+}
+
+.logo path, .logo polygon {
+    fill: #dc4133;
+    fill: var(--c--planetary-red)
+}
+
+.backToTop, .logo {
+    display: flex;
+    align-items: flex-end
+}
+
+@media (max-width: 900px) {
+    .backToTop, .logo {
+        padding-top: 2.5rem;
+        padding-bottom: 2rem
+    }
+}
+
+.backToTop {
+    grid-area: backToTop
+}
+
+@media (max-width: 900px) {
+    .backToTop {
+        margin-right: 1rem;
+        justify-content: flex-end
+    }
+}
+
+.backToTop a {
+    color: #fff;
+    color: var(--c--text)
+}
+
+.backToTop .arrow {
+    margin-left: .5rem
+}
+
+.gap {
+    grid-area: gap
+}
+
+@media (max-width: 900px) {
+    .gap {
+        display: none
+    }
+}
