@@ -6,21 +6,19 @@ import {OutboundLink} from 'gatsby-plugin-google-analytics';
 import Arrow from 'components/Arrow';
 import Link from 'components/Link';
 
-import {ReactComponent as Logo} from '../../images/logo-full.svg';
+import {ReactComponent as Logo} from '../../img/logo-full.svg';
 
 import styles from './styles.module.css';
 
 export default () => (
   <footer className={styles.container}>
     <section className={styles.about}>
-      <h3>About</h3>
+      <h3>关于</h3>
       <p>
-        Founded in NYC in 2013, Planetary is a digital studio specializing in
-        product development. Its creative team is made up of designers, developers,
-        and product experts working all around the world.
+        采撷于2015年在北京成立，是一家专注于产品开发的数字公司。团队由来自各知名企业的设计师、开发人员和产品专家组成。
       </p>
     </section>
-    <section className={styles.newbiz}>
+{/*    <section className={styles.newbiz}>
       <h3>New Business</h3>
       <address>
         Haley Lloyd<br />
@@ -28,16 +26,24 @@ export default () => (
         +1 347 706 4006<br />
         <OutboundLink href="mailto:haley@planetary.co">haley@<span>planetary.co</span></OutboundLink>
       </address>
+    </section>*/}
+    <section className={styles.newbiz}>
+      <h3>公司</h3>
+      <ul>
+        <li><Link to="/careers">合伙</Link></li>
+        <li><Link to="/insights">见解</Link></li>
+        <li><Link to="/about">关于我们</Link></li>
+      </ul>
     </section>
     <section className={styles.join}>
-      <h3>Join Us</h3>
-      <OutboundLink href="mailto:careers@planetary.co">careers@<span>planetary.co</span></OutboundLink>
+      <h3>加入我们</h3>
+      <OutboundLink href="mailto:careers@caixie.top">careers@<span>caixie.top</span></OutboundLink>
 
-      <h3>Everything Else</h3>
-      <OutboundLink href="mailto:team@planetary.co">team@<span>planetary.co</span></OutboundLink>
+      <h3>其他</h3>
+      <OutboundLink href="mailto:team@planetary.co">team@<span>caixie.top</span></OutboundLink>
     </section>
     <section className={styles.work}>
-      <h3>Our Work</h3>
+      <h3>我们的工作</h3>
       <ul>
         <StaticQuery
           query={graphql`
@@ -70,7 +76,7 @@ export default () => (
       </ul>
     </section>
     <section className={styles.internet}>
-      <h3>Internet</h3>
+      <h3>社交网络</h3>
       <ul>
         <li><OutboundLink href="https://twitter.com/plntary">Twitter</OutboundLink></li>
         <li><OutboundLink href="https://instagram.com/planetarycorp">Instagram</OutboundLink></li>
@@ -79,22 +85,15 @@ export default () => (
     <section className={styles.logo}>
       <Logo title="Planetary" />
     </section>
-    <section className={styles.studio}>
-      <h3>Studio</h3>
-      <ul>
-        <li><Link to="/careers">Careers</Link></li>
-        <li><Link to="/insights">Insights</Link></li>
-        <li><Link to="/about">About Us</Link></li>
-      </ul>
-    </section>
-    <section className={styles.address}>
-      <h3>Address</h3>
+
+{/*    <section className={styles.address}>
+      <h3></h3>
       <address>
         Planetary Corporation<br />
         500 Waverly Ave #2G<br />
         New York, NY 11238
       </address>
-    </section>
+    </section>*/}
     <section className={styles.gap}>
       &nbsp;
     </section>
@@ -106,7 +105,7 @@ export default () => (
           window.scroll({top: 0, left: 0, behavior: 'smooth'});
         }}
       >
-        Back to Top
+        回到顶部
         <Arrow
           color="red"
           direction="up"
@@ -115,7 +114,7 @@ export default () => (
       </a>
     </section>
     <div className={styles.copyright}>
-      Copyright &copy; 2019 Planetary Corporation
+      &copy; 2019 北京采撷科技
     </div>
   </footer>
 );

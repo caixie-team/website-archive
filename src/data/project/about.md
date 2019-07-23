@@ -2,53 +2,32 @@
 id: 'about'
 templateKey: 'about'
 title: "Page"
-ledeHtml: "<p>Clients come to us when they have a great idea, but need a team of seasoned experts to help them bring it to life. Over the years, we’ve worked with clients like Buzzfeed, General Electric, and Hermès to concept and build everything from websites and apps to interactive event installations. Whether you’re a new startup or a Fortune 500 company, our team of designers, developers, and product experts will treat you with the same level of respect and care that we’ve given all of our clients since 2013.</p>\n"
-statsLedeHtml: "<p>As a globally-distributed team, we’re able to attract the very best people, regardless of where they reside. This means you always get access to top-quality talent, and our employees are always delivering their best work, as they’re able to create where they feel most comfortable. While we maintain a small office in Brooklyn, our team is based worldwide, stretching over several time zones and diverse cultures.</p>\n"
+ledeHtml: "<p>我们是一个 Geek 团队，于 2015 年正式组建了采撷科技，目标是为传统企业转型、创业公司、创新产品提供最优质的技术服务。从<strong>互联网教育</strong>解决方案开始，我们积累了很多互联网教育行业经验；在为一些合作伙伴策划、研发<strong>创新型产品</strong>的过程中，深入实践了敏捷开发与 MVP 策略；并且结合各类<strong>UE/UX 设计、营销产品研发</strong>等工作，不仅提高了业务能力也积累了一定的行业<strong>经验与见解</strong></p>\n"
+statsLedeHtml: "<p>过去的几年里，通过案例研究、技术服务以及新产品研发，使我们产生了大量针对<strong>MVP</strong>(最小可行产品)的实践成果。这些经验与技术，可为你的业务、创新产品以更少的风险和成本达成目标。<br> <strong>或许这并不是你所希望的一夜之间的成功，但我们相信已经非常接近了。</strong></p>\n"
 stats: [
         {
+            "number": "10",
+            "metric": "多年的行业经验",
+            "description": "我们的客户包含腾讯视频、迪士尼英语等"
+        },
+        {
             "number": "50",
-            "metric": "Collective years experience",
-            "description": "Working with clients like Google and Amazon."
-        },
-        {
-            "number": "103",
-            "metric": "Projects completed",
-            "description": "For Fortune 500s, startups, non-profits, and small businesses."
-        },
-        {
-            "number": "6",
-            "metric": "Years in the biz",
-            "description": "Born in Brooklyn, NY and serving customers across the globe."
+            "metric": "项目完成",
+            "description": "为上市公司、初创企业、非盈利组织和小型企业完成了众多项目。"
         },
         {
             "number": "4",
-            "metric": "Time zones",
-            "description": "We work around the clock, so we built Spacetime to make it easier."
-        },
-        {
-            "number": "4",
-            "metric": "Countries represented",
-            "description": "Currently in the US, Canada, Germany, and Paraguay."
-        },
-        {
-            "number": "6",
-            "metric": "Canine coworkers",
-            "description": "Even though they don’t write code, we love them anyway."
+            "metric": "商业服务",
+            "description": "公司诞生与北京，服务于全国客户"
         }
     ]
 clients: [
-    "Google",
-    "Amazon",
-    "Buzzfeed",
-    "Prudential",
-    "Hermès",
-    "Blue Diamond",
-    "Univision",
-    "GE",
-    "Fusion",
-    "American Express",
-    "Estée Lauder",
-    "Pepsi",
-    "Jawbone"
+    "腾讯视频",
+    "老娘舅",
+    "迪士尼英语",
+    "中国科学院计算所",
+    "财联网",
+    "江苏至优教育",
+    "北京博雅智学"
 ]
 ---

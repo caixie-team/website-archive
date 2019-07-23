@@ -7,7 +7,7 @@ const yaml = require("js-yaml")
 const { createFilePath } = require(`gatsby-source-filesystem`)
 // const str = require('./src/data/projects/amazon.md')
 const fs = require("fs")
-
+const { base64, fluid, fixed } = require("gatsby-plugin-sharp")
 // const fs = require("fs")
 // const str = fs.readFileSync(path.join(__dirname, "src/data/project", "amazon.md"))
 // const res = matter(str, { excerpt: true, sections: true });
@@ -23,7 +23,27 @@ const fs = require("fs")
 // console.log('show sections ...')
 // console.log(res.sections)
 // console.log(JSON.stringify(res, null, 2))
-exports.setFieldsOnGraphQLNodeType = () => {}
+const {
+  GraphQLObjectType,
+  GraphQLString,
+  GraphQLList,
+  GraphQLJSON,
+} = require(`gatsby/graphql`)
+const Remark = require(`remark`)
+const _ = require(`lodash`)
+function getFileObject(absolutePath, name = `test`) {
+  return {
+    id: `${absolutePath} absPath of file`,
+    name: name,
+    absolutePath,
+    extension: `png`,
+    internal: {
+      contentDigest: `1234`,
+    },
+  }
+}
+
+
 exports.onCreateNode = async ({ node, getNode, actions, loadNodeContent }) => {
   const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark` || node.internal.type === `Mdx`) {
@@ -31,6 +51,38 @@ exports.onCreateNode = async ({ node, getNode, actions, loadNodeContent }) => {
 
     const slug = createFilePath({ node, getNode })
     const templateKey = node.frontmatter.templateKey
+    node.sections = []
+    if (node.frontmatter.sections) {
+      for (let section of node.frontmatter.sections) {
+        if (section.type === 'image') {
+          const absolutePath = path.join(__dirname, "src/data/project/" + section.image)
+          const file = getFileObject(absolutePath)
+          const result = await fluid({ file })
+          section.image = result
+        }
+        if (section.type === 'imagegrid') {
+          console.log('这里是 image grid ....')
+          let images = []
+          for(let image of section.images) {
+            console.log(image)
+            const absolutePath = path.join(__dirname, "src/data/project/" + image)
+            const file = getFileObject(absolutePath)
+            console.log(file)
+            const result = await fluid({file})
+            console.log(result)
+            // section.images.push(result)
+            images.push(result)
+          //   image = result
+          }
+          section.images = images
+        }
+        // console.log('... section ...')
+        // console.log(section)
+        // console.log('... section ...')
+        node.sections.push(section)
+      }
+    }
+    delete node.frontmatter.sections
     // console.log("on create node ....")
     // console.log(node)
     // console.log(content)
@@ -59,7 +111,7 @@ exports.onCreateNode = async ({ node, getNode, actions, loadNodeContent }) => {
     createNodeField({
       node,
       name: `slug`,
-      value: templateKey === "project" || templateKey === "insight" ? templateKey + slug : slug
+      value: templateKey === "project" || templateKey === "insight" ? templateKey + slug : slug,
     })
 
     createNodeField({
@@ -70,7 +122,66 @@ exports.onCreateNode = async ({ node, getNode, actions, loadNodeContent }) => {
 
   }
 }
+exports.setFieldsOnGraphQLNodeType = async ({
+                                        type,
+                                        pathPrefix,
+                                        getNode,
+                                        getNodesByType,
+                                        cache,
+                                        reporter,
+                                        ...rest
+                                      },
+                                      pluginOptions) => {
+  if (type.name !== `MarkdownRemark`) {
+    return {}
+  }
 
+  return new Promise((resolve, reject) => {
+    // Setup Remark.
+    const {
+      blocks,
+      commonmark = true,
+      footnotes = true,
+      gfm = true,
+      pedantic = true,
+    } = pluginOptions
+
+    const remarkOptions = {
+      commonmark,
+      footnotes,
+      gfm,
+      pedantic,
+    }
+    if (_.isArray(blocks)) {
+      remarkOptions.blocks = blocks
+    }
+    let remark = new Remark().data(`settings`, remarkOptions)
+
+    return resolve({
+      sections: {
+        type: new GraphQLList(GraphQLJSON),
+        resolve(markdownNode) {
+          console.log("get secitons...")
+          // console.log(markdownNode.sections)
+          // return []
+          // console.log(markdownNode.sections)
+          // if (markdownNode.sections) {
+          //   for (let section of markdownNode.sections) {
+          //     if (section.image) {
+          //       const absolutePath = path.join(__dirname, "src/data/project/" + section.image)
+          //       const file = getFileObject(absolutePath)
+          //       const result = fluid({ file })
+          //       section.image = result
+          //     }
+          //   }
+          // }
+          return markdownNode.sections
+        }
+      },
+    })
+  })
+
+}
 const getTags = posts => {
   const tags = posts.reduce((ac, edge) => {
     return get(edge, "node.frontmatter.tags")
@@ -122,6 +233,7 @@ exports.createPages = ({ graphql, actions }) => {
     })
     edges.forEach(({ node, index, array }) => {
       if (node.frontmatter.templateKey === "project") {
+        console.log(node.id + node.fields.slug)
         createPage({
           path: node.fields.slug,
           component: path.resolve(`src/templates/project/index.js`),

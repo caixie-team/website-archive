@@ -177,18 +177,18 @@ class Nav extends Component {
         to: "/",
         label: "工作",
       },
-      {
-        to: "/approach",
-        label: "方法策略",
-      },
+      // {
+      //   to: "/approach",
+      //   label: "方法策略",
+      // },
       {
         to: "/about",
         label: "关于",
       },
-      {
-        to: "/insights",
-        label: "观点",
-      },
+      // {
+      //   to: "/insights",
+      //   label: "观点",
+      // },
       {
         to: "/contact",
         label: "与我们一起工作",

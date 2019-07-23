@@ -7,6 +7,10 @@
 module.exports = {
   /* Your site config here */
   plugins: [
+    "gatsby-plugin-postcss",
+    "gatsby-plugin-css-customs",
+    `gatsby-transformer-yaml`,
+    `gatsby-plugin-transition-link`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -14,22 +18,16 @@ module.exports = {
         name: "datas",
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
-      resolve: "gatsby-plugin-svgr",
+      resolve: "gatsby-source-filesystem",
       options: {
-        prettier: true,         // use prettier to format JS code output (default)
-        svgo: true,             // use svgo to optimize SVGs (default)
-        svgoConfig: {
-          removeViewBox: true, // remove viewBox when possible (default)
-          cleanupIDs: true,    // remove unused IDs and minify remaining IDs (default)
-        },
+        path: `${__dirname}/src/img`,
+        name: "images",
       },
     },
-    `gatsby-plugin-transition-link`,
-    "gatsby-plugin-postcss",
-    "gatsby-plugin-css-customs",
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+
     // {
     //   resolve: `gatsby-plugin-postcss`,
     //   options: {
@@ -44,22 +42,15 @@ module.exports = {
     //   },
     // },
     {
-      // resolve: `gatsby-transformer-remark`,
-      resolve: require.resolve(`./plugins/gatsby-transformer-remark`),
+      resolve: `gatsby-transformer-remark`,
+      // resolve: require.resolve(`./plugins/gatsby-transformer-remark`),
       options: {
-        // CommonMark mode (default: true)
-        commonmark: true,
-        // Footnotes mode (default: true)
-        footnotes: true,
-        // Pedantic mode (default: true)
-        pedantic: true,
-        // GitHub Flavored Markdown mode (default: true)
-        gfm: true,
-        sections: true,
-        // Plugins configs
         plugins: [
+          // {
+          //   resolve: require.resolve(`./plugins/gatsby-remark-sections`)
+          // },
           {
-            resolve: require.resolve(`./plugins/gatsby-remark-sections`)
+            resolve: "gatsby-remark-relative-images",
           },
           {
             resolve: `gatsby-remark-images`,
@@ -67,20 +58,28 @@ module.exports = {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
-              maxWidth: 590,
+              maxWidth: 2048,
             },
           },
           {
-            resolve: "gatsby-remark-images-grid",
+            resolve: "gatsby-remark-copy-linked-files",
             options: {
-              className: "myCustomClassName",
-              gridGap: "20px",
-              margin: "20px auto",
+              destinationDir: "static",
             },
           },
         ],
       },
     },
-    `gatsby-transformer-yaml`,
+    {
+      resolve: "gatsby-plugin-svgr",
+      options: {
+        prettier: true,         // use prettier to format JS code output (default)
+        svgo: true,             // use svgo to optimize SVGs (default)
+        svgoConfig: {
+          removeViewBox: true, // remove viewBox when possible (default)
+          cleanupIDs: true,    // remove unused IDs and minify remaining IDs (default)
+        },
+      },
+    },
   ],
 }

@@ -1,0 +1,485 @@
+{
+  "data": {
+    "project": {
+      "html": "",
+      "sections": [
+        {
+          "body": "<p>For the first time in <strong>more than a decade</strong>, Blue Diamond Almonds was ready to redesign their website and online store.</p>\n<p>The task ahead of us was formidable: taking over 10 years of content, over 100 products, and over 100 years of history, and condensing it all into an organized, engaging, and purposeful website for their loyal customers. Their product lines, from Snack Almonds to Nut-Thins to Almond Breeze, all serve different customers and needs; they wanted to unify brand representation of the website while maintaining a unique feel for each product line. From start to initial launch, we worked closely with Blue Diamond and their social media partner, Fanscape, for six months.</p>\n",
+          "header": "Introduction",
+          "type": "text"
+        },
+        {
+          "stat1LabelHtml": "<p><strong>Reduction in user bounce rate</strong> across the entire site</p>\n",
+          "stat1Value": "15%",
+          "stat2LabelHtml": "<p><strong>Increase in organic traffic</strong> to the site and store</p>\n",
+          "stat2Value": "85%",
+          "stat3LabelHtml": "<p><strong>Of steady and continuous improvement</strong> of all metrics following launch</p>\n",
+          "stat3Value": "12 mo",
+          "type": "stats"
+        },
+        {
+          "alt": "Almonds and Almond Breeze",
+          "image": {
+            "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAMEBf/EABYBAQEBAAAAAAAAAAAAAAAAAAADBP/aAAwDAQACEAMQAAAB1Iwqier/xAAXEAEBAQEAAAAAAAAAAAAAAAACAQMR/9oACAEBAAEFAnyHtjW2ZX//xAAYEQEBAAMAAAAAAAAAAAAAAAABAAIDMf/aAAgBAwEBPwF5Y6xL/8QAFhEBAQEAAAAAAAAAAAAAAAAAARAh/9oACAECAQE/AR2f/8QAGRABAAIDAAAAAAAAAAAAAAAAAQAhAhEi/9oACAEBAAY/AlyZWridT//EABkQAQADAQEAAAAAAAAAAAAAAAEAESExQf/aAAgBAQABPyG0KuRRRRahrk0Qb8n/2gAMAwEAAgADAAAAEIAP/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARMf/aAAgBAwEBPxAIMesAVb//xAAZEQEAAgMAAAAAAAAAAAAAAAABABEhMWH/2gAIAQIBAT8QyDkUvU//xAAaEAEBAAMBAQAAAAAAAAAAAAABEQAhYTFx/9oACAEBAAE/EKB3KFJ8mSBo6F8V5jtDbMS8uf/Z",
+            "aspectRatio": 2.3801652892561984,
+            "src": "/static/45fd1082117115b3d615fc1902f0097e/44778/bd_img1_fw-2x.jpg",
+            "srcSet": "/static/45fd1082117115b3d615fc1902f0097e/67d69/bd_img1_fw-2x.jpg 360w,\n/static/45fd1082117115b3d615fc1902f0097e/5a6ad/bd_img1_fw-2x.jpg 720w,\n/static/45fd1082117115b3d615fc1902f0097e/44778/bd_img1_fw-2x.jpg 1440w,\n/static/45fd1082117115b3d615fc1902f0097e/9f6aa/bd_img1_fw-2x.jpg 2160w,\n/static/45fd1082117115b3d615fc1902f0097e/b0f59/bd_img1_fw-2x.jpg 2880w",
+            "srcSetType": "image/jpeg",
+            "sizes": "(max-width: 1440px) 100vw, 1440px",
+            "originalImg": "/static/45fd1082117115b3d615fc1902f0097e/b0f59/bd_img1_fw-2x.jpg",
+            "originalName": "bd_img1_fw-2x.jpg",
+            "presentationWidth": 1440,
+            "presentationHeight": 605
+          },
+          "type": "image"
+        },
+        {
+          "body": "<p>To truly understand the heart of Blue Diamond, we disassembled and dissected every aspect of the business.</p>\n<p>We worked with each individual Blue Diamond product team, eCommerce team, support team, recipes team, and social partner to identify key moments and information that was important to consumers. Using everything we collected, our designers set out to uncover the brand voice and style that could represent Blue Diamond as a whole, while also providing a unique voice to each product line. In addition, we worked closely with their packaging and product teams to ensure that any nutrition data was digitized for all products and information about the new website printed on packaging was coordinated with the launch.</p>\n",
+          "bodySecondary": "<ul>\n<li>Generated and utilized high-quality photography to increase engagement</li>\n<li>Unified all product lines into a cohesive brand style and voice</li>\n<li>Incorporated the recipes database, product locator, and eCommerce platform</li>\n<li>Provided enhanced online customer support capabilities</li>\n</ul>\n",
+          "header": "Execution",
+          "type": "text"
+        },
+        {
+          "charactersImage": {
+            "id": "65dfadb9-faff-5dab-9022-4bc4f77d2a4c",
+            "children": [],
+            "parent": "___SOURCE___",
+            "internal": {
+              "contentDigest": "a1cc885c17cc4234a020015112148aaa",
+              "type": "File",
+              "mediaType": "image/svg+xml",
+              "description": "File \"static/assets/bd_font_characters.svg\"",
+              "owner": "gatsby-source-filesystem"
+            },
+            "sourceInstanceName": "uploads",
+            "absolutePath": "/opt/build/repo/static/assets/bd_font_characters.svg",
+            "relativePath": "bd_font_characters.svg",
+            "extension": "svg",
+            "size": 65890,
+            "prettySize": "65.9 kB",
+            "modifiedTime": "2019-06-21T18:22:09.924Z",
+            "accessTime": "2019-06-21T18:22:09.924Z",
+            "changeTime": "2019-06-21T18:22:10.762Z",
+            "birthTime": "2019-06-21T18:22:10.762Z",
+            "root": "/",
+            "dir": "/opt/build/repo/static/assets",
+            "base": "bd_font_characters.svg",
+            "ext": ".svg",
+            "name": "bd_font_characters",
+            "relativeDirectory": "",
+            "dev": 2064,
+            "mode": 33188,
+            "nlink": 1,
+            "uid": 2500,
+            "gid": 0,
+            "rdev": 0,
+            "blksize": 4096,
+            "ino": 23069027,
+            "blocks": 136,
+            "atimeMs": 1561141329923.6304,
+            "mtimeMs": 1561141329923.6304,
+            "ctimeMs": 1561141330761.7075,
+            "birthtimeMs": 1561141330761.7075,
+            "atime": "2019-06-21T18:22:09.924Z",
+            "mtime": "2019-06-21T18:22:09.924Z",
+            "ctime": "2019-06-21T18:22:10.762Z",
+            "birthtime": "2019-06-21T18:22:10.762Z"
+          },
+          "colors": [
+            {
+              "color": "#1daeec"
+            },
+            {
+              "color": "#5dcfa7"
+            },
+            {
+              "color": "#fdbb30"
+            },
+            {
+              "color": "#ffffff"
+            },
+            {
+              "color": "#223b4c"
+            }
+          ],
+          "fontImage": {
+            "id": "0cd0cd5d-77b0-55bd-9593-a7afc3455591",
+            "children": [],
+            "parent": "___SOURCE___",
+            "internal": {
+              "contentDigest": "fa88c8c145b05a05967e952fe50933cc",
+              "type": "File",
+              "mediaType": "image/svg+xml",
+              "description": "File \"static/assets/bd_font_name.svg\"",
+              "owner": "gatsby-source-filesystem"
+            },
+            "sourceInstanceName": "uploads",
+            "absolutePath": "/opt/build/repo/static/assets/bd_font_name.svg",
+            "relativePath": "bd_font_name.svg",
+            "extension": "svg",
+            "size": 2109,
+            "prettySize": "2.11 kB",
+            "modifiedTime": "2019-06-21T18:22:09.925Z",
+            "accessTime": "2019-06-21T18:22:09.924Z",
+            "changeTime": "2019-06-21T18:22:10.762Z",
+            "birthTime": "2019-06-21T18:22:10.762Z",
+            "root": "/",
+            "dir": "/opt/build/repo/static/assets",
+            "base": "bd_font_name.svg",
+            "ext": ".svg",
+            "name": "bd_font_name",
+            "relativeDirectory": "",
+            "dev": 2064,
+            "mode": 33188,
+            "nlink": 1,
+            "uid": 2500,
+            "gid": 0,
+            "rdev": 0,
+            "blksize": 4096,
+            "ino": 23068946,
+            "blocks": 8,
+            "atimeMs": 1561141329923.6304,
+            "mtimeMs": 1561141329924.6306,
+            "ctimeMs": 1561141330761.7075,
+            "birthtimeMs": 1561141330761.7075,
+            "atime": "2019-06-21T18:22:09.924Z",
+            "mtime": "2019-06-21T18:22:09.925Z",
+            "ctime": "2019-06-21T18:22:10.762Z",
+            "birthtime": "2019-06-21T18:22:10.762Z"
+          },
+          "fontname": "Graphik Pro",
+          "glyphImage": {
+            "id": "07eca9f2-c33c-5a80-b190-596cfb692d12",
+            "children": [],
+            "parent": "___SOURCE___",
+            "internal": {
+              "contentDigest": "5cb8714a74815028270179718e18abde",
+              "type": "File",
+              "mediaType": "image/svg+xml",
+              "description": "File \"static/assets/bd_font_outline.svg\"",
+              "owner": "gatsby-source-filesystem"
+            },
+            "sourceInstanceName": "uploads",
+            "absolutePath": "/opt/build/repo/static/assets/bd_font_outline.svg",
+            "relativePath": "bd_font_outline.svg",
+            "extension": "svg",
+            "size": 893,
+            "prettySize": "893 B",
+            "modifiedTime": "2019-06-21T18:22:09.925Z",
+            "accessTime": "2019-06-21T18:22:09.925Z",
+            "changeTime": "2019-06-21T18:22:10.762Z",
+            "birthTime": "2019-06-21T18:22:10.762Z",
+            "root": "/",
+            "dir": "/opt/build/repo/static/assets",
+            "base": "bd_font_outline.svg",
+            "ext": ".svg",
+            "name": "bd_font_outline",
+            "relativeDirectory": "",
+            "dev": 2064,
+            "mode": 33188,
+            "nlink": 1,
+            "uid": 2500,
+            "gid": 0,
+            "rdev": 0,
+            "blksize": 4096,
+            "ino": 23069175,
+            "blocks": 8,
+            "atimeMs": 1561141329924.6306,
+            "mtimeMs": 1561141329924.6306,
+            "ctimeMs": 1561141330761.7075,
+            "birthtimeMs": 1561141330761.7075,
+            "atime": "2019-06-21T18:22:09.925Z",
+            "mtime": "2019-06-21T18:22:09.925Z",
+            "ctime": "2019-06-21T18:22:10.762Z",
+            "birthtime": "2019-06-21T18:22:10.762Z"
+          },
+          "type": "styleguide"
+        },
+        {
+          "columns": 2,
+          "images": [
+            {
+              "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEC/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEEBf/aAAwDAQACEAMQAAABlLs7AH//xAAUEAEAAAAAAAAAAAAAAAAAAAAQ/9oACAEBAAEFAn//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAQ/9oACAEBAAY/An//xAAXEAEAAwAAAAAAAAAAAAAAAAABABAR/9oACAEBAAE/ISOV/9oADAMBAAIAAwAAABB7z//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABkQAQACAwAAAAAAAAAAAAAAAAEAESExYf/aAAgBAQABPxCcRS9sjuf/2Q==",
+              "aspectRatio": 2.3801652892561984,
+              "src": "/static/d5337e54f250a9b260a14ddaec89cd5e/44778/bd_img2-2x.jpg",
+              "srcSet": "/static/d5337e54f250a9b260a14ddaec89cd5e/67d69/bd_img2-2x.jpg 360w,\n/static/d5337e54f250a9b260a14ddaec89cd5e/5a6ad/bd_img2-2x.jpg 720w,\n/static/d5337e54f250a9b260a14ddaec89cd5e/44778/bd_img2-2x.jpg 1440w,\n/static/d5337e54f250a9b260a14ddaec89cd5e/9f6aa/bd_img2-2x.jpg 2160w,\n/static/d5337e54f250a9b260a14ddaec89cd5e/b0f59/bd_img2-2x.jpg 2880w",
+              "srcSetType": "image/jpeg",
+              "sizes": "(max-width: 1440px) 100vw, 1440px",
+              "originalImg": "/static/d5337e54f250a9b260a14ddaec89cd5e/b0f59/bd_img2-2x.jpg",
+              "originalName": "bd_img2-2x.jpg",
+              "presentationWidth": 1440,
+              "presentationHeight": 605
+            },
+            {
+              "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAARABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQFAgP/xAAXAQADAQAAAAAAAAAAAAAAAAAAAgMB/9oADAMBAAIQAxAAAAGynojZLVBH6hKobT//xAAcEAACAgIDAAAAAAAAAAAAAAABAgADEzMRIUH/2gAIAQEAAQUCqUxlBRsiwkTrnGryvbZv9//EABkRAAIDAQAAAAAAAAAAAAAAAABBAxARIf/aAAgBAwEBPwHWcInX/8QAFxEAAwEAAAAAAAAAAAAAAAAAARARMf/aAAgBAgEBPwGRDF//xAAdEAACAgEFAAAAAAAAAAAAAAAAAQIRIQMQEnGB/9oACAEBAAY/Ak6wOJXG/d7ms9jNMZ//xAAfEAEAAQQBBQAAAAAAAAAAAAABABEhMUEQUWFxobH/2gAIAQEAAT8hLVHRfHeH0L6gbX3FAbFpaNIFouL5j4j24T64+yf/2gAMAwEAAgADAAAAEDcfgP/EABsRAAIBBQAAAAAAAAAAAAAAAAABERBBUbHB/9oACAEDAQE/EFJ5E36OlP/EABgRAQEAAwAAAAAAAAAAAAAAAAERABAh/9oACAECAQE/EB8EmR2f/8QAIBAAAgIBAwUAAAAAAAAAAAAAAREAIbExQXFRYaHB8P/aAAgBAQABPxAGbMmRMjEAgFEd9cwFtCiJIxlsABuBytoimmJQ8IsAADUJOukwJ43rPk7Cf//Z",
+              "aspectRatio": 1.1666666666666667,
+              "src": "/static/c87f41f37c277c866dd4c6ec445eab87/505ec/bd_img3-2x.jpg",
+              "srcSet": "/static/c87f41f37c277c866dd4c6ec445eab87/fd60c/bd_img3-2x.jpg 175w,\n/static/c87f41f37c277c866dd4c6ec445eab87/77a1c/bd_img3-2x.jpg 350w,\n/static/c87f41f37c277c866dd4c6ec445eab87/505ec/bd_img3-2x.jpg 700w,\n/static/c87f41f37c277c866dd4c6ec445eab87/cddb0/bd_img3-2x.jpg 1050w,\n/static/c87f41f37c277c866dd4c6ec445eab87/c1515/bd_img3-2x.jpg 1400w",
+              "srcSetType": "image/jpeg",
+              "sizes": "(max-width: 700px) 100vw, 700px",
+              "originalImg": "/static/c87f41f37c277c866dd4c6ec445eab87/c1515/bd_img3-2x.jpg",
+              "originalName": "bd_img3-2x.jpg",
+              "presentationWidth": 700,
+              "presentationHeight": 600
+            },
+            {
+              "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAARABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQCA//EABcBAAMBAAAAAAAAAAAAAAAAAAECAwT/2gAMAwEAAhADEAAAAaaMaA5KzrkZ7UCqf//EAB0QAAICAQUAAAAAAAAAAAAAAAECABEDEhMhMUH/2gAIAQEAAQUC08tkpQ7gFVtQDNqCejr/xAAZEQABBQAAAAAAAAAAAAAAAAAAAhASIVH/2gAIAQMBAT8BsirX/8QAGREAAgMBAAAAAAAAAAAAAAAAAAEREkFR/9oACAECAQE/AVBdcNEf/8QAGhAAAwEAAwAAAAAAAAAAAAAAAAEhESAyUf/aAAgBAQAGPwIi0tNunZtecf/EABsQAAIDAAMAAAAAAAAAAAAAAAERACExIGFx/9oACAEBAAE/ISW9e9QgmtXkWrI5IPGiEaWIlACu+Ff/2gAMAwEAAgADAAAAEO8Hgf/EABgRAQEBAQEAAAAAAAAAAAAAAAEAETFB/9oACAEDAQE/EEGodhjW+E9v/8QAGREBAQADAQAAAAAAAAAAAAAAAQARMUGB/9oACAECAQE/EGUFnLevbQv/xAAeEAACAQQDAQAAAAAAAAAAAAABEQAhMUFRYXGxkf/aAAgBAQABPxAFiY0tbT5CKwOWmVIEnGQnHEBU6NQgAS6IN7cEahoo4o2pl2fYfcsT/9k=",
+              "aspectRatio": 1.1666666666666667,
+              "src": "/static/b3099854c004a1191564c6e32022132b/505ec/bd_img4-2x.jpg",
+              "srcSet": "/static/b3099854c004a1191564c6e32022132b/fd60c/bd_img4-2x.jpg 175w,\n/static/b3099854c004a1191564c6e32022132b/77a1c/bd_img4-2x.jpg 350w,\n/static/b3099854c004a1191564c6e32022132b/505ec/bd_img4-2x.jpg 700w,\n/static/b3099854c004a1191564c6e32022132b/cddb0/bd_img4-2x.jpg 1050w,\n/static/b3099854c004a1191564c6e32022132b/c1515/bd_img4-2x.jpg 1400w",
+              "srcSetType": "image/jpeg",
+              "sizes": "(max-width: 700px) 100vw, 700px",
+              "originalImg": "/static/b3099854c004a1191564c6e32022132b/c1515/bd_img4-2x.jpg",
+              "originalName": "bd_img4-2x.jpg",
+              "presentationWidth": 700,
+              "presentationHeight": 600
+            }
+          ],
+          "type": "imagegrid"
+        },
+        {
+          "columns": 1,
+          "images": [
+            {
+              "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQDBf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAAB0q5bLSjT/8QAGBAAAwEBAAAAAAAAAAAAAAAAAQIDABL/2gAIAQEAAQUCWx3XQejKRdzjZjhVhv/EABURAQEAAAAAAAAAAAAAAAAAAAAS/9oACAEDAQE/AZS//8QAFREBAQAAAAAAAAAAAAAAAAAAABL/2gAIAQIBAT8BpT//xAAbEAACAQUAAAAAAAAAAAAAAAAAEYEBAhAxQf/aAAgBAQAGPwIdqpAtwcz/AP/EABwQAAMAAQUAAAAAAAAAAAAAAAABEVEhMUGBkf/aAAgBAQABPyFhLSZqPSmBDu6DSMKuDYIf/9oADAMBAAIAAwAAABC/H//EABURAQEAAAAAAAAAAAAAAAAAABAh/9oACAEDAQE/EKP/xAAWEQEBAQAAAAAAAAAAAAAAAAAAESH/2gAIAQIBAT8Qwt//xAAeEAEAAgIBBQAAAAAAAAAAAAABABEhMWFBgZHB0f/aAAgBAQABPxC0bcPo4mJQaabXXfFRTqA0IJsDw/ZmCC7xezvBUrFtw78z/9k=",
+              "aspectRatio": 1.6941176470588235,
+              "src": "/static/84200f30cafc9b671b67cb16fa5d206e/44778/bd_img5-2x.jpg",
+              "srcSet": "/static/84200f30cafc9b671b67cb16fa5d206e/67d69/bd_img5-2x.jpg 360w,\n/static/84200f30cafc9b671b67cb16fa5d206e/5a6ad/bd_img5-2x.jpg 720w,\n/static/84200f30cafc9b671b67cb16fa5d206e/44778/bd_img5-2x.jpg 1440w,\n/static/84200f30cafc9b671b67cb16fa5d206e/9f6aa/bd_img5-2x.jpg 2160w,\n/static/84200f30cafc9b671b67cb16fa5d206e/b0f59/bd_img5-2x.jpg 2880w",
+              "srcSetType": "image/jpeg",
+              "sizes": "(max-width: 1440px) 100vw, 1440px",
+              "originalImg": "/static/84200f30cafc9b671b67cb16fa5d206e/b0f59/bd_img5-2x.jpg",
+              "originalName": "bd_img5-2x.jpg",
+              "presentationWidth": 1440,
+              "presentationHeight": 850
+            }
+          ],
+          "type": "imagegrid"
+        },
+        {
+          "alt": "Blue Diamond Almonds",
+          "image": {
+            "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAP/xAAVAQEBAAAAAAAAAAAAAAAAAAAEA//aAAwDAQACEAMQAAABqLHiCq//xAAXEAADAQAAAAAAAAAAAAAAAAAAAQIS/9oACAEBAAEFAsyUlK0f/8QAGREAAwADAAAAAAAAAAAAAAAAAAECAxET/9oACAEDAQE/AckrbOcn/8QAGBEBAAMBAAAAAAAAAAAAAAAAAQACEVH/2gAIAQIBAT8BquE17P/EABoQAAICAwAAAAAAAAAAAAAAAAABESEiMTL/2gAIAQEABj8CWU2bk5R//8QAGBABAQEBAQAAAAAAAAAAAAAAAREAQWH/2gAIAQEAAT8hSkCYfMcQu6Ttv//aAAwDAQACAAMAAAAQhC//xAAaEQACAgMAAAAAAAAAAAAAAAAAARExUaHR/9oACAEDAQE/EEYVUCxaXD//xAAbEQACAQUAAAAAAAAAAAAAAAAAAREhMVGR0f/aAAgBAgEBPxB6peR5m30//8QAGRABAQEAAwAAAAAAAAAAAAAAAREAITFR/9oACAEBAAE/EEa4gkHuqQOh1DMwqnKKb//Z",
+            "aspectRatio": 2.3801652892561984,
+            "src": "/static/eaf51df837d512fe06a219cf78a08d1a/44778/bd_img6-2x.jpg",
+            "srcSet": "/static/eaf51df837d512fe06a219cf78a08d1a/67d69/bd_img6-2x.jpg 360w,\n/static/eaf51df837d512fe06a219cf78a08d1a/5a6ad/bd_img6-2x.jpg 720w,\n/static/eaf51df837d512fe06a219cf78a08d1a/44778/bd_img6-2x.jpg 1440w,\n/static/eaf51df837d512fe06a219cf78a08d1a/9f6aa/bd_img6-2x.jpg 2160w,\n/static/eaf51df837d512fe06a219cf78a08d1a/b0f59/bd_img6-2x.jpg 2880w",
+            "srcSetType": "image/jpeg",
+            "sizes": "(max-width: 1440px) 100vw, 1440px",
+            "originalImg": "/static/eaf51df837d512fe06a219cf78a08d1a/b0f59/bd_img6-2x.jpg",
+            "originalName": "bd_img6-2x.jpg",
+            "presentationWidth": 1440,
+            "presentationHeight": 605
+          },
+          "type": "image"
+        },
+        {
+          "columns": 1,
+          "images": [
+            {
+              "base64": "data:image/png;base64,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",
+              "aspectRatio": 0.4515539305301645,
+              "src": "/static/167a80345967364ee9b0a8d636c6407e/93444/bd_img7-2x.png",
+              "srcSet": "/static/167a80345967364ee9b0a8d636c6407e/81b5a/bd_img7-2x.png 309w,\n/static/167a80345967364ee9b0a8d636c6407e/d7145/bd_img7-2x.png 618w,\n/static/167a80345967364ee9b0a8d636c6407e/93444/bd_img7-2x.png 1235w,\n/static/167a80345967364ee9b0a8d636c6407e/8f9e6/bd_img7-2x.png 1853w,\n/static/167a80345967364ee9b0a8d636c6407e/96870/bd_img7-2x.png 2470w",
+              "srcSetType": "image/png",
+              "sizes": "(max-width: 1235px) 100vw, 1235px",
+              "originalImg": "/static/167a80345967364ee9b0a8d636c6407e/96870/bd_img7-2x.png",
+              "originalName": "bd_img7-2x.png",
+              "density": 72,
+              "presentationWidth": 1235,
+              "presentationHeight": 2735
+            }
+          ],
+          "type": "imagegrid"
+        },
+        {
+          "body": "<p>The site needed to be structured enough to support the wide array of complex information, from recipes, to product data, nutrition labels, and shoppable products.</p>\n<p>We built the entire site using React backed by Contentful, an API-based content management system. This allowed us complete flexibility necessary to display all of the different pages and content types, while giving the Blue Diamond team autonomy to easily update site content, create pages, add and update products, and even set the styles of product sections without developer assistance. The store utilized the Shopify API to create a seamless integration with the rest of the website, as well as leveraging a third-party nutrition label service, to provide shoppers with complete product information.</p>\n",
+          "bodySecondary": "<ul>\n<li>Contentful powers the content delivery on the backend</li>\n<li>Shopify seamlessly integrated as the new online store</li>\n<li>Component-based architecture for ease of developer updates</li>\n</ul>\n",
+          "header": "Technical Approach",
+          "type": "text"
+        },
+        {
+          "frameColor": "#202429",
+          "images": [
+            {
+              "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAiABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAEDBAUC/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAejfisTUsLz/AFqhLEFkAH//xAAaEAACAwEBAAAAAAAAAAAAAAABAgAREgMg/9oACAEBAAEFAm6sIjgxtWVOlVhBH1B0OlNgi5Xn/8QAFREBAQAAAAAAAAAAAAAAAAAAASD/2gAIAQMBAT8Ba//EABURAQEAAAAAAAAAAAAAAAAAAAEg/9oACAECAQE/ASv/xAAbEAAABwEAAAAAAAAAAAAAAAAAARARICEiMf/aAAgBAQAGPwLKUDYNSUY1DkP/xAAdEAACAgIDAQAAAAAAAAAAAAABEQAhMVEQQWGB/9oACAEBAAE/ITNAQ+50BDuzNKvYhBk4MTAPtwEFFWb1TEjqsS2ncBC1AOnL5Of/2gAMAwEAAgADAAAAEJ/MzPPP/8QAGREBAAIDAAAAAAAAAAAAAAAAAQARICFB/9oACAEDAQE/EFTolxF7h//EABgRAQEAAwAAAAAAAAAAAAAAAAERECAx/9oACAECAQE/EBTuBhJp/8QAIBABAAICAQQDAAAAAAAAAAAAAQARITFBUWFxkYGx0f/aAAgBAQABPxBzVkNn9hl82QS+2Zt5Rwbv3FYDYo1cFsC2K3+NSn6O6/coU9mXLJUUK7dHA3qzbnmXiKRSVzNLFBmYYtmrRqeeWuFWa1LdX3P/2Q==",
+              "aspectRatio": 0.5923566878980892,
+              "src": "/static/c0107e1d3795661e32cba120986639e3/30620/bd_img9-2x.jpg",
+              "srcSet": "/static/c0107e1d3795661e32cba120986639e3/ac8dc/bd_img9-2x.jpg 93w,\n/static/c0107e1d3795661e32cba120986639e3/dad93/bd_img9-2x.jpg 186w,\n/static/c0107e1d3795661e32cba120986639e3/30620/bd_img9-2x.jpg 372w,\n/static/c0107e1d3795661e32cba120986639e3/f2b34/bd_img9-2x.jpg 558w,\n/static/c0107e1d3795661e32cba120986639e3/474c3/bd_img9-2x.jpg 744w",
+              "srcSetType": "image/jpeg",
+              "sizes": "(max-width: 372px) 100vw, 372px",
+              "originalImg": "/static/c0107e1d3795661e32cba120986639e3/474c3/bd_img9-2x.jpg",
+              "originalName": "bd_img9-2x.jpg",
+              "density": 1829,
+              "presentationWidth": 372,
+              "presentationHeight": 628
+            },
+            {
+              "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAiABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAEDBAX/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAezHNujazhx6LqJhtBaNQV//xAAcEAACAQUBAAAAAAAAAAAAAAAAAhIBAxETISD/2gAIAQEAAQUCkUYkW3gu4mWXM4M0HSVNHe+P/8QAFxEBAAMAAAAAAAAAAAAAAAAAARARIP/aAAgBAwEBPwFahcf/xAAXEQEAAwAAAAAAAAAAAAAAAAABEBEg/9oACAECAQE/AS4DH//EAB4QAAEEAQUAAAAAAAAAAAAAAAABEBEhMRIgMkFx/9oACAEBAAY/Aim9eKnqS9MNhUEzRxXZ/8QAHBAAAwEAAgMAAAAAAAAAAAAAAAERITFhIHGh/9oACAEBAAE/IVioXoomJt6yqjjl/COyCaQC9tXnD2GE+2oRTdcYXwX/2gAMAwEAAgADAAAAEDDLAXAP/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAEhERD/2gAIAQMBAT8QW2EG7ETv/8QAGBEBAQEBAQAAAAAAAAAAAAAAAQAREEH/2gAIAQIBAT8QCNLWH1se/wD/xAAgEAEAAgICAQUAAAAAAAAAAAABABEhMUFRYXGBkbHx/9oACAEBAAE/EHogiXarLV4225X7iitHyxXoUch0QRZBdXfmd5b0gpwOXJdh53AaF4K70TxezMpwg7QpqoifGOXBh+VLXDKrUt7Z/9k=",
+              "aspectRatio": 0.5923566878980892,
+              "src": "/static/834b14e09152c7857d49575ff118a2aa/30620/bd_img10-2x.jpg",
+              "srcSet": "/static/834b14e09152c7857d49575ff118a2aa/ac8dc/bd_img10-2x.jpg 93w,\n/static/834b14e09152c7857d49575ff118a2aa/dad93/bd_img10-2x.jpg 186w,\n/static/834b14e09152c7857d49575ff118a2aa/30620/bd_img10-2x.jpg 372w,\n/static/834b14e09152c7857d49575ff118a2aa/f2b34/bd_img10-2x.jpg 558w,\n/static/834b14e09152c7857d49575ff118a2aa/474c3/bd_img10-2x.jpg 744w",
+              "srcSetType": "image/jpeg",
+              "sizes": "(max-width: 372px) 100vw, 372px",
+              "originalImg": "/static/834b14e09152c7857d49575ff118a2aa/474c3/bd_img10-2x.jpg",
+              "originalName": "bd_img10-2x.jpg",
+              "density": 1829,
+              "presentationWidth": 372,
+              "presentationHeight": 628
+            },
+            {
+              "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAiABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQFAwL/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/9oADAMBAAIQAxAAAAFfh15uokGLTR5U6M3gOnMD/8QAGxAAAgIDAQAAAAAAAAAAAAAAAAIBEgMREwT/2gAIAQEAAQUCX2ZZO1TpJg1ZsiNKNdUJiBJrFW1CtvTnRy7nRz//xAAVEQEBAAAAAAAAAAAAAAAAAAAQIf/aAAgBAwEBPwFj/8QAFxEAAwEAAAAAAAAAAAAAAAAAABARAf/aAAgBAgEBPwGlU1//xAAeEAABAgcBAAAAAAAAAAAAAAAAAhEBECEiMjORcf/aAAgBAQAGPwKiIMeyucq482NSjWs1LMldMo9M1dP/xAAhEAACAQMEAwEAAAAAAAAAAAAAAREhMYFBUXHxEGGR0f/aAAgBAQABPyF3koZO5JPketEKa1VDpk2g7QWzA9l8KBrLKmc63HRNeEJo5Y4OiX6dk8W7Af/aAAwDAQACAAMAAAAQ5x6zDD//xAAYEQADAQEAAAAAAAAAAAAAAAAAESEBEP/aAAgBAwEBPxBYIjo+v//EABcRAQADAAAAAAAAAAAAAAAAAAEQIEH/2gAIAQIBAT8QVDKH/8QAIhABAQABAgUFAAAAAAAAAAAAAREAITEQYcHR8EFxgZHh/9oACAEBAAE/EF7qEpbr74rBBpRXtjdpPz3xmCtWBBvDlxXYDBphiFSkchZ3ryZNsUqDo5oRp2ROWMVN6gdctiiA/vgwrv5HPJbfezxLrn//2Q==",
+              "aspectRatio": 0.5923566878980892,
+              "src": "/static/e2271fddd6be68c57afaef1a7dd0af77/30620/bd_img11-2x.jpg",
+              "srcSet": "/static/e2271fddd6be68c57afaef1a7dd0af77/ac8dc/bd_img11-2x.jpg 93w,\n/static/e2271fddd6be68c57afaef1a7dd0af77/dad93/bd_img11-2x.jpg 186w,\n/static/e2271fddd6be68c57afaef1a7dd0af77/30620/bd_img11-2x.jpg 372w,\n/static/e2271fddd6be68c57afaef1a7dd0af77/f2b34/bd_img11-2x.jpg 558w,\n/static/e2271fddd6be68c57afaef1a7dd0af77/474c3/bd_img11-2x.jpg 744w",
+              "srcSetType": "image/jpeg",
+              "sizes": "(max-width: 372px) 100vw, 372px",
+              "originalImg": "/static/e2271fddd6be68c57afaef1a7dd0af77/474c3/bd_img11-2x.jpg",
+              "originalName": "bd_img11-2x.jpg",
+              "density": 1829,
+              "presentationWidth": 372,
+              "presentationHeight": 628
+            }
+          ],
+          "staggered": true,
+          "type": "imagegrid"
+        },
+        {
+          "columns": 1,
+          "images": [
+            {
+              "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAeABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUBAwQC/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAWxcpTUbxeVTGEvKRf/EABwQAAIBBQEAAAAAAAAAAAAAAAABEQIDEBMyEv/aAAgBAQABBQKGjyRcK+YxVy8bEbEbEf/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABwQAAICAgMAAAAAAAAAAAAAAAABEUEQcSIyUf/aAAgBAQAGPwJ8SfTpI9ZehQsWWWf/xAAdEAACAgIDAQAAAAAAAAAAAAAAARExQWEhgaGx/9oACAEBAAE/IVJOawlZCqh4CRx3cHrELi4FR7BiZHwVGsaxrH//2gAMAwEAAgADAAAAEN/R8P/EABgRAAMBAQAAAAAAAAAAAAAAAAABERAh/9oACAEDAQE/EOLGqQ//xAAXEQEBAQEAAAAAAAAAAAAAAAAAASER/9oACAECAQE/ENrUrr//xAAfEAEAAgICAgMAAAAAAAAAAAABABEhMVFxQdFhwfH/2gAIAQEAAT8QR0GhG3mVikCFih54lyhlsximcamnUeiikcb884Zo6gMpZkOcS6BBSiLs39TRLM6Pg9xWnJ0e5+Qe5//Z",
+              "aspectRatio": 0.6688341848583372,
+              "src": "/static/ea41fbab7438d0084fe841ed1440aead/44778/bd_img12-2x.jpg",
+              "srcSet": "/static/ea41fbab7438d0084fe841ed1440aead/67d69/bd_img12-2x.jpg 360w,\n/static/ea41fbab7438d0084fe841ed1440aead/5a6ad/bd_img12-2x.jpg 720w,\n/static/ea41fbab7438d0084fe841ed1440aead/44778/bd_img12-2x.jpg 1440w,\n/static/ea41fbab7438d0084fe841ed1440aead/9f6aa/bd_img12-2x.jpg 2160w,\n/static/ea41fbab7438d0084fe841ed1440aead/b0f59/bd_img12-2x.jpg 2880w",
+              "srcSetType": "image/jpeg",
+              "sizes": "(max-width: 1440px) 100vw, 1440px",
+              "originalImg": "/static/ea41fbab7438d0084fe841ed1440aead/b0f59/bd_img12-2x.jpg",
+              "originalName": "bd_img12-2x.jpg",
+              "presentationWidth": 1440,
+              "presentationHeight": 2153
+            }
+          ],
+          "type": "imagegrid"
+        },
+        {
+          "columns": 3,
+          "frameColor": "#202429",
+          "fullWidth": true,
+          "images": [
+            {
+              "base64": "data:image/png;base64,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",
+              "aspectRatio": 0.5586690017513135,
+              "src": "/static/e236099be7ef213bfd36f02eed31024d/c5079/bd_img13-2x.png",
+              "srcSet": "/static/e236099be7ef213bfd36f02eed31024d/02e5a/bd_img13-2x.png 80w,\n/static/e236099be7ef213bfd36f02eed31024d/3d285/bd_img13-2x.png 160w,\n/static/e236099be7ef213bfd36f02eed31024d/c5079/bd_img13-2x.png 319w,\n/static/e236099be7ef213bfd36f02eed31024d/6ee5a/bd_img13-2x.png 479w,\n/static/e236099be7ef213bfd36f02eed31024d/909f6/bd_img13-2x.png 638w",
+              "srcSetType": "image/png",
+              "sizes": "(max-width: 319px) 100vw, 319px",
+              "originalImg": "/static/e236099be7ef213bfd36f02eed31024d/909f6/bd_img13-2x.png",
+              "originalName": "bd_img13-2x.png",
+              "density": 72,
+              "presentationWidth": 319,
+              "presentationHeight": 571
+            },
+            {
+              "base64": "data:image/png;base64,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",
+              "aspectRatio": 0.5586690017513135,
+              "src": "/static/ca9ae185390b7585e296ed3be2d5a329/c5079/bd_img14-2x.png",
+              "srcSet": "/static/ca9ae185390b7585e296ed3be2d5a329/02e5a/bd_img14-2x.png 80w,\n/static/ca9ae185390b7585e296ed3be2d5a329/3d285/bd_img14-2x.png 160w,\n/static/ca9ae185390b7585e296ed3be2d5a329/c5079/bd_img14-2x.png 319w,\n/static/ca9ae185390b7585e296ed3be2d5a329/6ee5a/bd_img14-2x.png 479w,\n/static/ca9ae185390b7585e296ed3be2d5a329/909f6/bd_img14-2x.png 638w",
+              "srcSetType": "image/png",
+              "sizes": "(max-width: 319px) 100vw, 319px",
+              "originalImg": "/static/ca9ae185390b7585e296ed3be2d5a329/909f6/bd_img14-2x.png",
+              "originalName": "bd_img14-2x.png",
+              "density": 72,
+              "presentationWidth": 319,
+              "presentationHeight": 571
+            },
+            {
+              "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAkCAYAAACJ8xqgAAAACXBIWXMAAAsSAAALEgHS3X78AAAD9ElEQVRIx51WaW8bVRTNr4UPFUJ8Aok/gJCqfqJUQv2AiIqEoFJEW4FUaKnaCJrFuz2JnXh3bGe8O/E28w733PFMxlsa90nPnredd+49996ZHQA/wGuudMMHYww+1EJ7zPws2z878uOEFoKN7W4Px4k0klZW+7uDCFInORzFU2i1u+tAte3I5HC+qM11vbXh1bUe/vcohvTpGSKJDBKZUwW/bLUDQHODqkzJ8Gr5lru2NQyNAnKh3rQNmRTKVVQvGjg5Kyibk1xeTSU7PnMumrR03zp/K6DrugqYPS8KkAfAwzSzcWljNpthNJ5gMpliMLxCfzDEaDS+HbBx2VLAXL6IWPpEGbFXhG2314fd7qDXH2wyeRHQcQhoG5qZy5dwKv8EzWTPkRa2cXlmJ3hIjJXnG4YyUapeGDKispnsmQL7PuM82WuwuiYACYMuAHKiabcNfUdGZ4WyOp3jLZS+AZw5Dqr1hommLBzGUgpKc8mQTAnMC4qVGs6LZeRLFWU8Gq8Kw8DWOJTNajJ9lVKWJT1MYCsnfe5PuqAuylMgx3EW/Mg+F8VBrd40FOJ9JIFYiipnAwBeQlCNSwmryXS60XRlyEG5VjeWmBifq0tTi+WaBnjKyomZVZ2XfXp4KrFJMRkhYXE8hhKH4iND/1EQX1mazBD67ziubmAmMUuY3+y8nGcYowGg70OaTGcTgP8EqwgbP1zuqnQAKIqaSDKj5sVEbfqRz6q2+C0nIlFlXiIxq6qrPyfTVR/6DC09XNBwoel+iBxEk4FAZJyV9GzaLditzkrGBIBlyRSyop/IkAA0n2MCka0XVl5osQBTENbNq+vRKkNho3Hoh0dGgGguAag+wf2CwXm/jFEUrq0AfkyBXRYmCBumUKvTNdI1BNqdHsfoSjbwvyPli6EVzojlvhCHtrx0xFfGjzWmHc04L1aC+GM23Qb40SZvKlsL1Sb01lu50VsDRpMx8vXy2qL6QUD/0GXfRtWu6dju9PEuksRsOrkVdOU1qpvmG7/9bQ/3vn+It1Ycv+8fIpLNY3w9hP/uvjugPPL3wV4En333Ap8+/BNfPX6K3ZdvpAJdyLKr61sx5OB99BA/P93Dr3+8xoMnf+Hz+7t48ffb7U32N2YTx9h//gSJN89gxY5w+Oq5ZImlO7cE9CYGwwGa9SrqtTKG3Tamkrt86W8vijRmD8tVrWGjbrdRqjX4ItMK1BsMN4LeavJs5sB13IUDrrtY8s2aj6VhCNAsV+GxM0O110Oh1UJvPFrHLHxOP+fcdQxd401X2jV888t9fP3oS0TziYDlxg9O6T8tfxJ7m71DbsvCwe4XSP/4CSaVI2/NdRbSO0Rq/3/fZLrGRhZxHQAAAABJRU5ErkJggg==",
+              "aspectRatio": 0.5596491228070175,
+              "src": "/static/64481c3c4c3aaa9a5eb8e7fa7e4d2ecc/c5079/bd_img15-2x.png",
+              "srcSet": "/static/64481c3c4c3aaa9a5eb8e7fa7e4d2ecc/02e5a/bd_img15-2x.png 80w,\n/static/64481c3c4c3aaa9a5eb8e7fa7e4d2ecc/3d285/bd_img15-2x.png 160w,\n/static/64481c3c4c3aaa9a5eb8e7fa7e4d2ecc/c5079/bd_img15-2x.png 319w,\n/static/64481c3c4c3aaa9a5eb8e7fa7e4d2ecc/6ee5a/bd_img15-2x.png 479w,\n/static/64481c3c4c3aaa9a5eb8e7fa7e4d2ecc/909f6/bd_img15-2x.png 638w",
+              "srcSetType": "image/png",
+              "sizes": "(max-width: 319px) 100vw, 319px",
+              "originalImg": "/static/64481c3c4c3aaa9a5eb8e7fa7e4d2ecc/909f6/bd_img15-2x.png",
+              "originalName": "bd_img15-2x.png",
+              "density": 72,
+              "presentationWidth": 319,
+              "presentationHeight": 570
+            }
+          ],
+          "type": "imagegrid"
+        },
+        {
+          "columns": 1,
+          "images": [
+            {
+              "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAe1RcMvM4P8A/8QAFxABAQEBAAAAAAAAAAAAAAAAABMREP/aAAgBAQABBQLOYsqq/8QAFhEAAwAAAAAAAAAAAAAAAAAAAAER/9oACAEDAQE/Aaio/8QAFhEAAwAAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AYyM/8QAFRABAQAAAAAAAAAAAAAAAAAAADH/2gAIAQEABj8CRERH/8QAHRAAAgICAwEAAAAAAAAAAAAAAAERMVHwIYGR0f/aAAgBAQABPyFrfC6ISpLwQw8KfZrJrJ//2gAMAwEAAgADAAAAEHTv/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxAP/8QAFhEAAwAAAAAAAAAAAAAAAAAAARAR/9oACAECAQE/EDRf/8QAHhAAAgEEAwEAAAAAAAAAAAAAAREAITFR8EGh0fH/2gAIAQEAAT8QHAAAwB8izNNzAUzaN80LI9N8QhTXqafE/9k=",
+              "aspectRatio": 1.4845360824742269,
+              "src": "/static/6112566050e6e23aa865f61ecad817ee/44778/bd_img16-2x.jpg",
+              "srcSet": "/static/6112566050e6e23aa865f61ecad817ee/67d69/bd_img16-2x.jpg 360w,\n/static/6112566050e6e23aa865f61ecad817ee/5a6ad/bd_img16-2x.jpg 720w,\n/static/6112566050e6e23aa865f61ecad817ee/44778/bd_img16-2x.jpg 1440w,\n/static/6112566050e6e23aa865f61ecad817ee/9f6aa/bd_img16-2x.jpg 2160w,\n/static/6112566050e6e23aa865f61ecad817ee/b0f59/bd_img16-2x.jpg 2880w",
+              "srcSetType": "image/jpeg",
+              "sizes": "(max-width: 1440px) 100vw, 1440px",
+              "originalImg": "/static/6112566050e6e23aa865f61ecad817ee/b0f59/bd_img16-2x.jpg",
+              "originalName": "bd_img16-2x.jpg",
+              "presentationWidth": 1440,
+              "presentationHeight": 970
+            },
+            {
+              "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAA7ABQDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAECBAUDBv/EABcBAQEBAQAAAAAAAAAAAAAAAAECAAP/2gAMAwEAAhADEAAAAb/WjKHoZBzvcjaXaKhcDOLkiEbZ0c1FegPPCf/EACAQAAICAQMFAAAAAAAAAAAAAAEDAAIREBIhBBMiI0H/2gAIAQEAAQUCWbG1t0q8YW2ss3Bs0G3YVAhcPTpzzPLTmDQA4xNsZapYLeqjlinzT//EABcRAAMBAAAAAAAAAAAAAAAAAAABESD/2gAIAQMBAT8BpVqH/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAERAyD/2gAIAQIBAT8BSg8+qf/EACUQAAIBAQcEAwAAAAAAAAAAAAABEQIDEiAhIjFBEDJRYXKRof/aAAgBAQAGPwJp8GmDXVDM3DG1VPobuI7RaTOg2Nv026cYbytFHyIdqr0+RJ1r7wf/xAAfEAACAgMAAgMAAAAAAAAAAAAAAREhMUFRcaEQgfD/2gAIAQEAAT8hbKnLMFDormxWCEvECmBnMCGE/CkeSVuyqfHZIt9jtFvyTp7i6JtjDX2I594kvotFuRW0Nmxj/IaH3i6TNhrIj4M//9oADAMBAAIAAwAAABDM9jIkGTH/xAAYEQADAQEAAAAAAAAAAAAAAAAAAREQMf/aAAgBAwEBPxCm7BHWuFWUjLP/xAAYEQEBAQEBAAAAAAAAAAAAAAABEQAQQf/aAAgBAgEBPxARFyLa6HvA0zNG/8QAIRABAAICAgIDAQEAAAAAAAAAAQARITFBUWFxgZHBoeH/2gAIAQEAAT8QyxhejrUCHMTmj5fMfvgKyM+Co6phTuvUVQm7mnHiAKuQ0I+oBVVeCnOOOJrzRQ0N9/XMYvbLZ/sVQwJtJWevWYx8Gy9/59wdWLQU3T1cqwuwmeRzqFFNccjm/wAiXaFetQVaWKpiuSIDOFWB4b/I2XENhVJaCwqBIMorxjPx4lKvVsz7gKP7AMwZn//Z",
+              "aspectRatio": 0.34050602979427763,
+              "src": "/static/0cc138ab433c47e4f4ece5ea9c47434c/44778/bd_img17-2x.jpg",
+              "srcSet": "/static/0cc138ab433c47e4f4ece5ea9c47434c/67d69/bd_img17-2x.jpg 360w,\n/static/0cc138ab433c47e4f4ece5ea9c47434c/5a6ad/bd_img17-2x.jpg 720w,\n/static/0cc138ab433c47e4f4ece5ea9c47434c/44778/bd_img17-2x.jpg 1440w,\n/static/0cc138ab433c47e4f4ece5ea9c47434c/9f6aa/bd_img17-2x.jpg 2160w,\n/static/0cc138ab433c47e4f4ece5ea9c47434c/b0f59/bd_img17-2x.jpg 2880w",
+              "srcSetType": "image/jpeg",
+              "sizes": "(max-width: 1440px) 100vw, 1440px",
+              "originalImg": "/static/0cc138ab433c47e4f4ece5ea9c47434c/b0f59/bd_img17-2x.jpg",
+              "originalName": "bd_img17-2x.jpg",
+              "presentationWidth": 1440,
+              "presentationHeight": 4229
+            }
+          ],
+          "type": "imagegrid"
+        }
+      ],
+      "frontmatter": {
+        "title": "Blue Diamond",
+        "summary": "We redesigned and rebuilt the Blue Diamond website from the ground-up.",
+        "workType": [
+          "Website",
+          "Branding",
+          "eCommerce"
+        ],
+        "hero": {
+          "childImageSharp": {
+            "fluid": {
+              "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgT/xAAWAQEBAQAAAAAAAAAAAAAAAAADAAH/2gAMAwEAAhADEAAAAe6dMuSEW//EABgQAAIDAAAAAAAAAAAAAAAAABARAAEh/9oACAEBAAEFAlK0pD//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAaEAEBAAMBAQAAAAAAAAAAAAABEQAQMSFB/9oACAEBAAE/ITxjlZzQXv0mQYa//9oADAMBAAIAAwAAABAUz//EABYRAAMAAAAAAAAAAAAAAAAAABARIf/aAAgBAwEBPxCsf//EABYRAQEBAAAAAAAAAAAAAAAAAAEQMf/aAAgBAgEBPxAxn//EABoQAQEAAwEBAAAAAAAAAAAAAAERABAhUXH/2gAIAQEAAT8Qsnwr8xZQFA0AekoLyYI1i3rr/9k=",
+              "aspectRatio": 1.6,
+              "src": "/static/b5a087b681a853a56eef732eae348d40/f72fa/blue-diamond-hero.jpg",
+              "srcSet": "/static/b5a087b681a853a56eef732eae348d40/293a8/blue-diamond-hero.jpg 720w,\n/static/b5a087b681a853a56eef732eae348d40/ca467/blue-diamond-hero.jpg 1440w,\n/static/b5a087b681a853a56eef732eae348d40/f72fa/blue-diamond-hero.jpg 2880w",
+              "srcWebp": "/static/b5a087b681a853a56eef732eae348d40/80712/blue-diamond-hero.webp",
+              "srcSetWebp": "/static/b5a087b681a853a56eef732eae348d40/58b20/blue-diamond-hero.webp 720w,\n/static/b5a087b681a853a56eef732eae348d40/44c66/blue-diamond-hero.webp 1440w,\n/static/b5a087b681a853a56eef732eae348d40/80712/blue-diamond-hero.webp 2880w",
+              "sizes": "(max-width: 2880px) 100vw, 2880px"
+            }
+          }
+        },
+        "primaryColor": "#9db2df"
+      }
+    },
+    "next": {
+      "fields": {
+        "slug": "/project/photoland/"
+      },
+      "frontmatter": {
+        "title": "Photoland",
+        "subtitle": "Platform Design",
+        "primaryColor": "#b4a7e6",
+        "hero": {
+          "publicURL": "/static/photoland-hero-c1a78142a0d38fb359672129f5e394aa.jpg"
+        }
+      }
+    }
+  },
+  "pageContext": {
+    "isCreatedByStatefulCreatePages": false,
+    "id": "f0e072f3-7534-55d9-8ea1-3010cce97d77",
+    "prev": "52f5edb8-472a-58c9-894b-249dcb0eea2b",
+    "next": "8e5b4046-e236-5094-9f75-7db93dfb5e7a"
+  }
+}

@@ -21,7 +21,7 @@ import { lteSmallViewport, isTouchDevice } from "lib/media-query"
 import styles from "../styles/index.module.css"
 
 // import { ReactComponent as Cursor } from "../images/dragcursor.svg"
-import { ReactComponent as Cursor } from "../images/cursor.svg"
+import { ReactComponent as Cursor } from "../img/cursor.svg"
 
 // import starUrl, { ReactComponent as Star } from '../images/cursor.svg'
 class Index extends Component {
@@ -437,7 +437,7 @@ class Index extends Component {
                     <span>product</span></strong>*/}
                   {/*Planetary is a digital product studio*/}
                   {/*born in Brooklyn, and based globally.*/}
-                  采撷科技是一家技术服务公司，总部位于北京。
+                  采撷是一家技术服务公司，总部位于北京。
                 </h1>
                 <div className={styles.bottom}>
                   <Link

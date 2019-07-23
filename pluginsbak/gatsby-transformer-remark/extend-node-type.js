@@ -20,21 +20,9 @@ module.exports = (
   pluginOptions,
 ) => {
   if (type.name !== `MarkdownRemark`) {
-    console.log("--------")
-    console.log("--------")
-    console.log("--------")
-    console.log("--------")
-    console.log("--------")
-    console.log("--------")
-    console.log("No markdownRemark")
     return {}
   }
 
-  console.log("======")
-  console.log("======")
-  console.log("======")
-  console.log("======")
-  console.log("有内容。。。。")
   return new Promise((resolve, reject) => {
     // Setup Remark.
     const {
@@ -86,7 +74,8 @@ module.exports = (
         resolve(markdownNode) {
           console.log("get secitons...")
           console.log(markdownNode.sections)
-          return []
+          // return []
+          return markdownNode.sections
         },
       },
 

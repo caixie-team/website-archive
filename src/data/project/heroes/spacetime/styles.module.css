@@ -1,0 +1,84 @@
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle farthest-corner at 38%, at 0, #ffb8b8 32%, #ff9191 90%);
+    background-image: radial-gradient(circle farthest-corner at 38% 0, #ffb8b8 32%, #ff9191 90%)
+}
+
+.videoWrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 72vh;
+    max-width: 500px;
+    min-height: 500px;
+    -webkit-transform: translate(-55%, -45%);
+    transform: translate(-55%, -45%);
+    text-align: center
+}
+
+@media (max-width: 900px) {
+    .videoWrap {
+        height: 71%;
+        min-height: 300px;
+        max-width: none;
+        -webkit-transform: translate(-55%, -47%);
+        transform: translate(-55%, -47%)
+    }
+}
+
+.videoWrap canvas {
+    width: 100%
+}
+
+.apng, .video {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    opacity: 0
+}
+
+.apng.ready, .video.ready {
+    opacity: 1
+}
+
+.preload {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+    transition: opacity .2s ease;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+.preload.hidden {
+    opacity: 0
+}
+
+.preload.timeout {
+    -webkit-filter: none;
+    filter: none
+}
+
+.static {
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-width: 1440px;
+    min-height: 700px
+}
+
+@media (max-width: 900px) {
+    .static {
+        min-height: 550px
+    }
+}

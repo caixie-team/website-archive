@@ -2,37 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b15bca2b-9379-4d2a-a822-755780920490" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/styles.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/styles.module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/approach.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/approach/alacarte.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/approach/concepting.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/approach/design.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/approach/development.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/approach/discovery.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/approach/production.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/approach/research&amp;discovery.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/approach/support.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logo-full.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/approach/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/approach/styles.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/contact/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/contact/styles.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/contact/styles.module.css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/static/alacarte.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/static/design.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/static/dev.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/static/strategy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/static/testing.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pluginsbak/gatsby-transformer-remark/src/__tests__/on-node-create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/blue-diamond.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/coffee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/heroes/spacetime/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/heroes/spacetime/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/heroes/spacetime/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/amazon-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/hero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/static/img/blue-diamond-hero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/static/img/coffee.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/gatsby-remark-sections/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/pluginsbak/gatsby-remark-sections/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/gatsby-remark-sections/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pluginsbak/gatsby-remark-sections/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/gatsby-remark-sections/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/pluginsbak/gatsby-remark-sections/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/gatsby-remark-sections/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pluginsbak/gatsby-remark-sections/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/gatsby-transformer-remark/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/pluginsbak/gatsby-transformer-remark/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/gatsby-transformer-remark/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/pluginsbak/gatsby-transformer-remark/.npmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/gatsby-transformer-remark/code-handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/pluginsbak/gatsby-transformer-remark/code-handler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/gatsby-transformer-remark/extend-node-type-old.js" beforeDir="false" afterPath="$PROJECT_DIR$/pluginsbak/gatsby-transformer-remark/extend-node-type-old.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/gatsby-transformer-remark/extend-node-type.js" beforeDir="false" afterPath="$PROJECT_DIR$/pluginsbak/gatsby-transformer-remark/extend-node-type.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/gatsby-transformer-remark/gatsby-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/pluginsbak/gatsby-transformer-remark/gatsby-node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/gatsby-transformer-remark/hast-processing.js" beforeDir="false" afterPath="$PROJECT_DIR$/pluginsbak/gatsby-transformer-remark/hast-processing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/gatsby-transformer-remark/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pluginsbak/gatsby-transformer-remark/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/gatsby-transformer-remark/on-node-create.js" beforeDir="false" afterPath="$PROJECT_DIR$/pluginsbak/gatsby-transformer-remark/on-node-create.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/gatsby-transformer-remark/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/pluginsbak/gatsby-transformer-remark/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/gatsby-transformer-remark/src/__tests__/extend-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/extend-node-type.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/gatsby-transformer-remark/src/__tests__/on-node-create.js" beforeDir="false" afterPath="$PROJECT_DIR$/pluginsbak/gatsby-transformer-remark/src/__tests__/extend-node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/gatsby-transformer-remark/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pluginsbak/gatsby-transformer-remark/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Nav/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/project/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/project/about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/project/amazon.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/project/chinauff-2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/project/diamond.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/project/diamond.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/project/google.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/project/photoland.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/project/prudential.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/project/spacetime.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/project/univision.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/brush1.svg.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/brush1.svg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/categries.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/categries.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/cursor.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/cursor.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/dragcursor.svg.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/dragcursor.svg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/logo-full.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/logo-full.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/project/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/project/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/project/modules/ImageGrid/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/project/modules/ImageGrid/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -44,45 +69,75 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/data/project-univision.json">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="299">
+                    <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Nav/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="451">
+              <caret line="190" column="11" selection-start-line="187" selection-end-line="190" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>blocks</find>
-      <find>jsy</find>
-      <find>yaml</find>
-      <find>excerpt</find>
-      <find>rawMarkdownBody</find>
-      <find>ImageGrid</find>
-      <find>gatsby-plugin-transition-link</find>
-      <find>styles-module--container--1x6VA</find>
-      <find>--c-text</find>
-      <find>.styles-module--submit--Q1mEG</find>
-      <find>.arrow.styles-module--show--En65K</find>
-      <find>.styles-module--sent--26sYv</find>
-      <find>OutboundLink</find>
-      <find>Don</find>
-      <find>.styles-module--heroText--3oZb_</find>
-      <find>styles-module--formula--6WeNs</find>
-      <find>..process</find>
-      <find>styles-module--services--yqFzq</find>
-      <find>styles-module--open--3k3aP</find>
-      <find>styles-module--contactLink--3Vp0v</find>
-      <find>styles-module--arrow--3JApM</find>
-      <find>publicURL</find>
-      <find>Brush</find>
       <find>image</find>
-      <find>services</find>
-      <find>styles</find>
-      <find>styles-module--heroText--3oZb_</find>
-      <find>styles-module--container--2FGh9</find>
-      <find>styles-module--gap--wPVwQ</find>
-      <find>Nav</find>
+      <find>images/logo</find>
+      <find>imagesimg</find>
+      <find>gatsby-remark-images</find>
+      <find>images/</find>
+      <find>featured</find>
+      <find>Img</find>
+      <find>&lt;Img</find>
+      <find>Image</find>
+      <find>childImageSharp</find>
+      <find>get secitons...</find>
+      <find>plugins</find>
+      <find>setFieldsOnGraphQLNodeType</find>
+      <find>rest</find>
+      <find>sections</find>
+      <find>project.sect</find>
+      <find>console.log</find>
+      <find>images</find>
+      <find>staggeredStart</find>
+      <find>Carousel</find>
+      <find>我们是你一直在寻找的合作伙伴吗?给我们讲讲你的项目。</find>
+      <find>Stats</find>
+      <find>Client</find>
+      <find>view</find>
+      <find>C</find>
+      <find>Founded</find>
+      <find>Studio</find>
+      <find>Address</find>
+      <find>New Business</find>
+      <find>Everything Else</find>
     </findStrings>
     <replaceStrings>
-      <replace>leftFirst</replace>
-      <replace>imgWrapStaggered</replace>
       <replace>imageTag</replace>
       <replace>author</replace>
       <replace>img</replace>
@@ -111,6 +166,8 @@
       <replace>contactLink</replace>
       <replace>arrow</replace>
       <replace>gap</replace>
+      <replace>video</replace>
+      <replace>static</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -119,35 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/pages/index.js" />
-        <option value="$PROJECT_DIR$/plugins/gatsby-transformer-remark-supportsections/package.json" />
-        <option value="$PROJECT_DIR$/src/data/project/approach.md" />
-        <option value="$PROJECT_DIR$/public/page-data/insight/insight-1/page-data.json" />
-        <option value="$PROJECT_DIR$/public/page-data/insights/page-data.json" />
-        <option value="$PROJECT_DIR$/public/page-data/index/page-data.json" />
-        <option value="$PROJECT_DIR$/public/page-data/project/amazon/page-data.json" />
-        <option value="$PROJECT_DIR$/plugins/gatsby-remark-sections/index.js" />
-        <option value="$PROJECT_DIR$/plugins/gatsby-transformer-remark/gatsby-node.js" />
-        <option value="$PROJECT_DIR$/plugins/gatsby-transformer-remark/extend-node-type-old.js" />
-        <option value="$PROJECT_DIR$/src/components/Transition/index.js" />
-        <option value="$PROJECT_DIR$/plugins/gatsby-transformer-remark/on-node-create.js" />
-        <option value="$PROJECT_DIR$/plugins/gatsby-transformer-remark/extend-node-type.js" />
-        <option value="$PROJECT_DIR$/src/data/project/amazon.md" />
-        <option value="$PROJECT_DIR$/src/templates/project/modules/Image/index.js" />
-        <option value="$PROJECT_DIR$/src/templates/project/index.js" />
-        <option value="$PROJECT_DIR$/gatsby-browser.js" />
-        <option value="$PROJECT_DIR$/gatsby-node.js" />
-        <option value="$PROJECT_DIR$/src/pages/contact/styles.module.css.js" />
-        <option value="$PROJECT_DIR$/src/pages/contact/styles.module.css" />
-        <option value="$PROJECT_DIR$/src/pages/contact/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/approach/styles.module.css.js" />
-        <option value="$PROJECT_DIR$/src/pages/approach/style.module.css" />
-        <option value="$PROJECT_DIR$/src/data/approach.json" />
-        <option value="$PROJECT_DIR$/static/strategy.svg" />
-        <option value="$PROJECT_DIR$/static/static/design.svg" />
-        <option value="$PROJECT_DIR$/static/static/dev.svg" />
-        <option value="$PROJECT_DIR$/static/static/testing.svg" />
-        <option value="$PROJECT_DIR$/static/static/alacarte.svg" />
         <option value="$PROJECT_DIR$/src/data/services/design.md" />
         <option value="$PROJECT_DIR$/src/data/services/development.md" />
         <option value="$PROJECT_DIR$/src/data/services/discovery.md" />
@@ -162,20 +190,49 @@
         <option value="$PROJECT_DIR$/src/data/approach/design.md" />
         <option value="$PROJECT_DIR$/src/data/approach/discovery.md" />
         <option value="$PROJECT_DIR$/src/data/approach/support.md" />
-        <option value="$PROJECT_DIR$/gatsby-config.js" />
         <option value="$PROJECT_DIR$/src/pages/approach/index.js" />
         <option value="$PROJECT_DIR$/src/components/Footer/styles.module.js" />
         <option value="$PROJECT_DIR$/src/components/Footer/styles.module.css" />
-        <option value="$PROJECT_DIR$/src/components/Footer/index.js" />
         <option value="$PROJECT_DIR$/src/images/logo-full.svg" />
         <option value="$PROJECT_DIR$/src/images/logo.svg" />
         <option value="$PROJECT_DIR$/src/components/Layout/index.js" />
+        <option value="$PROJECT_DIR$/src/styles/index.module.css" />
+        <option value="$PROJECT_DIR$/src/styles/global.css" />
+        <option value="$PROJECT_DIR$/src/data/project/heroes/spacetime/styles.js" />
+        <option value="$PROJECT_DIR$/src/data/project/heroes/spacetime/styles.module.css" />
+        <option value="$PROJECT_DIR$/src/data/project/heroes/spacetime/index.js" />
+        <option value="$PROJECT_DIR$/src/data/project/amazon.md" />
+        <option value="$PROJECT_DIR$/src/data/project-univision.json" />
+        <option value="$PROJECT_DIR$/src/data/project/google.md" />
+        <option value="$PROJECT_DIR$/src/data/project/mpcast.md" />
+        <option value="$PROJECT_DIR$/src/data/project/photoland.md" />
+        <option value="$PROJECT_DIR$/src/data/project/prudential.md" />
+        <option value="$PROJECT_DIR$/src/data/project/spacetime.md" />
+        <option value="$PROJECT_DIR$/src/data/project/univision.md" />
+        <option value="$PROJECT_DIR$/src/data/project/chinauff-2.md" />
+        <option value="$PROJECT_DIR$/public/page-data/project/project/diamond/page-data.json" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/page-data/index/page-data.json" />
+        <option value="$PROJECT_DIR$/gatsby-config.js" />
+        <option value="$PROJECT_DIR$/static/admin/config.yml" />
+        <option value="$PROJECT_DIR$/plugins/gatsby-transformer-remark/extend-node-type.js" />
+        <option value="$PROJECT_DIR$/pluginsbak/gatsby-transformer-remark/extend-node-type.js" />
+        <option value="$PROJECT_DIR$/src/data/project/diamond.md" />
+        <option value="$PROJECT_DIR$/gatsby-node.js" />
+        <option value="$PROJECT_DIR$/src/templates/project/index.js" />
+        <option value="$PROJECT_DIR$/src/templates/project/modules/ImageGrid/index.js" />
+        <option value="$PROJECT_DIR$/src/data/blue-diamond.json" />
+        <option value="$PROJECT_DIR$/src/pages/index.js" />
+        <option value="$PROJECT_DIR$/src/data/project/about.md" />
+        <option value="$PROJECT_DIR$/src/pages/about/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Footer/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Nav/index.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1280" />
-    <option name="y" value="23" />
+    <option name="x" value="1093" />
+    <option name="y" value="55" />
     <option name="width" value="1280" />
     <option name="height" value="1417" />
   </component>
@@ -201,7 +258,32 @@
               <item name="examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Nav" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -214,7 +296,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/public/page-data/project/amazon/page-data.json" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/static/images" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -224,13 +306,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/data/approach" />
-      <recent name="$PROJECT_DIR$/src/data/services" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/data/project/images" />
+      <recent name="$PROJECT_DIR$/static/static/images" />
+      <recent name="$PROJECT_DIR$/src/data" />
+      <recent name="$PROJECT_DIR$/static/static/img" />
+      <recent name="$PROJECT_DIR$/static/static" />
+      <recent name="$PROJECT_DIR$/src/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/images" />
       <recent name="$PROJECT_DIR$/static/static" />
       <recent name="$PROJECT_DIR$/plugins/gatsby-transformer-remark-supportsections" />
       <recent name="$PROJECT_DIR$/src/data" />
@@ -274,15 +357,16 @@
       <workItem from="1562465864189" duration="18000" />
       <workItem from="1562466074328" duration="23678000" />
       <workItem from="1562595568560" duration="8175000" />
-      <workItem from="1563425669886" duration="16382000" />
+      <workItem from="1563425669886" duration="52087000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168235000" />
+    <option name="totallyTimeSpent" value="203940000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="23" width="1280" height="1417" extended-state="0" />
+    <frame x="1093" y="55" width="1280" height="1417" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
@@ -290,8 +374,8 @@
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="GraphQL" order="1" weight="0.32941177" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.28226414" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.25433964" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3290566" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
@@ -308,12 +392,12 @@
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.25496426" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.25496426" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="GraphQL" order="1" weight="0.32941177" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.25433964" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3290566" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
@@ -332,214 +416,34 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/plugins/gatsby-transformer-remark/code-handler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/project-univision.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <element signature="e#4891#10778#0" />
-            <element signature="e#11210#13213#0" />
-            <element signature="e#13227#15086#0" />
-            <element signature="e#15100#16963#0" />
-            <element signature="e#16977#18876#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/gatsby-transformer-remark/extend-node-type-old.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="442" column="56" selection-start-line="442" selection-start-column="41" selection-end-line="442" selection-end-column="56" />
-          <folding>
-            <element signature="e#3692#4185#0" />
-            <element signature="e#4229#5114#0" />
-            <element signature="e#5166#9094#0" />
-            <element signature="e#9143#9654#0" />
-            <element signature="e#9725#11390#0" />
-            <element signature="e#12563#13880#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/gatsby-transformer-remark/hast-processing.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/project/modules/Image/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/gatsby-transformer-remark/extend-node-type.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2001">
-          <caret line="87" column="44" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/project/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1472">
-          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#41#90#0" expanded="true" />
-            <element signature="e#525#562#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Link/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/helper/transitionWrapper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/helper/wrapPageElement.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gatsby-browser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="1451" column="38" selection-start-line="1451" selection-start-column="38" selection-end-line="1451" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/insight/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="83" column="10" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#274#314#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/contact/styles.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/contact/styles.module.css.js">
+    <entry file="file://$PROJECT_DIR$/src/data/project/heroes/spacetime/styles.module.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/contact/index.js">
+    <entry file="file://$PROJECT_DIR$/src/data/project/heroes/spacetime/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="174" column="21" selection-start-line="174" selection-start-column="21" selection-end-line="174" selection-end-column="21" />
+        <state relative-caret-position="437">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#45#84#0" expanded="true" />
-            <element signature="e#345#382#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/static/strategy.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/static/design.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/static/dev.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/static/testing.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/static/alacarte.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/project/google.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="18" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/about.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/project/about.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="46">
-            <caret line="2" selection-start-line="2" selection-end-line="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/approach/concepting.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="253">
-            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/approach.json">
+    <entry file="file://$PROJECT_DIR$/src/data/project/heroes/spacetime/styles.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1909">
-          <caret line="83" column="33" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="33" />
+        <state relative-caret-position="230">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="1607" selection-start-line="1607" selection-end-line="1607" />
         </state>
       </provider>
     </entry>
@@ -553,193 +457,383 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/gatsby-transformer-remark/gatsby-node.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/approach/styles.module.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+        <state relative-caret-position="675">
+          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/gatsby-transformer-remark/index.js">
+    <entry file="file://$PROJECT_DIR$/src/templates/project/modules/Text/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-browser.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/project/univision.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="362">
+            <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/project/spacetime.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="119">
+            <caret line="34" selection-start-line="34" selection-end-line="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/project/prudential.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="272">
+            <caret line="34" selection-start-line="34" selection-end-line="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/project/photoland.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="279">
+            <caret line="34" selection-start-line="34" selection-end-line="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/project/insight-1.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/project/mpcast.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="657">
+            <caret line="62" column="11" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/project/google.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="652">
+            <caret line="34" selection-start-line="34" selection-end-line="34" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data/project/chinauff-2.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="207">
-            <caret line="9" column="12" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="13" />
+          <first_editor relative-caret-position="613">
+            <caret line="33" selection-start-line="33" selection-end-line="33" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/project/amazon.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="69">
-            <caret line="3" selection-start-line="3" selection-end-line="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/gatsby-transformer-remark/on-node-create.js">
+    <entry file="file://$PROJECT_DIR$/.cache/pages.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="79" column="51" selection-start-line="79" selection-start-column="51" selection-end-line="79" selection-end-column="51" />
+        <state relative-caret-position="23">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/approach/alacarte.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="115">
-            <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/public/page-data/project/project/diamond/page-data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/approach/design.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="115">
-            <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/approach/support.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="161">
-            <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/approach/research&amp;discovery.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="69">
-            <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/approach/production.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="69">
-            <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/approach/discovery.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="115">
-            <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/approach/styles.module.css.js">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Footer/styles.module.css">
+    <entry file="file://$PROJECT_DIR$/public/page-data/index/page-data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        <state relative-caret-position="23">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/style.css">
+    <entry file="file://$PROJECT_DIR$/static/static/hero.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.cache/fragments/image-sharp-fragments.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="366" selection-start-line="366" selection-end-line="366" />
+        <state relative-caret-position="707">
+          <caret line="256" column="8" selection-start-line="256" selection-start-column="8" selection-end-line="256" selection-end-column="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Footer/styles.module.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        <state relative-caret-position="690">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/project/insight-2.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="207">
+            <caret line="9" selection-start-line="9" selection-end-line="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="12" selection-start-line="2" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/approach/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        <state relative-caret-position="345">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#30#70#0" expanded="true" />
-            <element signature="e#503#553#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/approach/styles.module.css">
+    <entry file="file://$PROJECT_DIR$/node_modules/gatsby-transformer-sharp/src/gatsby-node.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="859">
-          <caret line="140" column="20" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="20" />
+        <state relative-caret-position="230">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gatsby-transformer-sharp/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gatsby-plugin-sharp/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="289" column="15" selection-start-line="289" selection-start-column="15" selection-end-line="289" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/tapable/lib/Hook.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="169" column="21" selection-start-line="169" selection-start-column="21" selection-end-line="169" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/insight/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/project/modules/Image/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluginsbak/gatsby-transformer-remark/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/project/diamond.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="766">
+            <caret line="58" column="18" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluginsbak/gatsby-transformer-remark/gatsby-node.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/blue-diamond.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4553">
+          <caret line="28" column="92" lean-forward="true" selection-start-line="28" selection-start-column="92" selection-end-line="28" selection-end-column="92" />
+          <folding>
+            <element signature="e#4411#6189#0" />
+            <element signature="e#6211#6533#0" />
+            <element signature="e#6558#8303#0" />
+            <element signature="e#8366#10123#0" />
+            <element signature="e#10175#15517#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/project/modules/ImageGrid/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gatsby-node.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="906">
-          <caret line="142" column="25" selection-start-line="142" selection-start-column="25" selection-end-line="142" selection-end-column="25" />
+        <state relative-caret-position="1610">
+          <caret line="70" column="20" lean-forward="true" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluginsbak/gatsby-transformer-remark/on-node-create.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend-node-type.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/gatsby-config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-596">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state relative-caret-position="506">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/logo-full.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/logo.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Layout/index.js">
+    <entry file="file://$PROJECT_DIR$/pluginsbak/gatsby-transformer-remark/extend-node-type.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        <state relative-caret-position="575">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding>
+            <element signature="e#779#1935#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/project/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-607">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#66#115#0" expanded="true" />
-            <element signature="e#391#430#0" expanded="true" />
+            <element signature="e#779#814#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/project-univision.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/project/about.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="92">
+            <caret line="4" column="77" selection-start-line="4" selection-start-column="77" selection-end-line="4" selection-end-column="77" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Footer/styles.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2093">
+          <caret line="91" column="20" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Footer/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1094">
-          <caret line="119" column="10" selection-start-line="119" selection-start-column="10" selection-end-line="119" selection-end-column="10" />
+        <state relative-caret-position="322">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#20#46#0" expanded="true" />
+            <element signature="e#1400#2556#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/about/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="45" column="32" lean-forward="true" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="430" column="34" selection-start-line="430" selection-start-column="34" selection-end-line="430" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#44#84#0" expanded="true" />
+            <element signature="e#623#659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Nav/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="190" column="11" selection-start-line="187" selection-end-line="190" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>

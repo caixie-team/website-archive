@@ -1,0 +1,3 @@
+### 指定路径才能在 graphql 查询中识别
+media_folder: static/img
+public_folder: /img

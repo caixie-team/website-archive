@@ -21,10 +21,11 @@ const About = ({data: {page}, transitionStatus}) => {
       {/*<SEO title="About" />*/}
 
       <h1 className={styles.heroText}>
-        We build
+        我们提供最优质的技术服务
+        {/*We build*/}
         {/*<Brush number={3}>custom</Brush> */}
-        digital products for companies like
-        Google, Amazon, and Univision.
+        {/*digital products for companies like*/}
+        {/*Google, Amazon, and Univision.*/}
       </h1>
 
       <section
@@ -32,12 +33,10 @@ const About = ({data: {page}, transitionStatus}) => {
         dangerouslySetInnerHTML={{__html: frontmatter.ledeHtml}}
       />
 
-      <Section title="Stats" className={styles.stats}>
+      <Section title="数据" className={styles.stats}>
         <div className={styles.statsDetail}>
           <h2>
-            The best
-            {/*<Brush number={4}>talent,</Brush>{' '}*/}
-            no matter where you are
+            做最好的技术服务
           </h2>
           <div dangerouslySetInnerHTML={{__html: frontmatter.statsLedeHtml}} />
         </div>
@@ -68,7 +67,7 @@ const About = ({data: {page}, transitionStatus}) => {
         <Map className={styles.map} title="World map of the Planetary team" />
       </Section>
 
-      <Section title="Clients" className={styles.clients}>
+      <Section title="客户" className={styles.clients}>
         <ul>
           {frontmatter.clients.map((client, idx) => (
             <li key={`client${idx}`}>{client}</li>
@@ -76,15 +75,15 @@ const About = ({data: {page}, transitionStatus}) => {
         </ul>
 
         <Link to="/" className={styles.largeNextLink}>
-          <span className={styles.largeNextText}>View Our Work</span>
+          <span className={styles.largeNextText}>展示我们的工作</span>
           <Arrow size="1.25rem" color="red" />
         </Link>
       </Section>
 
-      <Section title="Contact" className={styles.contact} contentClassName={styles.contactBody}>
-        Are we the partners you&rsquo;ve been searching for?{' '}
+      <Section title="联络" className={styles.contact} contentClassName={styles.contactBody}>
+        我们是你一直都在寻找的合作伙伴吗?{' '}
         <Link to="/contact" className={styles.contactLink}>
-          Tell us about your project
+          聊一聊你的项目
         </Link>.
       </Section>
     </Layout>
