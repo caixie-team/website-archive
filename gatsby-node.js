@@ -31,20 +31,21 @@ const {
 } = require(`gatsby/graphql`)
 const Remark = require(`remark`)
 const _ = require(`lodash`)
-function getFileObject(absolutePath, name = `test`) {
-  return {
-    id: `${absolutePath} absPath of file`,
-    name: name,
-    absolutePath,
-    extension: `png`,
-    internal: {
-      contentDigest: `1234`,
-    },
+
+
+
+exports.onCreateNode = async ({ node, getNode, actions, loadNodeContent, createContentDigest }) => {
+  function getFileObject(absolutePath, name) {
+    return {
+      id: `${absolutePath} absPath of file`,
+      name: name,
+      absolutePath,
+      extension: `png`,
+      internal: {
+        contentDigest: createContentDigest(node),
+      },
+    }
   }
-}
-
-
-exports.onCreateNode = async ({ node, getNode, actions, loadNodeContent }) => {
   const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark` || node.internal.type === `Mdx`) {
     // const content = await loadNodeContent(node)
@@ -56,20 +57,16 @@ exports.onCreateNode = async ({ node, getNode, actions, loadNodeContent }) => {
       for (let section of node.frontmatter.sections) {
         if (section.type === 'image') {
           const absolutePath = path.join(__dirname, "src/data/project/" + section.image)
-          const file = getFileObject(absolutePath)
+          const file = getFileObject(absolutePath, section.image.split('/').pop().split('.')[0])
           const result = await fluid({ file })
           section.image = result
         }
         if (section.type === 'imagegrid') {
-          console.log('这里是 image grid ....')
           let images = []
           for(let image of section.images) {
-            console.log(image)
             const absolutePath = path.join(__dirname, "src/data/project/" + image)
-            const file = getFileObject(absolutePath)
-            console.log(file)
+            const file = getFileObject(absolutePath, image.split('/').pop().split('.')[0])
             const result = await fluid({file})
-            console.log(result)
             // section.images.push(result)
             images.push(result)
           //   image = result

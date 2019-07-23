@@ -1,20 +1,19 @@
 ---
-id: 'p-diamond'
+id: 'p-mpcast'
 templateKey: 'project'
-sort: 3
+sort: 1
 slug: "/project/blue-diamond/"
-title: "Blue Diamond"
-subtitle: "Platform Design"
-summary: "We redesigned and rebuilt the Blue Diamond website from the ground-up."
+title: "播客小程序"
+subtitle: "小程序"
+summary: 为课程主播提供轻量化、独立运营的播客解决方案
 primaryColor: "#9db2df"
 hero: {
     "publicURL":  "/img/blue-diamond-hero.jpg"
 }
 workType: [
-    "Product Design",
-    "Experiential",
-    "Design",
-    "Development"
+    "产品策划",
+    "设计",
+    "研发"
 ]
 featured: "./images/hero.jpg"
 
@@ -43,7 +42,7 @@ sections:
       stat3Value: 5+
     - type: image
       alt: mpcast
-      image: ./images/hero.jpg
+      image: ./images/mpcast-style-0.png
     - type: text
       header: 执行方案
       body: >
@@ -55,27 +54,46 @@ sections:
       staggeredCopyHtml: "<h2>Univision <span style=\"color: #ab2b94\">Mobile</span></h2>\n<p>The core Univision mobile app, providing every category of news, from sports, to entertainment.</p>\n"
       staggeredStart: right
       images:
-        - "./images/hero.jpg"
-        - "./images/hero.jpg"
-        - "./images/hero.jpg"
+        - "./images/mpcast-1.png"
+        - "./images/mpcast-2.png"
+        - "./images/mpcast-3.png"
     - type: imagegrid
       frameColor: "#202429"
       staggered: true
       staggeredCopyHtml: "<h2>Univision <span style=\"color: #00c473\">Deportes</span></h2>\n<p>Univision's most popular mobile app, serving live streams of soccer games, live scores, leaderboards, replays, and sports news.</p>\n"
       staggeredStart: "left"
       images:
-        - "./images/hero.jpg"
-        - "./images/hero.jpg"
-        - "./images/hero.jpg"
+        - "./images/mpcast-4.png"
+        - "./images/mpcast-5.png"
+        - "./images/mpcast-6.png"
     - type: imagegrid
       frameColor: "#202429"
       staggered: true
       staggeredCopyHtml: "<h2>Univision <span style=\"color: #00c473\">Deportes</span></h2>\n<p>Univision's most popular mobile app, serving live streams of soccer games, live scores, leaderboards, replays, and sports news.</p>\n"
       staggeredStart: "right"
       images:
-        - "./images/hero.jpg"
-        - "./images/hero.jpg"
-        - "./images/hero.jpg"
+        - "./images/mpcast-7.png"
+        - "./images/mpcast-8.png"
+        - "./images/mpcast-9.png"
+    - type: imagegrid
+      frameColor: "#202429"
+      staggered: true
+      staggeredCopyHtml: "<h2>Univision <span style=\"color: #00c473\">Deportes</span></h2>\n<p>Univision's most popular mobile app, serving live streams of soccer games, live scores, leaderboards, replays, and sports news.</p>\n"
+      staggeredStart: "left"
+      images:
+        - "./images/mpcast-10.png"
+        - "./images/mpcast-11.png"
+        - "./images/mpcast-12.png"
+    - type: imagegrid
+      frameColor: "#202429"
+      staggered: true
+      staggeredCopyHtml: "<h2>Univision <span style=\"color: #00c473\">Deportes</span></h2>\n<p>Univision's most popular mobile app, serving live streams of soccer games, live scores, leaderboards, replays, and sports news.</p>\n"
+      staggeredStart: "right"
+      images:
+        - "./images/mpcast-13.png"
+        - "./images/mpcast-14.png"
+        - "./images/mpcast-15.png"        
+        - "./images/mpcast-16.png"        
 ---
 
 This page has front matter that should be parsed before the sections.

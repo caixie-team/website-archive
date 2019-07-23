@@ -1,0 +1,191 @@
+{
+  "data": {
+    "project": {
+      "html": "",
+      "sections": [
+        {
+          "body": "<p>The Google Impact Challenge asks local nonprofit innovators how they would make their community an even better place.</p>\n<p>Google.org runs several Impact Challenges every year in different communities across the globe. Each one attracts hundreds—or thousands—of entries from nonprofits of all sizes and of all stages. Each entry needs to then be vetted, reviewed, and scored by a group of subject-matter experts for quality, relevance, feasibility, and several other factors. We worked with Google.org to build a platform that allows them to create new Challenges, accept submissions, and vet entries with experts.</p>\n",
+          "header": "Introduction",
+          "type": "text"
+        },
+        {
+          "stat1LabelHtml": "<p><strong>Applications submitted and reviewed</strong> on the platform.</p>\n",
+          "stat1Value": "10k+",
+          "stat2LabelHtml": "<p><strong>Impact Challenges run</strong> around the globe, from Cape Town to Cleveland</p>\n",
+          "stat2Value": "20+",
+          "stat3LabelHtml": "<p><strong>To process each application</strong> on the new platform—a reduction of over 80%</p>\n",
+          "stat3Value": "< 1 min",
+          "type": "stats"
+        },
+        {
+          "alt": "Google.org",
+          "image": {
+            "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAQD/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAZbBNRL/AP/EABcQAQEBAQAAAAAAAAAAAAAAAAECAxL/2gAIAQEAAQUCNGiR1Jy4P//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/ASf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAbEAABBAMAAAAAAAAAAAAAAAABAAIREjFRgf/aAAgBAQAGPwKrdKKgNGVADer/xAAbEAABBAMAAAAAAAAAAAAAAAABABEhQTFRYf/aAAgBAQABPyFtDdWyHLcgZUp42Er/2gAMAwEAAgADAAAAEIf/AP/EABYRAQEBAAAAAAAAAAAAAAAAAAEQMf/aAAgBAwEBPxBOz//EABYRAQEBAAAAAAAAAAAAAAAAAAEQMf/aAAgBAgEBPxBDJ//EABoQAQEAAgMAAAAAAAAAAAAAAAERAHEhQVH/2gAIAQEAAT8QTgMcJY6ZNJCKGnrhLW1EVvP/2Q==",
+            "aspectRatio": 2.4,
+            "src": "/static/ebb2b91866f5654739cf5d94901b16fc/44778/go_fw_img-2x.jpg",
+            "srcSet": "/static/ebb2b91866f5654739cf5d94901b16fc/67d69/go_fw_img-2x.jpg 360w,\n/static/ebb2b91866f5654739cf5d94901b16fc/5a6ad/go_fw_img-2x.jpg 720w,\n/static/ebb2b91866f5654739cf5d94901b16fc/44778/go_fw_img-2x.jpg 1440w,\n/static/ebb2b91866f5654739cf5d94901b16fc/9f6aa/go_fw_img-2x.jpg 2160w,\n/static/ebb2b91866f5654739cf5d94901b16fc/b0f59/go_fw_img-2x.jpg 2880w",
+            "srcSetType": "image/jpeg",
+            "sizes": "(max-width: 1440px) 100vw, 1440px",
+            "originalImg": "/static/ebb2b91866f5654739cf5d94901b16fc/b0f59/go_fw_img-2x.jpg",
+            "originalName": "go_fw_img-2x.jpg",
+            "density": 1829,
+            "presentationWidth": 1440,
+            "presentationHeight": 600
+          },
+          "type": "image"
+        },
+        {
+          "body": "<p>The Google.org team wanted to reduce the overhead of spinning up challenges and reviewing entries.</p>\n<p>We worked closely with the Google.org team to understand their process and design a platform that could automate and coordinate the tasks that they were doing manually or with less-than-ideal tools.</p>\n<p>We then set out to design a tool that addressed all of these concerns, while providing a concise experience that hides all of this complexity from applicants. The platform we built is designed to allow completely flexible application form creation, giving the Impact Challenge team the ability to accept short-form, long-form, multi-select, and many other response types, as well as configure Challenge availability, automated responses, and complete reviews.</p>\n",
+          "bodySecondary": "<ul>\n<li>Easy-to-use UI to support any arrangement of questions and inputs</li>\n<li>Quick, automated reviewer assignment based on experience</li>\n<li>Interface for submissions on mobile and tablet devices</li>\n<li>Quick identification of top submissions</li>\n</ul>\n",
+          "header": "Execution",
+          "type": "text"
+        },
+        {
+          "columns": 1,
+          "images": [
+            {
+              "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAECBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHbWJIX/8QAFxAAAwEAAAAAAAAAAAAAAAAAAAEQEf/aAAgBAQABBQJoyO//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAXEAADAQAAAAAAAAAAAAAAAAAAASAx/9oACAEBAAY/AjXP/8QAGxAAAgEFAAAAAAAAAAAAAAAAARARACExcfH/2gAIAQEAAT8hki5GqHewwv/aAAwDAQACAAMAAAAQv8//xAAWEQADAAAAAAAAAAAAAAAAAAABEBH/2gAIAQMBAT8QgX//xAAWEQADAAAAAAAAAAAAAAAAAAABEBH/2gAIAQIBAT8QpX//xAAdEAACAQQDAAAAAAAAAAAAAAABEQAQITFRgZGh/9oACAEBAAE/EFO2pxRBYjg2HyIaggpvip//2Q==",
+              "aspectRatio": 1.565217391304348,
+              "src": "/static/bf5fc9c7fe4074b2349806bd69c36d31/44778/go_img1-2x.jpg",
+              "srcSet": "/static/bf5fc9c7fe4074b2349806bd69c36d31/67d69/go_img1-2x.jpg 360w,\n/static/bf5fc9c7fe4074b2349806bd69c36d31/5a6ad/go_img1-2x.jpg 720w,\n/static/bf5fc9c7fe4074b2349806bd69c36d31/44778/go_img1-2x.jpg 1440w,\n/static/bf5fc9c7fe4074b2349806bd69c36d31/9f6aa/go_img1-2x.jpg 2160w,\n/static/bf5fc9c7fe4074b2349806bd69c36d31/b0f59/go_img1-2x.jpg 2880w",
+              "srcSetType": "image/jpeg",
+              "sizes": "(max-width: 1440px) 100vw, 1440px",
+              "originalImg": "/static/bf5fc9c7fe4074b2349806bd69c36d31/b0f59/go_img1-2x.jpg",
+              "originalName": "go_img1-2x.jpg",
+              "presentationWidth": 1440,
+              "presentationHeight": 920
+            },
+            {
+              "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIDBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHtzqSFj//EABcQAQEBAQAAAAAAAAAAAAAAAAEAESD/2gAIAQEAAQUCSxg4/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGBAAAgMAAAAAAAAAAAAAAAAAAAEgMTL/2gAIAQEABj8CNMtw/8QAGxABAAEFAQAAAAAAAAAAAAAAAQAQETFRcfD/2gAIAQEAAT8hxWU5PWRN0a//2gAMAwEAAgADAAAAEKw//8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAEDAQE/EEGy/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAECAQE/EBS2/8QAHBABAAMAAgMAAAAAAAAAAAAAAQARITHRUZHB/9oACAEBAAE/EGaq7tPozze3pACOjlrqVsyUSif/2Q==",
+              "aspectRatio": 1.565217391304348,
+              "src": "/static/e069e42c911f3cc9ecf0962e67d41b46/44778/go_img2-2x.jpg",
+              "srcSet": "/static/e069e42c911f3cc9ecf0962e67d41b46/67d69/go_img2-2x.jpg 360w,\n/static/e069e42c911f3cc9ecf0962e67d41b46/5a6ad/go_img2-2x.jpg 720w,\n/static/e069e42c911f3cc9ecf0962e67d41b46/44778/go_img2-2x.jpg 1440w,\n/static/e069e42c911f3cc9ecf0962e67d41b46/9f6aa/go_img2-2x.jpg 2160w,\n/static/e069e42c911f3cc9ecf0962e67d41b46/b0f59/go_img2-2x.jpg 2880w",
+              "srcSetType": "image/jpeg",
+              "sizes": "(max-width: 1440px) 100vw, 1440px",
+              "originalImg": "/static/e069e42c911f3cc9ecf0962e67d41b46/b0f59/go_img2-2x.jpg",
+              "originalName": "go_img2-2x.jpg",
+              "presentationWidth": 1440,
+              "presentationHeight": 920
+            },
+            {
+              "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB2qtmxYwP/8QAGBABAQEBAQAAAAAAAAAAAAAAAQACEBL/2gAIAQEAAQUC0XhjLPf/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPwGI/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQIBAT8Bqv/EABgQAQADAQAAAAAAAAAAAAAAAAEAIDIx/9oACAEBAAY/AupNs00//8QAGxAAAgEFAAAAAAAAAAAAAAAAAAERECExcfD/2gAIAQEAAT8ha4jUOdCCu4yr/9oADAMBAAIAAwAAABCgD//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAwEBPxBDYv/EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAgEBPxAZav/EAB0QAAICAQUAAAAAAAAAAAAAAAABETEhEHGR0fH/2gAIAQEAAT8Qc11zjnk8PoMSZzbgq20R/9k=",
+              "aspectRatio": 1.565217391304348,
+              "src": "/static/ebc9891dc1babc9fd23c5e6490580495/44778/go_img3-2x.jpg",
+              "srcSet": "/static/ebc9891dc1babc9fd23c5e6490580495/67d69/go_img3-2x.jpg 360w,\n/static/ebc9891dc1babc9fd23c5e6490580495/5a6ad/go_img3-2x.jpg 720w,\n/static/ebc9891dc1babc9fd23c5e6490580495/44778/go_img3-2x.jpg 1440w,\n/static/ebc9891dc1babc9fd23c5e6490580495/9f6aa/go_img3-2x.jpg 2160w,\n/static/ebc9891dc1babc9fd23c5e6490580495/b0f59/go_img3-2x.jpg 2880w",
+              "srcSetType": "image/jpeg",
+              "sizes": "(max-width: 1440px) 100vw, 1440px",
+              "originalImg": "/static/ebc9891dc1babc9fd23c5e6490580495/b0f59/go_img3-2x.jpg",
+              "originalName": "go_img3-2x.jpg",
+              "presentationWidth": 1440,
+              "presentationHeight": 920
+            }
+          ],
+          "type": "imagegrid"
+        },
+        {
+          "author": "Josh Gross",
+          "authorImage": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAAFD0lEQVQ4y1WUfUxTZxTGUf8xThfRLQKViYK2RcqHBQRR0DFYdJro5hI2l2y4uWwRXZAt2dxc3Iy4EtBNo4IEP0kQiRIc4BCtFgv9pC1tobR8yZc6BjM6YdDenmfv2wrJbvLm3vfee355nnPOewIMdgRMX5YuzJl+7hyG3PkI+faHMFl7Md7WgymTE106m/ecuvXF5tOKH2fx/7RWYbbBTr4Y/TSr5qY5wDHkhw2/gJRB6u9rRlF57QHOFl/D8eMXUHbhFpTqJ3AOAa5HAAu2aa2ebTwm/7SGw2bNKDO7/DDnMLKqbhiF7/K+xY7MNG+yNMSzVhLiTRAH07rIENqSEuvNzsrylBRXCbYeoP0hoLMKhdMcn1udnXwwSzey9NYpZKQkQCJ61S0Xh1KyLAJJUREULw2juAgRJUUuowz5Skpa9TodzM0TWh0QuFqWhpOcobNhto+sbPlLyvIkKI6ewqqgeUJMRCjEokBaFbyQxKJFkIS+BgZEbHgwPstMgCJ7K+1OjcDpgl+JufN09PMUUPaM5dZO1OttHqSuWe2WLWPBK4JoreQNxK8UYTWDbYqTICMh0rf/eGMM+q8roP5tHx07sBeGDgimTq6SRgztFBjQbJqQt3UDdY093tRYMW1Ojqb30pPx4ZY3sS01wQfbtEaK7RsTkSoLxxfpMRhRlmGsuRymJg3p2pk6m9ftGPCpzOVlz3cNA3fVI56dmWlIT4ym9bFSrI+Lwta0ZLy1RoLo5SGQhQUhQxYG9dmDGFFV4OLXH6Cp/g8yOkGsMIKt1wdUsUSSifUfNOYJ7470DSQXL4M0NAhLF72CLSlyOBsuo2jPdkQunofSQ18CowYMNpaip64EngErjNYp0tnh5bZZ6zzmVR5nUFi7QTl7ckgSvADhoiUInDsLuTvfBgb1eK66iOK976Px3BG2f4DJ9npMWOpY39zCiNUEjR3EWoYrdPOGnOJAowOk0j6ldzPTIVo8HwvnzkH5Tzks47X4lwW7as/CUFGICdtNTDrqMGmtgbXyBKxaB/QdIAbjQIEBqYvLZbn0sqNFSvVjvJOahPClS7B/x0b8o6/Cc301/jbVMPtlGGq6gqfm6xi6UwrlmQJobRwGMnb4LI9x4LmOh76NR9PmIdaP+GZfHiKD56Pi6F5goBlulxLdDcVoKDkE+++n8Mx4FeOGK+hT3mRCvBwosJRxhSZueTM/Rsy2oGMfWU/SjVoLTuR+hOctJZjsUsLTo8LQvVIYLv+AWsWnqC74HE1lebhdVU5a+//aRhHg6CUOtfFeZLYFsxPoGnRTq20ADq0SQs89CN1KPLNUY7ChEFd/ycPP3+fj2JEiqm1wEjt+xGvAVbIlfjl2aJudWbX3QaistlJF1W1YXGOktjyhVpbgp50PMM6KMaq5AHvbMMy9IDbOuBvubIr3MWP4h4TK8GL2y1lYWF5pQlxMmmfF8mjhk90H0GzsJbV5mJoMfRgyNaJPe5upATEnzI2HPXunOgd9MLW5k/yD4Xx5y8yZTozPOBm1eh1iojcgVCR179qVI+htw16VoZ/uabuoResgTZubW3OzBb8yqI3ttODlgPVDi07WzAxHmSwlWxa1biQpMRMrw+ORs+8w2lyjuNPSg/v6fvAcc1W8iAxQaHb6lTGVftilCr3vfvjopYCv9it8LyMjEwLlcZty1yZkqsLD4h4XFJ1327v/FO42944xiIkFF7AlnhYxrUxvQ8B/WSQAdUh1ujUAAAAASUVORK5CYII=",
+            "aspectRatio": 1,
+            "src": "/static/cc3d7ce5894a54587d7d49799299e4b2/d7d26/photo.png",
+            "srcSet": "/static/cc3d7ce5894a54587d7d49799299e4b2/cd92d/photo.png 27w,\n/static/cc3d7ce5894a54587d7d49799299e4b2/1bb4a/photo.png 54w,\n/static/cc3d7ce5894a54587d7d49799299e4b2/d7d26/photo.png 108w",
+            "srcSetType": "image/png",
+            "sizes": "(max-width: 108px) 100vw, 108px",
+            "originalImg": "/static/cc3d7ce5894a54587d7d49799299e4b2/d7d26/photo.png",
+            "originalName": "photo.png",
+            "density": 72,
+            "presentationWidth": 108,
+            "presentationHeight": 108
+          },
+          "authorTitle": "Lead Developer",
+          "body": "<p>Google.org has used this platform to accept thousands of applications from all over the world, from Germany to Nigeria to Australia. The easy review process has allowed them to scale these challenges greatly.</p>\n",
+          "type": "quote"
+        },
+        {
+          "images": [
+            {
+              "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAgABQDASIAAhEBAxEB/8QAGQAAAwADAAAAAAAAAAAAAAAAAAEEAgMF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAIB/9oADAMBAAIQAxAAAAHplTqJCwI1RjrSWB//xAAcEAACAgIDAAAAAAAAAAAAAAAAAQITEBESITH/2gAIAQEAAQUC5yLJFksLF5eXjfe2Lz//xAAYEQADAQEAAAAAAAAAAAAAAAAAEVEBAv/aAAgBAwEBPwFbRbRdUXVP/8QAGBEAAwEBAAAAAAAAAAAAAAAAABFRAQL/2gAIAQIBAT8BeQeQfMHzD//EABkQAAIDAQAAAAAAAAAAAAAAAAABAjIzIP/aAAgBAQAGPwLORnIzfFGUZR8f/8QAGxAAAgMAAwAAAAAAAAAAAAAAAAEQETEhYaH/2gAIAQEAAT8hZCTF7fOsxsXC53NyamdnsX//2gAMAwEAAgADAAAAEB/1cf/EABcRAAMBAAAAAAAAAAAAAAAAAAAB8BH/2gAIAQMBAT8QthbCiKI//8QAFxEAAwEAAAAAAAAAAAAAAAAAAAHwEf/aAAgBAgEBPxC2lmyjKM//xAAgEAEAAgEEAgMAAAAAAAAAAAABABExQXHh8GHBECHx/9oACAEBAAE/EEl5dBT1BKs3t9Tt8QB/TsRXaz5T4Q19vydjidDiCWHS8Qqy8QlKts//2Q==",
+              "aspectRatio": 0.6266891891891891,
+              "src": "/static/c3a98ad191c9bf986657c025504eb9eb/ec682/go_img4-2x.jpg",
+              "srcSet": "/static/c3a98ad191c9bf986657c025504eb9eb/f7410/go_img4-2x.jpg 93w,\n/static/c3a98ad191c9bf986657c025504eb9eb/cd004/go_img4-2x.jpg 186w,\n/static/c3a98ad191c9bf986657c025504eb9eb/ec682/go_img4-2x.jpg 371w,\n/static/c3a98ad191c9bf986657c025504eb9eb/3b351/go_img4-2x.jpg 557w,\n/static/c3a98ad191c9bf986657c025504eb9eb/3be08/go_img4-2x.jpg 742w",
+              "srcSetType": "image/jpeg",
+              "sizes": "(max-width: 371px) 100vw, 371px",
+              "originalImg": "/static/c3a98ad191c9bf986657c025504eb9eb/3be08/go_img4-2x.jpg",
+              "originalName": "go_img4-2x.jpg",
+              "presentationWidth": 371,
+              "presentationHeight": 592
+            },
+            {
+              "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAgABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEEAgX/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAgH/2gAMAwEAAhADEAAAAemVuokKwzqNatIw/8QAGRAAAgMBAAAAAAAAAAAAAAAAAAISEyMg/9oACAEBAAEFApsWMWN3sbm5/8QAGREAAQUAAAAAAAAAAAAAAAAAAAERElFh/9oACAEDAQE/AWWxlslhLD//xAAZEQABBQAAAAAAAAAAAAAAAAAAARESUWH/2gAIAQIBAT8BdKHSiGkNP//EABsQAAEEAwAAAAAAAAAAAAAAAAABAjNBECAx/9oACAEBAAY/Ao3EbiNdO5ooo//EABsQAAIDAAMAAAAAAAAAAAAAAAABEBFBMXHw/9oACAEBAAE/IWQob92XzK/SLHqf/9oADAMBAAIAAwAAABBc/XH/xAAYEQACAwAAAAAAAAAAAAAAAAAAEXGR8P/aAAgBAwEBPxDZGyJqJqP/xAAYEQACAwAAAAAAAAAAAAAAAAAAAXGR8P/aAAgBAgEBPxDZs2bILILP/8QAIBABAAIBBAIDAAAAAAAAAAAAAQARIRAxUZFh0cHw8f/aAAgBAQABPxBbe/wvqCK7LfiPI9+ogK1eKhtjQLjTxULDLbpkpz+uYk7dyX+Cf//Z",
+              "aspectRatio": 0.6266891891891891,
+              "src": "/static/6393810aed87ba888d856fef665faff4/ec682/go_img5-2x.jpg",
+              "srcSet": "/static/6393810aed87ba888d856fef665faff4/f7410/go_img5-2x.jpg 93w,\n/static/6393810aed87ba888d856fef665faff4/cd004/go_img5-2x.jpg 186w,\n/static/6393810aed87ba888d856fef665faff4/ec682/go_img5-2x.jpg 371w,\n/static/6393810aed87ba888d856fef665faff4/3b351/go_img5-2x.jpg 557w,\n/static/6393810aed87ba888d856fef665faff4/3be08/go_img5-2x.jpg 742w",
+              "srcSetType": "image/jpeg",
+              "sizes": "(max-width: 371px) 100vw, 371px",
+              "originalImg": "/static/6393810aed87ba888d856fef665faff4/3be08/go_img5-2x.jpg",
+              "originalName": "go_img5-2x.jpg",
+              "presentationWidth": 371,
+              "presentationHeight": 592
+            },
+            {
+              "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAgABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEAQX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAAB6WUNUTlII2NNgB//xAAbEAABBQEBAAAAAAAAAAAAAAAAAxAREkEhAf/aAAgBAQABBQKVCyhZVt42z4bvT//EABcRAAMBAAAAAAAAAAAAAAAAAAASYRD/2gAIAQMBAT8BWi3f/8QAFxEAAwEAAAAAAAAAAAAAAAAAABJhEP/aAAgBAgEBPwFoNN//xAAcEAACAgIDAAAAAAAAAAAAAAAAMQEyECBBkaH/2gAIAQEABj8Cr6VjsrGEcDGPT//EAB0QAAICAgMBAAAAAAAAAAAAAAABESFhkRAx8eH/2gAIAQEAAT8hxxCye2N39Q0n0GSEqbfZK4BfpliMNn//2gAMAwEAAgADAAAAEMwzDP/EABcRAAMBAAAAAAAAAAAAAAAAAAARURD/2gAIAQMBAT8Qahq3/8QAGREAAgMBAAAAAAAAAAAAAAAAEVEAEKHR/9oACAECAQE/EASAm9v/xAAjEAEAAgEBCAMAAAAAAAAAAAABABEhUTFBYXGhwdHxgeHw/9oACAEBAAE/EFXILpTvO/H2mP8AXrFvdYeV0gC1vVPEatWjWpn0Ady8RwbcrfERUVfzC9Vxbs9EeFt4+ootdSf/2Q==",
+              "aspectRatio": 0.6266891891891891,
+              "src": "/static/70245c3d348064dae282f38abffc5c7d/ec682/go_img6-2x.jpg",
+              "srcSet": "/static/70245c3d348064dae282f38abffc5c7d/f7410/go_img6-2x.jpg 93w,\n/static/70245c3d348064dae282f38abffc5c7d/cd004/go_img6-2x.jpg 186w,\n/static/70245c3d348064dae282f38abffc5c7d/ec682/go_img6-2x.jpg 371w,\n/static/70245c3d348064dae282f38abffc5c7d/3b351/go_img6-2x.jpg 557w,\n/static/70245c3d348064dae282f38abffc5c7d/3be08/go_img6-2x.jpg 742w",
+              "srcSetType": "image/jpeg",
+              "sizes": "(max-width: 371px) 100vw, 371px",
+              "originalImg": "/static/70245c3d348064dae282f38abffc5c7d/3be08/go_img6-2x.jpg",
+              "originalName": "go_img6-2x.jpg",
+              "presentationWidth": 371,
+              "presentationHeight": 592
+            }
+          ],
+          "staggered": true,
+          "type": "imagegrid"
+        }
+      ],
+      "frontmatter": {
+        "title": "Google",
+        "summary": "We built a platform to help nonprofits apply for funding from Google.org.",
+        "workType": [
+          "Platform Design",
+          "User Experience",
+          "Development"
+        ],
+        "hero": {
+          "childImageSharp": {
+            "fluid": {
+              "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAECBf/EABYBAQEBAAAAAAAAAAAAAAAAAAEDBP/aAAwDAQACEAMQAAAB0UMl6Af/xAAVEAEBAAAAAAAAAAAAAAAAAAABIP/aAAgBAQABBQIr/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGBABAQEBAQAAAAAAAAAAAAAAAQAREDH/2gAIAQEAAT8hFkw3hnP/2gAMAwEAAgADAAAAEOPP/8QAFhEBAQEAAAAAAAAAAAAAAAAAERAh/9oACAEDAQE/ENSf/8QAFhEAAwAAAAAAAAAAAAAAAAAAEBFB/9oACAECAQE/EIx//8QAGhABAAMAAwAAAAAAAAAAAAAAAQARMSFRkf/aAAgBAQABPxAGN+DfIKY1VMQrXbHZ/9k=",
+              "aspectRatio": 1.6,
+              "src": "/static/50315a503097725c12f4764f5c945a65/f72fa/google-hero.jpg",
+              "srcSet": "/static/50315a503097725c12f4764f5c945a65/293a8/google-hero.jpg 720w,\n/static/50315a503097725c12f4764f5c945a65/ca467/google-hero.jpg 1440w,\n/static/50315a503097725c12f4764f5c945a65/f72fa/google-hero.jpg 2880w",
+              "srcWebp": "/static/50315a503097725c12f4764f5c945a65/80712/google-hero.webp",
+              "srcSetWebp": "/static/50315a503097725c12f4764f5c945a65/58b20/google-hero.webp 720w,\n/static/50315a503097725c12f4764f5c945a65/44c66/google-hero.webp 1440w,\n/static/50315a503097725c12f4764f5c945a65/80712/google-hero.webp 2880w",
+              "sizes": "(max-width: 2880px) 100vw, 2880px"
+            }
+          }
+        },
+        "primaryColor": "#e9b563"
+      }
+    },
+    "next": {
+      "fields": {
+        "slug": "/project/spacetime/"
+      },
+      "frontmatter": {
+        "title": "Spacetime",
+        "subtitle": "Product",
+        "primaryColor": "#ff9191",
+        "hero": {
+          "publicURL": "/static/spacetime-hero-71e5862b6b71a9188f41e84f5885a9bc.jpg"
+        }
+      }
+    }
+  },
+  "pageContext": {
+    "isCreatedByStatefulCreatePages": false,
+    "id": "b2783648-02bb-5904-aa8c-a714755a1690",
+    "prev": "f7076bf1-cbbe-523e-9c54-4e6bdb4875db",
+    "next": "6a305938-78b9-5d6c-9f66-8ace81b8bee6"
+  }
+}
