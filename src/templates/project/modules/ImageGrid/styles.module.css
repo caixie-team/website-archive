@@ -21,7 +21,7 @@
     grid-gap: 5rem 2.25rem;
     gap: 5rem 2.25rem
 }
-.styles-module--wrap--3gPao {
+.wrap {
     width: calc(100% - 3rem);
     margin: 0 auto;
     padding: 5.5rem 0;
@@ -30,7 +30,7 @@
 }
 
 @media (max-width: 900px) {
-    .styles-module--wrap--3gPao {
+    .wrap {
         grid-template-columns: 1fr !important
     }
 }

@@ -33,7 +33,6 @@ const Remark = require(`remark`)
 const _ = require(`lodash`)
 
 
-
 exports.onCreateNode = async ({ node, getNode, actions, loadNodeContent, createContentDigest }) => {
   function getFileObject(absolutePath, name) {
     return {
@@ -41,11 +40,13 @@ exports.onCreateNode = async ({ node, getNode, actions, loadNodeContent, createC
       name: name,
       absolutePath,
       extension: `png`,
+      width: 1440,
       internal: {
         contentDigest: createContentDigest(node),
       },
     }
   }
+
   const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark` || node.internal.type === `Mdx`) {
     // const content = await loadNodeContent(node)
@@ -55,21 +56,30 @@ exports.onCreateNode = async ({ node, getNode, actions, loadNodeContent, createC
     node.sections = []
     if (node.frontmatter.sections) {
       for (let section of node.frontmatter.sections) {
-        if (section.type === 'image') {
+        if (section.type === "image") {
           const absolutePath = path.join(__dirname, "src/data/project/" + section.image)
-          const file = getFileObject(absolutePath, section.image.split('/').pop().split('.')[0])
-          const result = await fluid({ file })
+          const file = getFileObject(absolutePath, section.image.split("/").pop().split(".")[0])
+          const args = {
+            maxWidth: 375,
+          }
+          const result = await fluid({ file, args })
           section.image = result
         }
-        if (section.type === 'imagegrid') {
+        if (section.type === "imagegrid") {
           let images = []
-          for(let image of section.images) {
+          for (let image of section.images) {
             const absolutePath = path.join(__dirname, "src/data/project/" + image)
-            const file = getFileObject(absolutePath, image.split('/').pop().split('.')[0])
-            const result = await fluid({file})
+            const file = getFileObject(absolutePath, image.split("/").pop().split(".")[0])
+            const args = {
+              maxWidth: 1440,
+            }
+            const result = await fluid({
+              file,
+              args,
+            })
             // section.images.push(result)
             images.push(result)
-          //   image = result
+            //   image = result
           }
           section.images = images
         }
@@ -120,15 +130,15 @@ exports.onCreateNode = async ({ node, getNode, actions, loadNodeContent, createC
   }
 }
 exports.setFieldsOnGraphQLNodeType = async ({
-                                        type,
-                                        pathPrefix,
-                                        getNode,
-                                        getNodesByType,
-                                        cache,
-                                        reporter,
-                                        ...rest
-                                      },
-                                      pluginOptions) => {
+                                              type,
+                                              pathPrefix,
+                                              getNode,
+                                              getNodesByType,
+                                              cache,
+                                              reporter,
+                                              ...rest
+                                            },
+                                            pluginOptions) => {
   if (type.name !== `MarkdownRemark`) {
     return {}
   }
@@ -173,7 +183,7 @@ exports.setFieldsOnGraphQLNodeType = async ({
           //   }
           // }
           return markdownNode.sections
-        }
+        },
       },
     })
   })
@@ -242,7 +252,7 @@ exports.createPages = ({ graphql, actions }) => {
         })
       }
 
-      if (node.frontmatter.templateKey === "insight") {
+/*      if (node.frontmatter.templateKey === "insight") {
         createPage({
           path: node.fields.slug,
           component: path.resolve(`src/templates/insight/index.js`),
@@ -253,7 +263,7 @@ exports.createPages = ({ graphql, actions }) => {
             next: node.id,
           },
         })
-      }
+      }*/
     })
   })
 }
