@@ -2,323 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b15bca2b-9379-4d2a-a822-755780920490" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/data/project/disney-english.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/images/alearning-podcast/case-podcast-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/images/alearning-podcast/case-podcast-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/images/alearning-podcast/case-podcast-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/images/alearning-podcast/case-podcast-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/images/alearning-podcast/case-podcast-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/images/alearning-podcast/case-podcast-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/images/alearning-podcast/case-podcast-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/images/alearning-podcast/case-podcast-featured.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/images/alearning-podcast/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/images/alearning-podcast/podcast-cover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/images/alearning-podcast/podcast_app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/images/alearning-podcast/podcast_sys.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/images/alearning-podcast/qr.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/images/disney/case-disneyEnglish-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/images/disney/case-disneyEnglish-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/images/disney/case-disneyEnglish-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/images/disney/case-disneyEnglish-featured.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/images/disney/example-1px.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/images/disney/iPhone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/images/disney/iphone-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/images/disney/iphone-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/images/disney/iphone-view.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/project/images/disney/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/blue-hero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/disney-hero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/hero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/mpcast-hero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/cms.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/facial.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/cms/cms-cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/cms/cms-macbook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/cms/cms_case.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/cms/cms_cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/cms/cms_picker1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/cms/cms_picker2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/cms/cms_picker3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/cms/cms_stack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/cms/cms_team1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/cms/cms_team2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/cms/cms_team3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/facial/case-facial-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/facial/case-facial-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/facial/case-facial-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/facial/case-facial-featured.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/facial/face1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/facial/face2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/facial/face3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/facial/facial.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/facial/facial_cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/facial/img-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/facial/img-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/facial/img-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/facial/macbook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/pinyin/case-pinyin-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/pinyin/case-pinyin-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/pinyin/case-pinyin-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/pinyin/case-pinyin-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/pinyin/case-pinyin-featured.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/pinyin/pinyin_admin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/pinyin/pinyin_h5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/pinyin/qr.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/vrlab/case-vrlab-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/vrlab/case-vrlab-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/vrlab/case-vrlab-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/vrlab/case-vrlab-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/images/vrlab/case-vrlab-featured.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/pinyin.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/project/vrlab.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/space-time.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/project/mpcast.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/project/mpcast.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/project/modules/ImageGrid/styles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/project/modules/ImageGrid/styles.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/data/blue-diamond.json">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="840">
-                    <caret line="473" column="17" selection-start-line="473" selection-start-column="11" selection-end-line="473" selection-end-column="17" />
-                    <folding>
-                      <element signature="e#4411#6189#0" />
-                      <element signature="e#6211#6533#0" />
-                      <element signature="e#6558#8303#0" />
-                      <element signature="e#8366#10123#0" />
-                      <element signature="e#10175#15517#0" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/data/project-univision.json">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="-3897">
-                    <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/data/project/disney-english.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="368">
-                <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/images/hero.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/images/blue-hero.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>childImageSharp</find>
-      <find>get secitons...</find>
-      <find>plugins</find>
-      <find>setFieldsOnGraphQLNodeType</find>
-      <find>rest</find>
-      <find>sections</find>
-      <find>project.sect</find>
-      <find>console.log</find>
-      <find>images</find>
-      <find>staggeredStart</find>
-      <find>Carousel</find>
-      <find>我们是你一直在寻找的合作伙伴吗?给我们讲讲你的项目。</find>
-      <find>Stats</find>
-      <find>Client</find>
-      <find>view</find>
-      <find>C</find>
-      <find>Founded</find>
-      <find>Studio</find>
-      <find>Address</find>
-      <find>New Business</find>
-      <find>Everything Else</find>
-      <find>contentDigest</find>
-      <find>createContentDigest</find>
-      <find>padding-bottom: 2</find>
-      <find>styles-module--wrap--3gPao</find>
-      <find>Img</find>
-      <find>800</find>
-      <find>fluid</find>
-      <find>presentationWidth</find>
-      <find>Univision Deportes</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>author</replace>
-      <replace>img</replace>
-      <replace>stats</replace>
-      <replace>font</replace>
-      <replace>fontImage</replace>
-      <replace>swatch</replace>
-      <replace>index</replace>
-      <replace>next</replace>
-      <replace>container</replace>
-      <replace>disabled</replace>
-      <replace>image</replace>
-      <replace>largeNextText</replace>
-      <replace>XdAol</replace>
-      <replace>header</replace>
-      <replace>more</replace>
-      <replace>colorFrame</replace>
-      <replace>.submit</replace>
-      <replace>.show</replace>
-      <replace>.sent</replace>
-      <replace>.heroText</replace>
-      <replace>formula</replace>
-      <replace>.process</replace>
-      <replace>services</replace>
-      <replace>open</replace>
-      <replace>contactLink</replace>
-      <replace>arrow</replace>
-      <replace>gap</replace>
-      <replace>video</replace>
-      <replace>static</replace>
-      <replace>wrap</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/data/services/end-to-end.md" />
-        <option value="$PROJECT_DIR$/src/data/services/support.md" />
-        <option value="$PROJECT_DIR$/src/data/services/alacarte.md" />
-        <option value="$PROJECT_DIR$/src/data/approach/development.md" />
-        <option value="$PROJECT_DIR$/src/data/approach/production.md" />
-        <option value="$PROJECT_DIR$/src/data/approach/research&amp;discovery.md" />
-        <option value="$PROJECT_DIR$/src/data/approach/concepting.md" />
-        <option value="$PROJECT_DIR$/src/data/approach/alacarte.md" />
-        <option value="$PROJECT_DIR$/src/data/approach/design.md" />
-        <option value="$PROJECT_DIR$/src/data/approach/discovery.md" />
-        <option value="$PROJECT_DIR$/src/data/approach/support.md" />
-        <option value="$PROJECT_DIR$/src/pages/approach/index.js" />
-        <option value="$PROJECT_DIR$/src/components/Footer/styles.module.js" />
-        <option value="$PROJECT_DIR$/src/components/Footer/styles.module.css" />
-        <option value="$PROJECT_DIR$/src/images/logo-full.svg" />
-        <option value="$PROJECT_DIR$/src/images/logo.svg" />
-        <option value="$PROJECT_DIR$/src/components/Layout/index.js" />
-        <option value="$PROJECT_DIR$/src/styles/index.module.css" />
-        <option value="$PROJECT_DIR$/src/styles/global.css" />
-        <option value="$PROJECT_DIR$/src/data/project/heroes/spacetime/styles.js" />
-        <option value="$PROJECT_DIR$/src/data/project/heroes/spacetime/styles.module.css" />
-        <option value="$PROJECT_DIR$/src/data/project/heroes/spacetime/index.js" />
-        <option value="$PROJECT_DIR$/src/data/project/amazon.md" />
-        <option value="$PROJECT_DIR$/src/data/project-univision.json" />
-        <option value="$PROJECT_DIR$/src/data/project/google.md" />
-        <option value="$PROJECT_DIR$/src/data/project/photoland.md" />
-        <option value="$PROJECT_DIR$/src/data/project/prudential.md" />
-        <option value="$PROJECT_DIR$/src/data/project/spacetime.md" />
-        <option value="$PROJECT_DIR$/src/data/project/univision.md" />
-        <option value="$PROJECT_DIR$/src/data/project/chinauff-2.md" />
-        <option value="$PROJECT_DIR$/public/page-data/project/project/diamond/page-data.json" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/public/page-data/index/page-data.json" />
-        <option value="$PROJECT_DIR$/gatsby-config.js" />
-        <option value="$PROJECT_DIR$/static/admin/config.yml" />
-        <option value="$PROJECT_DIR$/plugins/gatsby-transformer-remark/extend-node-type.js" />
-        <option value="$PROJECT_DIR$/pluginsbak/gatsby-transformer-remark/extend-node-type.js" />
-        <option value="$PROJECT_DIR$/src/data/project/diamond.md" />
-        <option value="$PROJECT_DIR$/src/templates/project/index.js" />
-        <option value="$PROJECT_DIR$/src/data/blue-diamond.json" />
-        <option value="$PROJECT_DIR$/src/pages/index.js" />
-        <option value="$PROJECT_DIR$/src/data/project/about.md" />
-        <option value="$PROJECT_DIR$/src/pages/about/index.js" />
-        <option value="$PROJECT_DIR$/src/components/Footer/index.js" />
-        <option value="$PROJECT_DIR$/src/components/Nav/index.js" />
-        <option value="$PROJECT_DIR$/src/data/project/project-google.json" />
-        <option value="$PROJECT_DIR$/src/templates/project/modules/ImageGrid/styles.module.css" />
-        <option value="$PROJECT_DIR$/src/templates/project/modules/ImageGrid/index.js" />
-        <option value="$PROJECT_DIR$/gatsby-node.js" />
-        <option value="$PROJECT_DIR$/src/data/project/mpcast.md" />
-        <option value="$PROJECT_DIR$/src/data/project/disney-english.md" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1252" />
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="1417" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="alearning-pinyin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
+  <component name="ProjectId" id="1PJlwhjwQoVJXL8EZb5XOZFNap0" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/public/page-data/project/amazon/page-data.json" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/data/project/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -327,19 +72,19 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/data/project/images" />
-      <recent name="$PROJECT_DIR$/static/images" />
-      <recent name="$PROJECT_DIR$/src/data/project" />
-      <recent name="$PROJECT_DIR$/static/static/images" />
-      <recent name="$PROJECT_DIR$/src/data" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/data/project" />
       <recent name="$PROJECT_DIR$/src/data/project/images" />
       <recent name="$PROJECT_DIR$/static/images" />
       <recent name="$PROJECT_DIR$/static/static" />
       <recent name="$PROJECT_DIR$/plugins/gatsby-transformer-remark-supportsections" />
-      <recent name="$PROJECT_DIR$/src/data" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/data/project/images" />
+      <recent name="$PROJECT_DIR$/src/data/project" />
+      <recent name="$PROJECT_DIR$/src/data/project/images/vrlab" />
+      <recent name="$PROJECT_DIR$/static/images" />
+      <recent name="$PROJECT_DIR$/static/static/images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -379,373 +124,29 @@
       <workItem from="1562465864189" duration="18000" />
       <workItem from="1562466074328" duration="23678000" />
       <workItem from="1562595568560" duration="8175000" />
-      <workItem from="1563425669886" duration="71018000" />
+      <workItem from="1563425669886" duration="71865000" />
+      <workItem from="1564739701162" duration="1671000" />
+      <workItem from="1564753156661" duration="2236000" />
+      <workItem from="1565600323820" duration="3000000" />
+      <workItem from="1565683701422" duration="9890000" />
+      <workItem from="1565748194677" duration="27950000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222871000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="1252" y="23" width="1280" height="1417" extended-state="0" />
-    <layout>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info id="npm" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.25496426" />
-      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="GraphQL" order="1" weight="0.32941177" />
-      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.25433964" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3290566" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info id="npm" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.25496426" />
-      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="GraphQL" order="1" weight="0.32941177" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.25433964" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3290566" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pages/approach/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#30#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/gatsby-transformer-sharp/src/gatsby-node.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/gatsby-transformer-sharp/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/tapable/lib/Hook.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="169" column="21" selection-start-line="169" selection-start-column="21" selection-end-line="169" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/insight/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/project/modules/Image/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pluginsbak/gatsby-transformer-remark/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pluginsbak/gatsby-transformer-remark/gatsby-node.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extend-node-type.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pluginsbak/gatsby-transformer-remark/extend-node-type.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding>
-            <element signature="e#779#1935#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/project/about.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="92">
-            <caret line="4" column="77" selection-start-line="4" selection-start-column="77" selection-end-line="4" selection-end-column="77" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Footer/styles.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2093">
-          <caret line="91" column="20" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Footer/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#20#46#0" expanded="true" />
-            <element signature="e#1400#2556#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/about/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="45" column="32" lean-forward="true" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="430" column="34" selection-start-line="430" selection-start-column="34" selection-end-line="430" selection-end-column="34" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#44#84#0" expanded="true" />
-            <element signature="e#623#659#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Nav/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="213" column="15" selection-start-line="213" selection-start-column="15" selection-end-line="213" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/project/images/mpcast-admin-1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/project/images/mpcast-style-0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/project/images/mpcast-12.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/project/images/mpcast-10.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/project/images/mpcast-9.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/project/images/mpcast-6.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/project/images/mpcast-5.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/project/images/mpcast-3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/project/images/mpcast-1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/project/project-google.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-922">
-          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/project/images/mpcast-2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/project/images/mpcast-4.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/project-univision.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3897">
-          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/project/images/mpcast-admin-2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/project/images/bd_img17-2x.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pluginsbak/gatsby-transformer-remark/on-node-create.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1750">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gatsby-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1334">
-          <caret line="58" column="21" lean-forward="true" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/gatsby-transformer-sharp/src/extend-node-type.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="263" column="8" selection-start-line="263" selection-start-column="8" selection-end-line="263" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/gatsby-transformer-sharp/extend-node-type.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="330" column="8" selection-start-line="330" selection-start-column="8" selection-end-line="330" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/gatsby-plugin-sharp/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="289" column="15" selection-start-line="289" selection-start-column="15" selection-end-line="289" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/project/modules/ImageGrid/styles.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="102" column="22" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/mpcast-hero.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/amazon-image.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/static/blue-diamond-hero-b5a087b681a853a56eef732eae348d40.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/blue-diamond.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="473" column="17" selection-start-line="473" selection-start-column="11" selection-end-line="473" selection-end-column="17" />
-          <folding>
-            <element signature="e#4411#6189#0" />
-            <element signature="e#6211#6533#0" />
-            <element signature="e#6558#8303#0" />
-            <element signature="e#8366#10123#0" />
-            <element signature="e#10175#15517#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gatsby-node.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="223" column="25" lean-forward="true" selection-start-line="223" selection-start-column="25" selection-end-line="223" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/project/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4227">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#779#814#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/project/mpcast.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="357">
-            <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/project/modules/ImageGrid/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-347">
-          <caret line="136" column="37" selection-start-line="136" selection-start-column="37" selection-end-line="136" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/static/alacarte.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/static/amazon-hero-661547d3e0d1b743c8f60cce49ed251d.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/hero.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/hero.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/blue-hero.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/project/disney-english.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="368">
-            <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
